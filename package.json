@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node server.js",
     "add-question": "node src/cli.js add",
     "list-questions": "node src/cli.js list",
     "generate-post": "node src/cli.js generate",
