@@ -1,0 +1,23 @@
+{
+  "name": "milwaukee-food-blog-generator",
+  "version": "1.0.0",
+  "description": "A tool to track Milwaukee area food questions and generate comprehensive blog posts",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "add-question": "node src/cli.js add",
+    "list-questions": "node src/cli.js list",
+    "generate-post": "node src/cli.js generate",
+    "generate-all": "node src/cli.js generate-all"
+  },
+  "keywords": [
+    "milwaukee",
+    "food",
+    "blog",
+    "content-generation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+  }
+}

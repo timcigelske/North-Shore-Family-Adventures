@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Where's the best Mexican food in Milwaukee?",
+      "category": "Mexican",
+      "location": "Milwaukee",
+      "tags": [],
+      "dateAdded": "2026-01-06",
+      "status": "completed",
+      "blogPostGenerated": true
+    },
+    {
+      "id": 2,
+      "question": "What is the best gluten-free bakery in Waukesha?",
+      "category": "Bakery",
+      "location": "Waukesha",
+      "tags": [
+        "gluten-free",
+        "dietary-restrictions"
+      ],
+      "dateAdded": "2026-01-06",
+      "status": "completed",
+      "blogPostGenerated": true
+    }
+  ],
+  "nextId": 3
+}
