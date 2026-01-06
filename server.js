@@ -2,8 +2,14 @@ import http from 'http';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { loadEnv } from './src/loadEnv.js';
 import { QuestionDatabase } from './src/database.js';
 import { BlogPostGenerator } from './src/blogGenerator.js';
+import { EmailDatabase } from './src/emailDatabase.js';
+import { EmailService } from './src/emailService.js';
+
+// Load environment variables from .env file
+loadEnv();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -11,6 +17,8 @@ const __dirname = path.dirname(__filename);
 const PORT = 3000;
 const db = new QuestionDatabase();
 const generator = new BlogPostGenerator();
+const emailDb = new EmailDatabase();
+const emailService = new EmailService();
 
 // MIME types for different file extensions
 const MIME_TYPES = {
@@ -180,6 +188,100 @@ async function handleRequest(req, res) {
                     count,
                     errors: errors.length > 0 ? errors : undefined
                 });
+                return;
+            }
+
+            // POST send article email
+            if (pathname === '/api/send-article-email' && method === 'POST') {
+                const body = await parseBody(req);
+                const { email, articleUrl, articleTitle } = body;
+
+                if (!email || !articleUrl) {
+                    sendResponse(res, 400, {
+                        error: 'Email and articleUrl are required'
+                    });
+                    return;
+                }
+
+                // Validate email format
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(email)) {
+                    sendResponse(res, 400, {
+                        error: 'Invalid email address'
+                    });
+                    return;
+                }
+
+                try {
+                    // Add subscriber to email list
+                    emailDb.addSubscriber(email, articleUrl);
+
+                    // Log the email request
+                    const request = emailDb.logEmailRequest(email, articleUrl, articleTitle || '');
+
+                    // Send the email
+                    const result = await emailService.sendArticleEmail(
+                        email,
+                        articleUrl,
+                        articleTitle || 'Requested Article'
+                    );
+
+                    if (result.success) {
+                        // Mark request as sent
+                        emailDb.markRequestAsSent(request.id);
+
+                        sendResponse(res, 200, {
+                            success: true,
+                            message: 'Email sent successfully',
+                            messageId: result.messageId
+                        });
+                    } else {
+                        sendResponse(res, 500, {
+                            success: false,
+                            error: 'Failed to send email',
+                            details: result.error
+                        });
+                    }
+                } catch (error) {
+                    console.error('Error processing email request:', error);
+                    sendResponse(res, 500, {
+                        success: false,
+                        error: 'Internal server error'
+                    });
+                }
+                return;
+            }
+
+            // GET all subscribers
+            if (pathname === '/api/subscribers' && method === 'GET') {
+                const subscribers = emailDb.getAllSubscribers();
+                sendResponse(res, 200, subscribers);
+                return;
+            }
+
+            // GET email statistics
+            if (pathname === '/api/email-stats' && method === 'GET') {
+                const stats = emailDb.getStats();
+                sendResponse(res, 200, stats);
+                return;
+            }
+
+            // GET export subscribers as CSV
+            if (pathname === '/api/subscribers/export' && method === 'GET') {
+                const csv = emailDb.exportSubscribersToCSV();
+                res.writeHead(200, {
+                    'Content-Type': 'text/csv',
+                    'Content-Disposition': 'attachment; filename="subscribers.csv"',
+                    'Access-Control-Allow-Origin': '*'
+                });
+                res.end(csv);
+                return;
+            }
+
+            // POST test email configuration
+            if (pathname === '/api/test-email' && method === 'POST') {
+                const result = await emailService.testConnection();
+                sendResponse(res, result.success ? 200 : 500, result);
                 return;
             }
 

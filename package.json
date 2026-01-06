@@ -20,5 +20,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "nodemailer": "^6.9.7"
   }
 }

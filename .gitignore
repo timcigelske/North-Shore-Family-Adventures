@@ -18,3 +18,10 @@ npm-debug.log*
 # Environment files
 .env
 .env.local
+
+# Email configuration (contains sensitive data)
+config/email.config.json
+
+# Email subscriber data (sensitive)
+data/email_subscribers.json
+data/email_requests.json

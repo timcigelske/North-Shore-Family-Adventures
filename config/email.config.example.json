@@ -1,0 +1,14 @@
+{
+  "service": "gmail",
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "secure": false,
+  "auth": {
+    "user": "your-email@gmail.com",
+    "pass": "your-app-password"
+  },
+  "from": {
+    "name": "North Shore Family Adventures",
+    "email": "your-email@gmail.com"
+  }
+}
