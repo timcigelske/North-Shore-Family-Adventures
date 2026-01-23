@@ -88,6 +88,8 @@
             font-size: 1.1em;
         }
 
+        input[type="text"],
+        input[type="password"],
         textarea {
             width: 100%;
             padding: 15px;
@@ -97,11 +99,15 @@
             font-family: 'Georgia', serif;
             background: #fdfbf7;
             color: #333;
-            resize: vertical;
-            min-height: 120px;
             transition: border-color 0.3s;
         }
 
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        input:focus,
         textarea:focus {
             outline: none;
             border-color: #5d4037;
@@ -128,13 +134,18 @@
             font-family: 'Georgia', serif;
         }
 
-        button:hover {
+        button:hover:not(:disabled) {
             transform: translateY(-2px);
             box-shadow: 0 5px 20px rgba(109, 76, 65, 0.4);
         }
 
         button:active {
             transform: translateY(0);
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
         }
 
         .btn-secondary {
@@ -306,6 +317,77 @@
         .instructions li {
             margin-bottom: 8px;
         }
+
+        .api-setup {
+            background: #fff3cd;
+            border: 2px solid #ff6f00;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .api-setup h3 {
+            color: #e65100;
+            margin-bottom: 10px;
+        }
+
+        .api-setup.configured {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+
+        .api-setup.configured h3 {
+            color: #155724;
+        }
+
+        .loading-spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+            margin-left: 10px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .toggle-password {
+            position: relative;
+        }
+
+        .toggle-password button {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: transparent;
+            color: #6d4c41;
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+
+        .collapsible {
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .collapsible:hover {
+            color: #5d4037;
+        }
+
+        .collapsible-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .collapsible-content.open {
+            max-height: 2000px;
+        }
     </style>
 </head>
 <body>
@@ -317,8 +399,39 @@
                 Success in Circuit lies"<br>
                 <small style="margin-top: 5px; display: block;">— Emily Dickinson</small>
             </div>
-            <p class="subtitle">Receive wisdom in verse • Transform your reflections into poetry</p>
+            <p class="subtitle">Receive personalized wisdom in verse • AI-powered poetic advice</p>
         </header>
+
+        <div class="card">
+            <div id="apiSetup" class="api-setup">
+                <h3>⚙️ Setup Required</h3>
+                <p style="margin-bottom: 15px;">This generator uses AI to create truly personalized poems that respond to your specific reflections. You'll need a free Claude API key.</p>
+
+                <div class="form-group">
+                    <label for="apiKey">Claude API Key</label>
+                    <div class="toggle-password">
+                        <input type="password" id="apiKey" placeholder="sk-ant-api03-...">
+                        <button type="button" onclick="togglePasswordVisibility()" class="btn-secondary">Show</button>
+                    </div>
+                    <div class="help-text">
+                        <h4 class="collapsible" onclick="toggleInstructions()">📖 How to get your free API key (click to expand)</h4>
+                        <div class="collapsible-content" id="apiInstructions">
+                            <ol style="margin: 10px 0 10px 20px; line-height: 1.6;">
+                                <li>Go to <a href="https://console.anthropic.com/" target="_blank" style="color: #6d4c41;">console.anthropic.com</a></li>
+                                <li>Sign up for a free account (or sign in)</li>
+                                <li>Click "Get API Keys" in the menu</li>
+                                <li>Click "Create Key" and give it a name (e.g., "Dickinson Generator")</li>
+                                <li>Copy the key (starts with "sk-ant-api03-...")</li>
+                                <li>Paste it above and click "Save API Key"</li>
+                                <li><strong>Free tier includes:</strong> $5 credit (enough for ~100-200 poems)</li>
+                            </ol>
+                            <p style="margin-top: 10px;"><strong>Note:</strong> Your API key is stored only in your browser. It's never sent anywhere except to Claude's API to generate poems.</p>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="saveApiKey()">💾 Save API Key</button>
+            </div>
+        </div>
 
         <div class="card">
             <div class="instructions">
@@ -327,7 +440,7 @@
                     <li>Share your reflections on "flipping the script" in your own life</li>
                     <li>Describe situations where you're following traditional paths or seeking new ones</li>
                     <li>Ask questions about change, courage, or finding your authentic voice</li>
-                    <li>The generator will respond with advice in Emily Dickinson's poetic style</li>
+                    <li>The AI will respond with a personalized Emily Dickinson-style poem</li>
                     <li>Save and share the poems with your classmates for discussion</li>
                 </ul>
             </div>
@@ -352,7 +465,7 @@
                     <textarea id="reflection" required placeholder="Example: I've always followed the expected path in my career, but I'm starting to wonder if there's a different way that's more true to who I am. How do I find the courage to step away from what's expected and create my own path?"></textarea>
                     <div class="help-text">Share your thoughts about following traditional scripts or seeking new paths in your life</div>
                 </div>
-                <button type="submit">Generate Poem</button>
+                <button type="submit" id="generateBtn">Generate Personalized Poem</button>
             </form>
 
             <div id="currentPoemDisplay" style="display: none;">
@@ -382,163 +495,141 @@
     <div id="notification" class="notification"></div>
 
     <script>
-        // Emily Dickinson Poem Generator Class
-        class DickinsonPoemGenerator {
-            constructor() {
-                // Dickinson-style opening lines based on themes
-                this.openings = {
-                    courage: [
-                        "Dare — to stand apart —",
-                        "The Soul selects her own Society —",
-                        "I took my Power in my Hand —",
-                        "We never know how high we are",
-                        "'Hope' is the thing with feathers —"
-                    ],
-                    change: [
-                        "The Brain — is wider than the Sky —",
-                        "I dwell in Possibility —",
-                        "Not knowing when the Dawn will come",
-                        "The possible's slow fuse is lit",
-                        "Revolution is the Pod"
-                    ],
-                    truth: [
-                        "Tell all the truth but tell it slant —",
-                        "The Truth must dazzle gradually",
-                        "Truth — is as old as God —",
-                        "Much Madness is divinest Sense —",
-                        "Assent — and you are sane —"
-                    ],
-                    identity: [
-                        "I'm Nobody! Who are you?",
-                        "The Soul should always stand ajar",
-                        "Ourselves were wed one summer — dear —",
-                        "I am alive — I guess —",
-                        "The reticent volcano keeps"
-                    ],
-                    freedom: [
-                        "They shut me up in Prose —",
-                        "No Rack can torture me —",
-                        "Captivity is Consciousness —",
-                        "The Props assist the House",
-                        "Exhilaration — is within —"
-                    ]
-                };
+        // Storage keys
+        const STORAGE_KEY = 'dickinson_poems';
+        const API_KEY_STORAGE = 'claude_api_key';
 
-                // Middle stanzas - advice and wisdom
-                this.middles = {
-                    courage: [
-                        "Until the Heart — dares choose —\nNo path — appears as True —\nThe Scripts we know — so worn — so safe —\nYet bind — what makes us — You —",
-                        "To break from what is Known —\nRequires a boldness — stark —\nBut those who walk in daylight first\nMust venture through the Dark —",
-                        "The Compass points toward North —\nBut you — must choose your way —\nNo map — for souls who dare to write\nTheir own — uncharted Day —"
-                    ],
-                    change: [
-                        "To flip the Script — requires this —\nA willingness to Fall —\nFor in the falling — we may find\nWe're learning how to Soar —",
-                        "What others think is folly —\nMay be your wisest course —\nFor conventional rivers follow banks\nBut you — can be the Source —",
-                        "The caterpillar knows no wings —\nYet trusts the strange Cocoon —\nSo too — your transformation —\nComes not late — nor too soon —"
-                    ],
-                    truth: [
-                        "To thine own self — be true —\nThough others turn away —\nFor borrowed lives — however safe —\nCost more — than we can pay —",
-                        "The Script that's written for us —\nMay not — contain our Name —\nSo take the pen — inscribe yourself —\nIgnite your own — true Flame —",
-                        "Authenticity — the rarest flower —\nGrows where convention — ends —\nWhere you — unmask — and stand revealed —\nThere — your life — begins —"
-                    ],
-                    identity: [
-                        "To be yourself — in a world intent\nOn making — someone else —\nIs victory — complete — supreme —\nThe crowning of — the Self —",
-                        "Your difference — is your power —\nYour strangeness — is your gift —\nWhat makes you — singular — unique —\nGives others too — a Lift —",
-                        "The self you've hidden — all these years —\nDeserves to see the Light —\nFor dimming — your own star — helps no one —\nBurn — burn bright —"
-                    ],
-                    freedom: [
-                        "The cage — though golden — is a cage —\nIts bars — though soft — confine —\nBut you — possess the only key —\nThe choice — is always — thine —",
-                        "Expectation builds a Prison —\nOf shoulds — and oughts — and musts —\nBut Freedom — waits for those who dare\nTo turn — all Scripts — to Dust —",
-                        "To live — authentically — requires\nWe break — the molds — we've worn —\nFor butterflies — don't squeeze back in —\nOnce wings — are fully — born —"
-                    ]
-                };
+        let poems = [];
+        let nextId = 1;
+        let currentReflection = '';
+        let currentPoem = '';
+        let apiKey = '';
 
-                // Closing stanzas - encouragement and hope
-                this.closings = {
-                    courage: [
-                        "So take — one step — beyond the known —\nThe path — will light — ahead —\nFor those who dare — create their way —\nInstead of being — led —",
-                        "Your script — awaits — your writing hand —\nYour stage — awaits — your voice —\nThe greatest journey starts — when we\nDecide — to make — the Choice —",
-                        "The script you flip — today — may be\nThe story — that inspires —\nAnother soul — to break — their bonds —\nAnd set — their own — fires —"
-                    ],
-                    change: [
-                        "So venture forth — rewrite — revise —\nYour life — is yours — to script —\nThe bravest tales — begin — when souls\nDecide — convention's — flipped —",
-                        "Success — in Circuit — lies — she wrote —\nMeaning — take — the winding way —\nFor straight lines — lead — where all have been —\nBut curves — discover — New —",
-                        "The old script — served — its purpose — well —\nBut now — a new — page — turns —\nWrite boldly — write — your truth — and watch\nHow bright — your story — burns —"
-                    ],
-                    truth: [
-                        "So tell — your truth — but tell it slant —\nLet others — find — their way —\nTo understanding — your — new path —\nYour authentic — way —",
-                        "The world — needs — your unique — voice —\nYour perspective — fresh — and true —\nFor following — another's — script —\nDeprives — the world — of You —",
-                        "In flipping scripts — you give — permission —\nFor others — to — be free —\nYour courage — echoes — outward — like\nRipples — on — the — Sea —"
-                    ],
-                    identity: [
-                        "So be — Nobody — be — Yourself —\nThe greatest — role — to play —\nFor in — your authentic — being —\nYou light — another's — way —",
-                        "Your path — though different — is — no less —\nIn fact — may be — much more —\nFor those who dare — to write — new scripts\nAre whom — the world — waits for —",
-                        "So flip — that script — with joy — and know —\nYou're not — the first — to dare —\nDickinson — herself — chose solitude —\nTo find — her truth — up there —"
-                    ],
-                    freedom: [
-                        "Liberation — starts — with one — small choice —\nTo honor — what — feels true —\nThe script — will flip — when you — decide —\nNo one — can script — but You —",
-                        "So step — beyond — the expected — path —\nTrust — your — internal — light —\nFor Wonder Woman — walked — through fire —\nSo can — you — tonight —",
-                        "Your life — your script — your story — yours —\nNo other's — hand — should write —\nFlip it — change it — make — it true —\nAnd walk — into — your Light —"
-                    ]
-                };
+        // Initialize
+        function init() {
+            loadApiKey();
+            loadPoems();
+            renderPoems();
+            updateStats();
+        }
 
-                this.currentReflection = '';
-                this.currentPoem = '';
-            }
-
-            analyzeTheme(reflection) {
-                const text = reflection.toLowerCase();
-                const themes = {
-                    courage: ['courage', 'fear', 'scared', 'afraid', 'brave', 'bold', 'risk'],
-                    change: ['change', 'transform', 'different', 'new', 'transition', 'evolve', 'shift'],
-                    truth: ['truth', 'authentic', 'real', 'honest', 'genuine', 'true'],
-                    identity: ['identity', 'myself', 'who am i', 'self', 'me', 'individual', 'unique'],
-                    freedom: ['freedom', 'free', 'break', 'escape', 'liberate', 'independence', 'choice']
-                };
-
-                let maxCount = 0;
-                let primaryTheme = 'courage';
-
-                for (let [theme, keywords] of Object.entries(themes)) {
-                    let count = keywords.reduce((sum, keyword) =>
-                        sum + (text.includes(keyword) ? 1 : 0), 0
-                    );
-                    if (count > maxCount) {
-                        maxCount = count;
-                        primaryTheme = theme;
-                    }
-                }
-
-                return primaryTheme;
-            }
-
-            generatePoem(reflection) {
-                this.currentReflection = reflection;
-                const theme = this.analyzeTheme(reflection);
-
-                const opening = this.openings[theme][Math.floor(Math.random() * this.openings[theme].length)];
-                const middle = this.middles[theme][Math.floor(Math.random() * this.middles[theme].length)];
-                const closing = this.closings[theme][Math.floor(Math.random() * this.closings[theme].length)];
-
-                this.currentPoem = `${opening}\n\n${middle}\n\n${closing}`;
-                return this.currentPoem;
-            }
-
-            getCurrentPoem() {
-                return this.currentPoem;
-            }
-
-            getCurrentReflection() {
-                return this.currentReflection;
+        // API Key Management
+        function loadApiKey() {
+            apiKey = localStorage.getItem(API_KEY_STORAGE) || '';
+            if (apiKey) {
+                document.getElementById('apiKey').value = apiKey;
+                updateApiStatus(true);
             }
         }
 
-        // Storage management
-        const STORAGE_KEY = 'dickinson_poems';
-        let poems = [];
-        let nextId = 1;
-        const generator = new DickinsonPoemGenerator();
+        function saveApiKey() {
+            const input = document.getElementById('apiKey').value.trim();
+            if (!input) {
+                showNotification('Please enter an API key', 'error');
+                return;
+            }
+            if (!input.startsWith('sk-ant-api')) {
+                showNotification('Invalid API key format. Should start with "sk-ant-api"', 'error');
+                return;
+            }
+            apiKey = input;
+            localStorage.setItem(API_KEY_STORAGE, apiKey);
+            updateApiStatus(true);
+            showNotification('API key saved successfully!', 'success');
+        }
 
+        function updateApiStatus(configured) {
+            const setup = document.getElementById('apiSetup');
+            if (configured) {
+                setup.className = 'api-setup configured';
+                setup.querySelector('h3').textContent = '✅ API Key Configured';
+            } else {
+                setup.className = 'api-setup';
+                setup.querySelector('h3').textContent = '⚙️ Setup Required';
+            }
+        }
+
+        function togglePasswordVisibility() {
+            const input = document.getElementById('apiKey');
+            const btn = input.nextElementSibling;
+            if (input.type === 'password') {
+                input.type = 'text';
+                btn.textContent = 'Hide';
+            } else {
+                input.type = 'password';
+                btn.textContent = 'Show';
+            }
+        }
+
+        function toggleInstructions() {
+            const content = document.getElementById('apiInstructions');
+            content.classList.toggle('open');
+        }
+
+        // AI Poem Generation
+        async function generatePoemWithAI(reflection) {
+            if (!apiKey) {
+                showNotification('Please configure your API key first', 'error');
+                return null;
+            }
+
+            const prompt = `You are embodying the spirit and style of Emily Dickinson. A student has shared a reflection about "flipping the script" in their life - breaking from traditional expectations to find their authentic path.
+
+Their reflection is:
+"${reflection}"
+
+Please respond with a poem in Emily Dickinson's distinctive style that offers wisdom and advice specifically addressing their situation. Your poem should:
+
+1. Use Emily Dickinson's stylistic elements:
+   - Em dashes (—) for pauses and emphasis
+   - Capitalize important abstract concepts (Truth, Soul, Path, Choice, etc.)
+   - Use short lines (typically 6-8 syllables)
+   - Include slant rhyme (imperfect rhymes)
+   - Use compressed, economical language
+   - Include metaphors from nature when appropriate
+
+2. Directly address the specific situation or question they raised
+3. Offer encouragement about finding authentic paths
+4. Be 12-20 lines long (3-5 stanzas of 4 lines each)
+5. Convey both the difficulty and value of choosing one's own path
+
+Remember: Dickinson's style is meditative, uses unconventional capitalization and punctuation, and finds profound meaning in small observations. Make this poem feel like genuine Dickinson while speaking to their specific situation.
+
+Respond with ONLY the poem, no explanation or commentary.`;
+
+            try {
+                const response = await fetch('https://api.anthropic.com/v1/messages', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'x-api-key': apiKey,
+                        'anthropic-version': '2023-06-01'
+                    },
+                    body: JSON.stringify({
+                        model: 'claude-3-5-sonnet-20241022',
+                        max_tokens: 1024,
+                        messages: [{
+                            role: 'user',
+                            content: prompt
+                        }]
+                    })
+                });
+
+                if (!response.ok) {
+                    const error = await response.json();
+                    throw new Error(error.error?.message || 'API request failed');
+                }
+
+                const data = await response.json();
+                return data.content[0].text.trim();
+            } catch (error) {
+                console.error('API Error:', error);
+                showNotification(`Error: ${error.message}`, 'error');
+                return null;
+            }
+        }
+
+        // Poem Management
         function loadPoems() {
             const stored = localStorage.getItem(STORAGE_KEY);
             if (stored) {
@@ -600,18 +691,15 @@
         }
 
         function saveCurrentPoem() {
-            const poem = generator.getCurrentPoem();
-            const reflection = generator.getCurrentReflection();
-
-            if (!poem || !reflection) {
+            if (!currentPoem || !currentReflection) {
                 showNotification('No poem to save!', 'error');
                 return;
             }
 
             const poemData = {
                 id: nextId++,
-                reflection: reflection,
-                poem: poem,
+                reflection: currentReflection,
+                poem: currentPoem,
                 date: new Date().toLocaleDateString()
             };
 
@@ -623,33 +711,40 @@
         }
 
         function downloadCurrentPoem() {
-            const poem = generator.getCurrentPoem();
-            const reflection = generator.getCurrentReflection();
-
-            if (!poem) {
+            if (!currentPoem) {
                 showNotification('No poem to download!', 'error');
                 return;
             }
 
-            const content = `REFLECTION:\n${reflection}\n\n${'='.repeat(60)}\n\nEMILY DICKINSON'S RESPONSE:\n\n${poem}\n\n— in the spirit of Emily Dickinson\n\nGenerated: ${new Date().toLocaleDateString()}`;
+            const content = `REFLECTION:\n${currentReflection}\n\n${'='.repeat(60)}\n\nEMILY DICKINSON'S RESPONSE:\n\n${currentPoem}\n\n— in the spirit of Emily Dickinson\n\nGenerated: ${new Date().toLocaleDateString()}`;
             const filename = `dickinson-poem-${new Date().toISOString().split('T')[0]}.txt`;
             downloadFile(filename, content);
             showNotification('Poem downloaded!', 'success');
         }
 
-        function generateNewPoem() {
+        async function generateNewPoem() {
             const reflection = document.getElementById('reflection').value.trim();
             if (!reflection) {
                 showNotification('Please enter a reflection first!', 'error');
                 return;
             }
 
-            const poem = generator.generatePoem(reflection);
-            document.getElementById('currentPoem').textContent = poem;
-            document.getElementById('currentPoemDisplay').style.display = 'block';
+            const btn = document.getElementById('generateBtn');
+            btn.disabled = true;
+            btn.innerHTML = 'Generating Poem<span class="loading-spinner"></span>';
 
-            // Scroll to poem
-            document.getElementById('currentPoemDisplay').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            const poem = await generatePoemWithAI(reflection);
+
+            btn.disabled = false;
+            btn.textContent = 'Generate Personalized Poem';
+
+            if (poem) {
+                currentReflection = reflection;
+                currentPoem = poem;
+                document.getElementById('currentPoem').textContent = poem;
+                document.getElementById('currentPoemDisplay').style.display = 'block';
+                document.getElementById('currentPoemDisplay').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
         }
 
         function downloadPoem(id) {
@@ -725,10 +820,8 @@
             generateNewPoem();
         });
 
-        // Initialize
-        loadPoems();
-        renderPoems();
-        updateStats();
+        // Initialize on load
+        init();
     </script>
 </body>
 </html>

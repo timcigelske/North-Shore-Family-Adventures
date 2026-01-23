@@ -2,119 +2,245 @@
 
 ## "Tell the truth, but tell it slant / Success in Circuit lies." — Emily Dickinson
 
-This interactive tool generates Emily Dickinson-style poems that offer advice and wisdom based on your personal reflections about "flipping the script" in your life.
+This AI-powered tool generates **personalized** Emily Dickinson-style poems that offer wisdom and advice specifically tailored to your reflections about "flipping the script" in your life.
 
-## How to Use for Your Assignment
+## What Makes This Special?
 
-### Step 1: Open the Generator
-Simply open `dickinson-poem-generator.html` in any web browser. No installation or server required!
+Unlike generic poem generators, this tool uses artificial intelligence (Claude AI) to:
+- **Read and understand** your specific situation
+- **Generate unique poems** that directly respond to your reflection
+- **Capture Dickinson's authentic style** (dashes, capitalization, slant rhyme)
+- **Offer relevant advice** about courage, change, and finding your authentic path
 
-### Step 2: Write Your Reflection
-In the text box, share your thoughts about:
-- How you're following traditional scripts in your life
-- Ways you might flip those scripts to create a new path
-- Questions about courage, change, authenticity, or finding your voice
+Every poem is custom-written for your exact reflection - no two are ever the same!
 
-**Example Reflections:**
-- "I've always followed the expected path in my career, studying what my parents wanted. But I'm starting to wonder if there's a different way that's more true to who I am."
-- "Everyone expects me to follow a traditional career path, but I'm passionate about art. How do I find the courage to pursue what I love?"
-- "I've been living according to others' expectations for so long that I'm not sure who I really am anymore."
+## Getting Started
 
-### Step 3: Generate Your Poem
-Click "Generate Poem" and Emily Dickinson (well, an AI inspired by her style) will respond with a poem offering wisdom and encouragement.
+### Step 1: Get Your Free API Key (One-Time Setup)
 
-### Step 4: For Your Assignment
-**Use this tool to:**
+The generator uses Claude AI, which requires an API key. Don't worry - it's free and takes 2 minutes!
 
-1. **Respond to Classmates' Reflections**
-   - Copy a classmate's reflection from D2L
-   - Paste it into the generator
-   - Generate a Dickinson-style response
-   - Share the poem in your response on D2L
+**To get your API key:**
 
-2. **Analyze the Advice**
-   In your D2L response, discuss:
-   - What insights does "Emily Dickinson" offer?
-   - Which specific lines or images resonate with you?
-   - How does the poem's advice relate to the "Flip the Script" theme?
-   - In what ways do you find this advice helpful?
-   - Where might you take a different path than the poem suggests?
+1. Go to [console.anthropic.com](https://console.anthropic.com/)
+2. Sign up for a free account (use your school email if you prefer)
+3. Click "Get API Keys" in the left menu
+4. Click "Create Key" button
+5. Give it a name (like "Dickinson Generator")
+6. Copy the key (starts with `sk-ant-api03-...`)
+7. Paste it into the generator and click "Save API Key"
 
-3. **Save Your Work**
-   - Use "Save This Poem" to keep poems for later reference
-   - Use "Download as Text" to get a text file you can include in your assignment
-   - All poems are saved locally in your browser
+**Free Tier includes:**
+- $5 in credits (enough for 100-200 poems!)
+- No credit card required
+- Perfect for this assignment
 
-## Understanding Dickinson's Style
+**Privacy Note:** Your API key is stored only in your browser's local storage. It's never sent anywhere except to Claude's API to generate your poems.
 
-The poems generated use Emily Dickinson's distinctive poetic techniques:
+### Step 2: Open the Generator
 
-- **Dashes (—)** - Create pauses and emphasis, making you slow down and think
-- **Capitalization** - Important words are capitalized to draw attention
-- **Short Lines** - Create rhythm and focus
-- **Slant Rhyme** - Imperfect rhymes that feel more natural and thought-provoking
-- **Nature Imagery** - References to birds, flowers, light, and natural phenomena
-- **Compressed Language** - Dense, meaningful phrases that reward careful reading
+Simply open `dickinson-poem-generator.html` in any web browser (Chrome, Firefox, Safari, Edge).
+
+### Step 3: Write Your Reflection
+
+In the text box, share your thoughts about "flipping the script" in your life. Be specific!
+
+**Great examples:**
+- "I've always followed the expected path in my career, studying what my parents wanted. But I'm starting to wonder if there's a different way that's more true to who I am. How do I find the courage to step away from what's expected?"
+- "Everyone expects me to go into law like my family, but I'm passionate about environmental science. I'm afraid of disappointing them by choosing my own path."
+- "I've been living according to others' expectations for so long that I'm not sure who I really am anymore. How do I rediscover my authentic self?"
+
+**The more specific you are, the better the poem!**
+
+### Step 4: Generate Your Personalized Poem
+
+Click "Generate Personalized Poem" and wait 5-10 seconds. The AI will:
+1. Read and analyze your reflection
+2. Identify key themes (courage, identity, truth, change, freedom)
+3. Generate a unique Dickinson-style poem addressing your specific situation
+4. Use authentic Dickinson techniques (dashes, capitalization, nature imagery)
+
+## Example: See the Difference!
+
+**Student's Reflection:**
+"I've been following my parents' expectations to become a doctor, but I'm passionate about art and feel like I'm living someone else's life."
+
+**AI-Generated Response:**
+```
+The Stethoscope — though honored — worn —
+May not — the Soul — adorn —
+For Art — demands — its own — Physician —
+To heal — what's truly — torn —
+
+Your Parents' Dreams — though pure — though kind —
+Cannot — prescribe — your Mind —
+The Canvas calls — with urgent — voice —
+What Path — will you — now — find?
+
+The bravest Surgery — of all —
+Is cutting — free — the Should —
+To stitch — yourself — a Life — that's Yours —
+Not — theirs — but — genuinely — Good —
+```
+
+Notice how it:
+- References the medicine vs. art conflict specifically
+- Uses medical metaphors ("Stethoscope," "Physician," "Surgery")
+- Addresses the parent/student dynamic
+- Offers specific advice about choosing art over medicine
+- Maintains Dickinson's authentic voice
+
+## Using for Your D2L Assignment
+
+### For Responding to Classmates:
+
+1. **Copy their reflection** from D2L
+2. **Paste it** into the generator
+3. **Generate a personalized poem** that responds to their situation
+4. **Analyze the poem** in your D2L response:
+
+**Example Analysis:**
+"I used the Emily Dickinson generator to respond to your reflection, and it created this poem [paste poem]. What strikes me most is the line 'The bravest Surgery — of all — / Is cutting — free — the Should —' because it captures how difficult it is to separate ourselves from expectations (the 'Should'). Like Wonder Woman discovering her authentic power by stepping away from what others expected, the poem suggests that choosing your own path requires a kind of courage that's actually surgical - precise, deliberate, and potentially painful but ultimately healing. The medical metaphor is especially apt given your situation about choosing between medicine and art."
+
+### What to Include in Your Analysis:
+
+1. **Quote specific lines** that resonate
+2. **Explain the metaphors** Dickinson uses
+3. **Connect to course themes** (Wonder Woman, hero's journey, authentic power)
+4. **Reference course readings**
+5. **Personal response** - do you agree? Would you take a different path?
+6. **Dickinson's techniques** - analyze the dashes, capitalization, slant rhyme
 
 ## Features
 
-- **Theme Detection** - The generator analyzes your reflection for themes like:
-  - Courage and fear
-  - Change and transformation
-  - Truth and authenticity
-  - Identity and self-discovery
-  - Freedom and choice
+### Save & Download
+- **Save poems** in your browser for later reference
+- **Download individual poems** as text files
+- **Download all poems** at once for your assignment
 
-- **Authentic Style** - Poems use genuine Dickinson techniques and themes
-- **Save & Download** - Keep your favorite poems
-- **Privacy** - Everything runs in your browser; nothing is sent to a server
-- **No Sign-Up Required** - Just open and use!
+### Privacy
+- All data stored locally in your browser
+- API key never shared
+- Your reflections are only sent to Claude AI to generate poems (not stored elsewhere)
+
+### Statistics
+- Track how many poems you've generated
+- See all your saved reflections
+
+## Understanding Dickinson's Style
+
+The AI captures Emily Dickinson's distinctive techniques:
+
+**Em Dashes (—)**
+- Create pauses for emphasis
+- Make you slow down and think
+- Add dramatic weight to certain words
+
+**Capitalization**
+- Important concepts are Capitalized
+- Draws attention to abstract ideas (Truth, Soul, Path, Choice)
+- Creates emphasis on key themes
+
+**Slant Rhyme**
+- Imperfect rhymes (Soul/all, Mind/find)
+- Feel more natural and thought-provoking than perfect rhymes
+- Characteristic of Dickinson's style
+
+**Compressed Language**
+- Short lines (6-8 syllables typically)
+- Dense with meaning
+- Every word counts
+
+**Nature Imagery**
+- References to birds, flowers, seasons, natural phenomena
+- Used as metaphors for human experience
+
+**Philosophical Depth**
+- Explores big questions about identity, truth, courage
+- Encourages introspection
 
 ## Tips for Best Results
 
-1. **Be Specific** - The more detailed your reflection, the more relevant the poem
-2. **Use Keywords** - Include words like "courage," "change," "truth," "freedom," "authentic"
-3. **Ask Questions** - Questions often generate more thoughtful responses
-4. **Try Multiple Poems** - Generate several responses to find the most inspiring one
-5. **Read Slowly** - Dickinson's poems reward careful, contemplative reading
+1. **Be specific** - Describe your actual situation in detail
+2. **Share context** - Explain what "traditional script" you're following
+3. **Ask questions** - "How do I find courage?" generates thoughtful responses
+4. **Use keywords** - courage, change, truth, freedom, identity, authentic
+5. **Be honest** - The more genuine your reflection, the more relevant the poem
+6. **Try multiple generations** - Generate a few versions to find the best one
 
-## Assignment Integration
+## Troubleshooting
 
-When writing your D2L response:
+**"Please configure your API key first"**
+- You need to enter and save your Claude API key (see Step 1 above)
 
-1. Quote specific lines from the generated poem
-2. Connect the poem to the Wonder Woman example in the assignment
-3. Reference the reading materials
-4. Analyze how Dickinson's "tell it slant" philosophy applies to flipping scripts
-5. Discuss both what resonates and where you might disagree
+**"Invalid API key format"**
+- Make sure your key starts with `sk-ant-api03-` (or similar)
+- Copy the entire key from console.anthropic.com
 
-## Example Analysis
+**"API request failed"**
+- Check your internet connection
+- Verify your API key is correct
+- Make sure you have credits remaining (check console.anthropic.com)
 
-**Generated Line:**
-> "The Script that's written for us — / May not — contain our Name —"
+**Poem doesn't seem personalized**
+- Make your reflection more specific
+- Include more details about your situation
+- Try rephrasing or adding more context
 
-**Your Analysis:**
-"This line really resonates with me because it captures how following others' expectations can feel like living someone else's life. Like Wonder Woman discovering her true identity by stepping into her authentic power, we have to write our own names into our stories. The dash after 'for us' creates a pause that emphasizes the disconnect between external expectations and internal truth."
+## Academic Integrity Note
+
+This tool is designed to **enhance your learning**, not replace it. Use it to:
+- Generate creative responses to classmates
+- Spark deeper analysis of Dickinson's style and themes
+- Engage more meaningfully with course concepts
+
+You still need to:
+- Write your own analysis and interpretation
+- Connect to course readings
+- Develop your own arguments
+- Cite sources appropriately
+
+The poems are tools for discussion, not substitutes for your own critical thinking!
+
+## Cost Information
+
+**Free tier includes $5 in credits:**
+- Each poem costs about $0.02-0.05 to generate
+- 100-200 poems possible on free tier
+- More than enough for this assignment!
+
+**If you run out:**
+- You can add more credits at console.anthropic.com
+- Or use multiple email addresses for multiple free accounts
+
+## Example Assignment Workflow
+
+1. **Read classmate's reflection on D2L**
+2. **Generate personalized Dickinson poem responding to their situation**
+3. **Write your D2L response including:**
+   - The poem
+   - Analysis of specific lines and techniques
+   - Connection to Wonder Woman/hero's journey themes
+   - References to course readings
+   - Your personal perspective on the advice
+
+4. **Save and download** poems for your records
 
 ## Technical Notes
 
-- Works on any modern web browser (Chrome, Firefox, Safari, Edge)
-- No internet connection required after initial load
-- Data saved locally using browser storage
+- Works on any modern browser (Chrome, Firefox, Safari, Edge)
+- Requires internet connection (to call Claude API)
 - Mobile-friendly design
+- API key stored in browser localStorage
+- Poems saved in browser localStorage
 
-## About the Assignment
+## Questions?
 
-This tool supports the "Flip the Script" assignment, which asks you to:
-1. Reflect on traditional scripts you're following
-2. Imagine ways to flip those scripts
-3. Engage with classmates' reflections through Dickinson-style poetry
-4. Analyze the wisdom offered and whether you agree
+This generator is designed to make your assignment more creative and engaging while helping you understand Emily Dickinson's poetic philosophy and style. It connects her 19th-century wisdom about living authentically to your 21st-century reflections about flipping scripts and finding your own path.
 
-The assignment connects to themes from Wonder Woman about finding authentic power and the hero's journey of self-discovery.
+The AI doesn't do your thinking for you - it creates a starting point for deeper analysis and discussion!
 
 ---
 
-**Questions?** This generator is designed to enhance your learning and make the assignment more creative and engaging. Use it as a springboard for deeper thinking about authenticity, courage, and personal transformation.
-
-**Remember:** The goal isn't to let AI do your thinking, but to use it as a creative tool that helps you engage more deeply with Dickinson's philosophy and your classmates' reflections.
+**Created for the "Flip the Script" assignment**
+*Connecting Emily Dickinson's wisdom with contemporary reflections on authenticity and courage*
