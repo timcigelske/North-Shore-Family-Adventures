@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Dickinson Poem Generator - Tell the Truth, but Tell it Slant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Garamond', serif;
+            background: linear-gradient(135deg, #2c1810 0%, #4a2c2a 50%, #5d4037 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: linear-gradient(to bottom, #fdfbf7 0%, #f5efe6 100%);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            margin-bottom: 30px;
+            text-align: center;
+            border: 3px solid #8d6e63;
+        }
+
+        h1 {
+            color: #4a2c2a;
+            margin-bottom: 15px;
+            font-size: 2.5em;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        .epigraph {
+            color: #6d4c41;
+            font-size: 1.2em;
+            font-style: italic;
+            margin: 15px 0;
+            padding: 15px;
+            border-left: 4px solid #8d6e63;
+            background: rgba(141, 110, 99, 0.1);
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+
+        .card {
+            background: linear-gradient(to bottom, #fdfbf7 0%, #f5efe6 100%);
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            margin-bottom: 30px;
+            border: 2px solid #8d6e63;
+        }
+
+        h2 {
+            color: #4a2c2a;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #8d6e63;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #4a2c2a;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #8d6e63;
+            border-radius: 8px;
+            font-size: 16px;
+            font-family: 'Georgia', serif;
+            background: #fdfbf7;
+            color: #333;
+            transition: border-color 0.3s;
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #5d4037;
+            background: #fff;
+        }
+
+        .help-text {
+            font-size: 0.9em;
+            color: #6d4c41;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+        button {
+            background: linear-gradient(135deg, #6d4c41 0%, #8d6e63 100%);
+            color: #fdfbf7;
+            border: none;
+            padding: 14px 35px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            font-family: 'Georgia', serif;
+        }
+
+        button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(109, 76, 65, 0.4);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #5d4037 0%, #4a2c2a 100%);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #558b2f 0%, #689f38 100%);
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #c62828 0%, #d32f2f 100%);
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+
+        .poem-display {
+            background: #fdfbf7;
+            padding: 30px;
+            border-radius: 10px;
+            border: 2px solid #8d6e63;
+            margin: 20px 0;
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            white-space: pre-line;
+            box-shadow: inset 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .poem-text {
+            color: #2c1810;
+            font-size: 1.1em;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        .poem-attribution {
+            text-align: right;
+            color: #6d4c41;
+            font-size: 0.9em;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #d7ccc8;
+        }
+
+        .poems-list {
+            margin-top: 20px;
+        }
+
+        .poem-item {
+            background: #fdfbf7;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #8d6e63;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .poem-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .poem-prompt {
+            color: #5d4037;
+            font-weight: 600;
+            font-size: 0.95em;
+            flex: 1;
+        }
+
+        .poem-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 50px;
+            color: #6d4c41;
+            font-style: italic;
+        }
+
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #fdfbf7;
+            padding: 20px 25px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            border: 2px solid #8d6e63;
+            transform: translateX(400px);
+            transition: transform 0.3s;
+            z-index: 1000;
+            max-width: 350px;
+        }
+
+        .notification.show {
+            transform: translateX(0);
+        }
+
+        .notification.success {
+            border-left: 4px solid #558b2f;
+        }
+
+        .notification.error {
+            border-left: 4px solid #c62828;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: linear-gradient(to bottom, #fdfbf7 0%, #f5efe6 100%);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            text-align: center;
+            border: 2px solid #8d6e63;
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #6d4c41;
+        }
+
+        .stat-label {
+            color: #666;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .instructions {
+            background: rgba(255, 248, 225, 0.3);
+            border: 2px solid #8d6e63;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            line-height: 1.6;
+        }
+
+        .instructions h3 {
+            color: #4a2c2a;
+            margin-bottom: 10px;
+        }
+
+        .instructions ul {
+            margin-left: 25px;
+            color: #5d4037;
+        }
+
+        .instructions li {
+            margin-bottom: 8px;
+        }
+
+        .loading-spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+            margin-left: 10px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .example-box {
+            background: #e8f5e9;
+            border: 2px solid #66bb6a;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .example-box h4 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+        }
+
+        .example-poem {
+            font-style: italic;
+            color: #1b5e20;
+            line-height: 1.6;
+            margin: 10px 0;
+            padding-left: 15px;
+            border-left: 3px solid #66bb6a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Emily Dickinson Poem Generator</h1>
+            <div class="epigraph">
+                "Tell the truth, but tell it slant —<br>
+                Success in Circuit lies"<br>
+                <small style="margin-top: 5px; display: block;">— Emily Dickinson</small>
+            </div>
+            <p class="subtitle">AI-Powered Personalized Wisdom • No Setup Required</p>
+        </header>
+
+        <div class="card">
+            <div class="instructions">
+                <h3>How to Use This Generator</h3>
+                <p style="margin-bottom: 10px;">This tool uses AI to create personalized Emily Dickinson-style poems that respond directly to your reflections about "flipping the script" in your life.</p>
+                <ul>
+                    <li><strong>Share your reflection</strong> - Describe situations where you're following traditional paths or seeking new ones</li>
+                    <li><strong>Be specific</strong> - The more detail you provide, the more personalized the poem</li>
+                    <li><strong>Click "Generate Poem"</strong> - Wait 5-10 seconds for your custom poem</li>
+                    <li><strong>Use for your assignment</strong> - Copy classmates' reflections from D2L and generate responses</li>
+                    <li><strong>Analyze and discuss</strong> - Examine the poem's advice, metaphors, and Dickinson's style</li>
+                </ul>
+            </div>
+
+            <div class="example-box">
+                <h4>💡 Example Reflection:</h4>
+                <p style="margin-bottom: 10px;">"I've been following my parents' expectations to become a doctor, but I'm passionate about art and feel like I'm living someone else's life."</p>
+
+                <h4 style="margin-top: 15px;">✨ AI-Generated Response:</h4>
+                <div class="example-poem">
+The Stethoscope — though honored — worn —
+May not — the Soul — adorn —
+For Art — demands — its own — Physician —
+To heal — what's truly — torn —
+
+Your Parents' Dreams — though pure — though kind —
+Cannot — prescribe — your Mind —
+The Canvas calls — with urgent — voice —
+What Path — will you — now — find?
+                </div>
+                <p style="margin-top: 10px; font-size: 0.9em; color: #666;"><em>Notice how the AI uses medical metaphors specific to the doctor/art conflict!</em></p>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalPoems">0</div>
+                <div class="stat-label">Poems Generated</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="totalReflections">0</div>
+                <div class="stat-label">Reflections Saved</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Share Your Reflection</h2>
+            <form id="reflectionForm">
+                <div class="form-group">
+                    <label for="reflection">Your Reflection or Question</label>
+                    <textarea id="reflection" required placeholder="Example: I've always followed the expected path in my career, but I'm starting to wonder if there's a different way that's more true to who I am. How do I find the courage to step away from what's expected and create my own path?"></textarea>
+                    <div class="help-text">Be specific about your situation - the AI will craft a personalized response</div>
+                </div>
+                <button type="submit" id="generateBtn">Generate Personalized Poem</button>
+            </form>
+
+            <div id="currentPoemDisplay" style="display: none;">
+                <h2 style="margin-top: 30px;">Emily Dickinson's Response</h2>
+                <div class="poem-display">
+                    <div class="poem-text" id="currentPoem"></div>
+                    <div class="poem-attribution">— in the spirit of Emily Dickinson</div>
+                </div>
+                <div class="button-group">
+                    <button onclick="saveCurrentPoem()" class="btn-success">💾 Save This Poem</button>
+                    <button onclick="downloadCurrentPoem()" class="btn-secondary">📄 Download as Text</button>
+                    <button onclick="generateNewPoem()" class="btn-secondary">🔄 Generate Another Response</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Your Saved Poems</h2>
+            <div class="button-group">
+                <button onclick="downloadAllPoems()" class="btn-success">💾 Download All Poems</button>
+                <button onclick="clearAllPoems()" class="btn-danger">🗑️ Clear All Poems</button>
+            </div>
+            <div id="poemsContainer" class="poems-list"></div>
+        </div>
+    </div>
+
+    <div id="notification" class="notification"></div>
+
+    <script>
+        // API Configuration - INSTRUCTOR: Replace YOUR-API-KEY-HERE with your actual Claude API key
+        // Get your key from: https://console.anthropic.com/
+        const API_KEY = 'YOUR-API-KEY-HERE';
+
+        // Storage keys
+        const STORAGE_KEY = 'dickinson_poems';
+
+        let poems = [];
+        let nextId = 1;
+        let currentReflection = '';
+        let currentPoem = '';
+
+        // Initialize
+        function init() {
+            loadPoems();
+            renderPoems();
+            updateStats();
+        }
+
+        // AI Poem Generation
+        async function generatePoemWithAI(reflection) {
+            const prompt = `You are embodying the spirit and style of Emily Dickinson. A student has shared a reflection about "flipping the script" in their life - breaking from traditional expectations to find their authentic path.
+
+Their reflection is:
+"${reflection}"
+
+Please respond with a poem in Emily Dickinson's distinctive style that offers wisdom and advice specifically addressing their situation. Your poem should:
+
+1. Use Emily Dickinson's stylistic elements:
+   - Em dashes (—) for pauses and emphasis
+   - Capitalize important abstract concepts (Truth, Soul, Path, Choice, etc.)
+   - Use short lines (typically 6-8 syllables)
+   - Include slant rhyme (imperfect rhymes)
+   - Use compressed, economical language
+   - Include metaphors from nature when appropriate
+
+2. Directly address the specific situation or question they raised
+3. Offer encouragement about finding authentic paths
+4. Be 12-20 lines long (3-5 stanzas of 4 lines each)
+5. Convey both the difficulty and value of choosing one's own path
+
+Remember: Dickinson's style is meditative, uses unconventional capitalization and punctuation, and finds profound meaning in small observations. Make this poem feel like genuine Dickinson while speaking to their specific situation.
+
+Respond with ONLY the poem, no explanation or commentary.`;
+
+            try {
+                const response = await fetch('https://api.anthropic.com/v1/messages', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'x-api-key': API_KEY,
+                        'anthropic-version': '2023-06-01'
+                    },
+                    body: JSON.stringify({
+                        model: 'claude-3-5-sonnet-20241022',
+                        max_tokens: 1024,
+                        messages: [{
+                            role: 'user',
+                            content: prompt
+                        }]
+                    })
+                });
+
+                if (!response.ok) {
+                    const error = await response.json();
+                    throw new Error(error.error?.message || 'API request failed');
+                }
+
+                const data = await response.json();
+                return data.content[0].text.trim();
+            } catch (error) {
+                console.error('API Error:', error);
+                showNotification(`Error: ${error.message}. Please contact your instructor.`, 'error');
+                return null;
+            }
+        }
+
+        // Poem Management
+        function loadPoems() {
+            const stored = localStorage.getItem(STORAGE_KEY);
+            if (stored) {
+                const data = JSON.parse(stored);
+                poems = data.poems || [];
+                nextId = data.nextId || 1;
+            }
+        }
+
+        function savePoems() {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify({
+                poems,
+                nextId
+            }));
+        }
+
+        function renderPoems() {
+            const container = document.getElementById('poemsContainer');
+
+            if (poems.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <p>No saved poems yet. Generate and save your first poem above!</p>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = poems.map(p => `
+                <div class="poem-item">
+                    <div class="poem-header">
+                        <div class="poem-prompt"><strong>Reflection:</strong> ${escapeHtml(p.reflection.substring(0, 100))}${p.reflection.length > 100 ? '...' : ''}</div>
+                        <div class="poem-actions">
+                            <button onclick="downloadPoem(${p.id})" class="btn-success">📄 Download</button>
+                            <button onclick="deletePoem(${p.id})" class="btn-danger">Delete</button>
+                        </div>
+                    </div>
+                    <div class="poem-text">${escapeHtml(p.poem)}</div>
+                    <div class="poem-attribution">Generated on ${p.date}</div>
+                </div>
+            `).join('');
+        }
+
+        function updateStats() {
+            document.getElementById('totalPoems').textContent = poems.length;
+            document.getElementById('totalReflections').textContent = poems.length;
+        }
+
+        function downloadFile(filename, content) {
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        function saveCurrentPoem() {
+            if (!currentPoem || !currentReflection) {
+                showNotification('No poem to save!', 'error');
+                return;
+            }
+
+            const poemData = {
+                id: nextId++,
+                reflection: currentReflection,
+                poem: currentPoem,
+                date: new Date().toLocaleDateString()
+            };
+
+            poems.push(poemData);
+            savePoems();
+            renderPoems();
+            updateStats();
+            showNotification('Poem saved successfully!', 'success');
+        }
+
+        function downloadCurrentPoem() {
+            if (!currentPoem) {
+                showNotification('No poem to download!', 'error');
+                return;
+            }
+
+            const content = `REFLECTION:\n${currentReflection}\n\n${'='.repeat(60)}\n\nEMILY DICKINSON'S RESPONSE:\n\n${currentPoem}\n\n— in the spirit of Emily Dickinson\n\nGenerated: ${new Date().toLocaleDateString()}`;
+            const filename = `dickinson-poem-${new Date().toISOString().split('T')[0]}.txt`;
+            downloadFile(filename, content);
+            showNotification('Poem downloaded!', 'success');
+        }
+
+        async function generateNewPoem() {
+            const reflection = document.getElementById('reflection').value.trim();
+            if (!reflection) {
+                showNotification('Please enter a reflection first!', 'error');
+                return;
+            }
+
+            const btn = document.getElementById('generateBtn');
+            btn.disabled = true;
+            btn.innerHTML = 'Generating Poem<span class="loading-spinner"></span>';
+
+            const poem = await generatePoemWithAI(reflection);
+
+            btn.disabled = false;
+            btn.textContent = 'Generate Personalized Poem';
+
+            if (poem) {
+                currentReflection = reflection;
+                currentPoem = poem;
+                document.getElementById('currentPoem').textContent = poem;
+                document.getElementById('currentPoemDisplay').style.display = 'block';
+                document.getElementById('currentPoemDisplay').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        }
+
+        function downloadPoem(id) {
+            const poem = poems.find(p => p.id === id);
+            if (!poem) return;
+
+            const content = `REFLECTION:\n${poem.reflection}\n\n${'='.repeat(60)}\n\nEMILY DICKINSON'S RESPONSE:\n\n${poem.poem}\n\n— in the spirit of Emily Dickinson\n\nGenerated: ${poem.date}`;
+            const filename = `dickinson-poem-${poem.id}.txt`;
+            downloadFile(filename, content);
+            showNotification('Poem downloaded!', 'success');
+        }
+
+        function deletePoem(id) {
+            if (!confirm('Are you sure you want to delete this poem?')) {
+                return;
+            }
+
+            poems = poems.filter(p => p.id !== id);
+            savePoems();
+            renderPoems();
+            updateStats();
+            showNotification('Poem deleted', 'success');
+        }
+
+        function downloadAllPoems() {
+            if (poems.length === 0) {
+                showNotification('No poems to download!', 'error');
+                return;
+            }
+
+            const content = poems.map((p, index) =>
+                `POEM ${index + 1}\n${'='.repeat(60)}\n\nREFLECTION:\n${p.reflection}\n\nEMILY DICKINSON'S RESPONSE:\n\n${p.poem}\n\n— in the spirit of Emily Dickinson\nGenerated: ${p.date}\n\n${'='.repeat(60)}\n\n`
+            ).join('\n');
+
+            const date = new Date().toISOString().split('T')[0];
+            downloadFile(`all-dickinson-poems-${date}.txt`, content);
+            showNotification('All poems downloaded!', 'success');
+        }
+
+        function clearAllPoems() {
+            if (!confirm('Are you sure you want to delete ALL poems? This cannot be undone!')) {
+                return;
+            }
+
+            poems = [];
+            nextId = 1;
+            savePoems();
+            renderPoems();
+            updateStats();
+            showNotification('All poems cleared', 'success');
+        }
+
+        function showNotification(message, type = 'success') {
+            const notification = document.getElementById('notification');
+            notification.textContent = message;
+            notification.className = `notification ${type}`;
+            notification.classList.add('show');
+
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Form submission
+        document.getElementById('reflectionForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            generateNewPoem();
+        });
+
+        // Initialize on load
+        init();
+    </script>
+</body>
+</html>
