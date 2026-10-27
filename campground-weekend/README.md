@@ -1,3 +1,7 @@
+# Photography update
+
+The live banners now use real Unsplash camping photographs with photographer credits. See [photo update](docs/unsplash-photo-update.md).
+
 # Current release
 
 Production launch authorized October 27, 2026. See [launch-update.md](docs/launch-update.md) for REI affiliate links, original banners, interactive Leaflet maps and connected Git deployment settings. The earlier preview-only notes below document the initial build. Newsletter, analytics and ads remain disabled.

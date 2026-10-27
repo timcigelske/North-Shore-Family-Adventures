@@ -1,3 +1,7 @@
+# Banner update
+
+The AI banner artwork described below has been replaced with real Unsplash photography. See [unsplash-photo-update.md](unsplash-photo-update.md) for current images, credit and license provenance.
+
 # October 27, 2026 launch update
 
 The owner explicitly requested production publication after reviewing the draft. This supersedes the earlier preview-only boundary. Newsletter, analytics and advertising remain disabled independently.

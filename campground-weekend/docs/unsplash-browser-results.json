@@ -1,0 +1,53 @@
+{
+  "results": [
+    {
+      "name": "home",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "aiAssets": 0,
+      "violations": []
+    },
+    {
+      "name": "directory",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "aiAssets": 0,
+      "violations": []
+    },
+    {
+      "name": "credits",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "aiAssets": 0,
+      "violations": []
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "aiAssets": 0,
+      "violations": []
+    },
+    {
+      "name": "directory",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "aiAssets": 0,
+      "violations": []
+    },
+    {
+      "name": "credits",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "aiAssets": 0,
+      "violations": []
+    }
+  ],
+  "errors": []
+}
