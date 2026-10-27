@@ -4,6 +4,8 @@ An independent campground publication from North Shore Family Adventures. Wiscon
 
 ## Current delivery
 
+Verified nonproduction preview: [Campground Weekend](https://6ae10182fc23c0a937750aab--campground-weekend.netlify.app). Shareable and nonindexed, without password protection. [Draft source PR](https://github.com/timcigelske/North-Shore-Family-Adventures/pull/1). See `docs/deployment.md` for actual deployment and remaining Git-link status.
+
 23 researched Wisconsin profiles, six planning/comparison guides and one researched Wisconsin RV-rental guide; static Astro article HTML; directory/search/filters, lazy map, browser favorites, editable packing list, party/person cost estimator, print stylesheet, seven policy/about/advertising pages plus contact, author and image credits. All changing facts are attributed to official sources; no personal stay, gear testing, live availability or affiliate approval is claimed. See `docs/integration-status.md` for external boundaries and `docs/validation.md` for checks actually run.
 
 The source belongs in `campground-weekend/` on the separate `codex/campground-weekend` branch of the owner's existing `timcigelske/North-Shore-Family-Adventures` repository. Existing repository files and the live Squarespace site are preserved. The current default branch is `claude/analyze-food-group-questions-PN9X0`; do not rename it as part of this build.
@@ -49,7 +51,7 @@ Use `src/data/affiliates/links.json`, `src/data/sponsors/cards.json` and `src/da
 
 Owner team: **Code Explorers**, slug `timcigelske`. New preview project: **campground-weekend**, site ID `a63d90a2-50fa-43a9-9471-15c66bc0bab2`. `.netlify/` and `.env*` are ignored; do not commit state.json or credentials.
 
-Connect the existing NSFA repository to this project only after the preview deployment approval boundary is resolved. Use base/package directory `campground-weekend`, command `pnpm build`, publish `campground-weekend/dist` relative to repository root (or `dist` relative to the base), Functions `campground-weekend/netlify/functions` (or `netlify/functions` relative to base). The inner `netlify.toml` records the actual relative paths.
+The owner approved nonproduction deployment and the tested source was uploaded using the official draft=true build API. Connect the existing NSFA repository for automatic Git-triggered previews. Use base/package directory `campground-weekend`, command `pnpm build`, publish `campground-weekend/dist` relative to repository root (or `dist` relative to the base), Functions `campground-weekend/netlify/functions` (or `netlify/functions` relative to base). The inner `netlify.toml` records the actual relative paths.
 
 Production branch should remain the existing repository default branch until the owner explicitly chooses a release policy. The campground folder is absent from that branch before merge, so a production build cannot succeed from it. Do not merge or choose the feature branch as a production branch to get a preview. Enable PR Deploy Previews for the feature branch's draft PR. Verify the actual resulting context and response headers.
 

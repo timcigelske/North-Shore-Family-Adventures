@@ -1,0 +1,103 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "robotsHeader": "noindex, nofollow",
+    "canonical": [
+      "https://6ae10182fc23c0a937750aab--campground-weekend.netlify.app/"
+    ],
+    "h1": 1,
+    "length": 12582
+  },
+  {
+    "path": "/guides/devils-lake-vs-mirror-lake/",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "robotsHeader": "noindex, nofollow",
+    "canonical": [
+      "https://6ae10182fc23c0a937750aab--campground-weekend.netlify.app/guides/devils-lake-vs-mirror-lake/"
+    ],
+    "h1": 1,
+    "length": 15340
+  },
+  {
+    "path": "/campgrounds/peninsula/",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "robotsHeader": "noindex, nofollow",
+    "canonical": [
+      "https://6ae10182fc23c0a937750aab--campground-weekend.netlify.app/campgrounds/peninsula/"
+    ],
+    "h1": 1,
+    "length": 19145
+  },
+  {
+    "path": "/missing-campground-qa/",
+    "status": 404,
+    "contentType": "text/html; charset=utf-8",
+    "robotsHeader": "noindex, nofollow",
+    "canonical": [
+      "https://6ae10182fc23c0a937750aab--campground-weekend.netlify.app/404/"
+    ],
+    "h1": 1,
+    "length": 5676
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "contentType": "application/xml; charset=utf-8",
+    "robotsHeader": "noindex, nofollow",
+    "canonical": [],
+    "h1": 0,
+    "length": 108,
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"></urlset>"
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "contentType": "text/plain; charset=utf-8",
+    "robotsHeader": "noindex, nofollow",
+    "canonical": [],
+    "h1": 0,
+    "length": 79,
+    "body": "User-agent: *\nAllow: /\n# Preview: all HTML and response headers carry noindex.\n"
+  },
+  {
+    "path": "/ads.txt",
+    "status": 200,
+    "contentType": "text/plain; charset=utf-8",
+    "robotsHeader": "noindex, nofollow",
+    "canonical": [],
+    "h1": 0,
+    "length": 48,
+    "body": "# No authorized advertising sellers configured.\n"
+  },
+  {
+    "path": "/google-unsupplied-verification.html",
+    "status": 404,
+    "contentType": "text/html; charset=utf-8",
+    "robotsHeader": "noindex, nofollow",
+    "canonical": [
+      "https://6ae10182fc23c0a937750aab--campground-weekend.netlify.app/404/"
+    ],
+    "h1": 1,
+    "length": 5676
+  },
+  {
+    "path": "/api/subscribe",
+    "status": 405,
+    "contentType": "application/json",
+    "robotsHeader": "noindex",
+    "canonical": [],
+    "h1": 0,
+    "length": 23,
+    "body": "{\"message\":\"Use POST.\"}"
+  },
+  {
+    "path": "/api/subscribe",
+    "method": "POST valid preview request",
+    "status": 503,
+    "body": "{\"state\":\"disabled\",\"message\":\"Newsletter signup is not open yet. No subscription was made.\"}"
+  }
+]

@@ -1,6 +1,6 @@
 # Validation report
 
-Build date: October 27, 2026. Tests below concern the source and local static build. Netlify deployment and provider-side receipts remain unverified unless a later deployment record explicitly updates this file.
+Build date: October 27, 2026. Tests below concern the source and local static build. A real nonproduction deploy-preview has now been verified; see deployment.md, deployed-results.json and deployed-browser-results.json. Provider-side subscription/analytics/ad outcomes remain unconfigured.
 
 ## Completed
 
@@ -14,12 +14,15 @@ Build date: October 27, 2026. Tests below concern the source and local static bu
 
 ## External and content limits
 
-- No deployed guide/404/function/header/sitemap/ads.txt response has been verified. Automatic approval review rejected the deployment operation; it is awaiting explicit preview-only approval. The project is unprotected, so any future preview URL would be shareable rather than private unless separately protected.
-- Git-based continuous deployment also needs Netlify’s GitHub browser authentication/linking. The connected GitHub API can write the branch independently.
+- The owner explicitly approved preview-only deployment after the initial automatic rejection. The resulting deploy-preview is ready, published_at is null, and the actual responses and live browser checks passed. It is a shareable unprotected URL, not private.
+- Git source and draft PR are committed and read back; automatic Netlify continuous deployment still needs GitHub browser authentication/linking. This verified preview is upload-triggered.
 - No actual Beehiiv publication, custom fields or keys selected; no real subscription, active conversion or stored attribution claimed. Concurrency/idempotency and original acquisition retention need a permitted provider-record test before activation.
-- No contact submission storage or owner email notification verified; detection and notifications are separate activation steps.
+- Contact form registration and endpoint acceptance are verified. A synthetic submission advanced last_submission_at but accepted count stayed zero; inspect spam and verify an accepted stored record. Owner email notifications remain unconfigured.
 - No GA4 intended-property Realtime/DebugView evidence, real Search Console verification/indexation, affiliate approval or AdSense approval/serving. CMP hook is preparatory, not a verified vendor-specific certified integration.
 - Current campsite rates, availability, exact site dimensions, Wi-Fi reliability, measured noise/privacy and original overnight experience are not claimed. Most late-season facilities need date-specific operator checks.
-- No paid upgrades, DNS changes, domain purchases, live-system messages, production launch or recurring monitoring.
+- The deployed distributed rate-limit rule was verified with a 429 after the documented propagation delay; invalid request validation returned 400 before enforcement propagated.
+- No paid upgrades, DNS changes, domain purchases, messages to real recipients, production launch or recurring monitoring.
 
 Browser navigation timings are laboratory observations on a local machine, not Core Web Vitals field data, not a Lighthouse score and not a performance guarantee. External links that block automated access should be reported as uncertain rather than automatically broken.
+
+Netlify secret scanning completed with no matches across 156 uploaded source files. The first synthetic contact request may be in spam: official troubleshooting guidance notes that fake test addresses are commonly classified there. No accepted stored record or notification delivery is claimed.
