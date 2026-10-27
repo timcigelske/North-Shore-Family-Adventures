@@ -1,0 +1,106 @@
+{
+  "name": "High Cliff State Park",
+  "slug": "highcliff",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "East Central Wisconsin",
+  "county": "Calumet",
+  "aliases": [
+    "High Cliff",
+    "East Central Wisconsin",
+    "Calumet County"
+  ],
+  "description": "Families comparing electric campsites and an eligible accessible cabin. The shower building opens seasonally.",
+  "bestFor": "Families comparing electric campsites and an eligible accessible cabin",
+  "tradeoff": "The shower building opens seasonally.",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": true,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": "Pets permitted in family and group campgrounds; verify other restrictions",
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Accessible cabin: verify eligibility, booking process and bathroom details.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/highcliff/recreation/camping",
+  "coordinates": {
+    "lat": 44.15916667,
+    "lon": -88.28944444,
+    "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+    "source": "https://en.wikipedia.org/wiki/High_Cliff_State_Park"
+  },
+  "image": {
+    "src": "/images/highcliff.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:High_Cliff_State_Park_The_Ledge_Outcrop.JPG",
+    "author": "Geography21",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Outcrop ontop of the bluff",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 1200,
+    "height": 800
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/highcliff/recreation/camping",
+      "title": "Wisconsin DNR: High Cliff State Park camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "Family and group campgrounds allow pets. Electric family sites, seasonal showers and an accessible cabin for people with disabilities are listed by DNR."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "If bathroom access is essential, make it the first question in a shoulder-season inquiry. Do not treat a park’s accessibility description as proof that every path works for every visitor."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Confirm seasonal services and discuss individual access needs directly."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official recreation and park maps",
+      "url": "https://dnr.wisconsin.gov/topic/parks/highcliff/recreation",
+      "note": "Use the operator’s current trail and activity information; no travel time is claimed."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/highcliff",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    }
+  ],
+  "related": [
+    "first-camping-weekend"
+  ]
+}

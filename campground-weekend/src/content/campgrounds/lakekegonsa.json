@@ -1,0 +1,106 @@
+{
+  "name": "Lake Kegonsa State Park",
+  "slug": "lakekegonsa",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Madison area",
+  "county": "Dane",
+  "aliases": [
+    "Lake Kegonsa",
+    "Madison area",
+    "Dane County"
+  ],
+  "description": "Madison-area campers seeking wooded family sites. Weather can close modern facilities at the edges of the season.",
+  "bestFor": "Madison-area campers seeking wooded family sites",
+  "tradeoff": "Weather can close modern facilities at the edges of the season.",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Cabins and glamping are not verified.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/lakekegonsa/recreation/camping",
+  "coordinates": {
+    "lat": 42.97638889,
+    "lon": -89.23194444,
+    "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+    "source": "https://en.wikipedia.org/wiki/Lake_Kegonsa_State_Park"
+  },
+  "image": {
+    "src": "/images/lakekegonsa.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:Lake_Kegonsa_State_Park_White_Oak_Trail_Bench.jpg",
+    "author": "Deadsearisen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "A bench on Lake Kegonsa State Park's White Oak Nature Trail.",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 1199,
+    "height": 900
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/lakekegonsa/recreation/camping",
+      "title": "Wisconsin DNR: Lake Kegonsa State Park camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "Family sites accommodate tents and RVs, with electric options. Much of the campground is heavily wooded. Showers and the dump station may close in early May or late October."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "Prioritize the bathroom schedule over a broad opening date for an early or late stay. Review photos for your preferred balance of tree cover and setup room."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Check water, showers and dump-station status for the exact dates."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official recreation and park maps",
+      "url": "https://dnr.wisconsin.gov/topic/parks/lakekegonsa/recreation",
+      "note": "Use the operator’s current trail and activity information; no travel time is claimed."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/lakekegonsa",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    }
+  ],
+  "related": [
+    "first-camping-weekend"
+  ]
+}

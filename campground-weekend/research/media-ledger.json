@@ -1,0 +1,344 @@
+{
+  "peninsula": {
+    "page": "https://en.wikipedia.org/wiki/Peninsula_State_Park",
+    "coordinates": {
+      "lat": 45.15111111,
+      "lon": -87.2175,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/peninsula.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:Peninsula_State_Park,_Horseshoe_Island,_and_Fish_Creek,_town_of_Gibraltar,_Door_County,_Wisconsin_2020.png",
+      "author": "Aerial Photography Field Office (APFO) for NAIP, USGS; in contract with the Surdex Corporation",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "caption": "Aerial view of the Peninsula State Park, Horseshoe Island and Fish Creek, Wisconsin. Some of Peninsula state Park is in the village of Ephraim, but aside from that they are all in the town of Gibraltar in w:Door County, Wisconsin, taken June 27, 2020",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "newport": {
+    "page": "https://en.wikipedia.org/wiki/Newport_State_Park",
+    "coordinates": {
+      "lat": 45.235,
+      "lon": -86.99416667,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/newport.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:NewportStateParkSign.jpg",
+      "author": "Royalbroil",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "The sign at w:Newport State Park.",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "potawatomi": {
+    "page": "https://en.wikipedia.org/wiki/Potawatomi_State_Park",
+    "coordinates": {
+      "lat": 44.86444444,
+      "lon": -87.415,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/potawatomi.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:View_of_Sawyer_Harbor_and_the_mouth_of_Sturgeon_Bay_from_the_observation_tower_at_Potawatomi_State_Park_in_Door_County,_Wisconsin,_April_26,_2014.jpg",
+      "author": "TravelingOtter",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "View of Sawyer Harbor and the mouth of Sturgeon Bay from the observation tower at Potawatomi State Park in Door County, Wisconsin, April 26, 2014",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "rockisland": {
+    "page": "https://en.wikipedia.org/wiki/Rock_Island_State_Park_%28Wisconsin%29",
+    "coordinates": {
+      "lat": 45.41777778,
+      "lon": -86.81944444,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/rockisland.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:Rock_Island_Boathouse.JPG",
+      "author": "FleetCaptain Charles Kenyon",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Icelandic Stone Boathouse on Rock Island, Wisconsin. It is in the w:Thordarson Estate Historic District, a historic district on the National Register of Historic Places.",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "harringtonbeach": {
+    "page": "https://en.wikipedia.org/wiki/Harrington_Beach_State_Park",
+    "coordinates": {
+      "lat": 43.49222222,
+      "lon": -87.80083333,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/harringtonbeach.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:HarringtonBeachStateParkTrail.jpg",
+      "author": "self",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "caption": "A trail at Harrington Beach State Park near Belgium, Wisconsin, USA.",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "kohlerandrae": {
+    "page": "https://en.wikipedia.org/wiki/Kohler-Andrae_State_Park",
+    "coordinates": {
+      "lat": 43.66277778,
+      "lon": -87.72166667,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/kohlerandrae.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:Kohler-Andrae_State_Park_Cordwalk.jpg",
+      "author": "Swissarmysalad",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "A cordwalk on the sand dunes along Lake Michigan in Kohler-Andrae State Park in Sheboygan, Wisconsin.",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "devilslake": {
+    "page": "https://en.wikipedia.org/wiki/Devil%27s_Lake_State_Park_%28Wisconsin%29",
+    "coordinates": {
+      "lat": 43.41472222,
+      "lon": -89.71305556,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/devilslake.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:East_Bluff.jpg",
+      "author": "Joshua Mayer from Madison, WI, USA",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "Devil's Lake East Bluff\nWisconsin State Natural Area #98\n\nSauk County",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "mirrorlake": {
+    "page": "https://en.wikipedia.org/wiki/Mirror_Lake_State_Park",
+    "coordinates": {
+      "lat": 43.565,
+      "lon": -89.82,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/mirrorlake.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:Landscapereflection.jpg",
+      "author": "Archbob",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "Landscape and clouds reflected in water at Mirror Lake State Park",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "rockyarbor": {
+    "page": "https://en.wikipedia.org/wiki/Rocky_Arbor_State_Park",
+    "coordinates": {
+      "lat": 43.64194444,
+      "lon": -89.80583333,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/rockyarbor.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:RockyArbor2.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "Rocky Arbor State Park, WI, USA",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "kms": {
+    "page": "https://en.wikipedia.org/wiki/Kettle_Moraine_State_Forest",
+    "coordinates": {
+      "lat": 43.5833,
+      "lon": -88.1833,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/kms.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:ParnellTower2007.jpg",
+      "author": "self",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "caption": "The Parnell Tower at the northern unit of the en:Kettle Moraine State Forest near en:Dundee, Wisconsin.",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "kmn": {
+    "page": "https://en.wikipedia.org/wiki/Kettle_Moraine_State_Forest",
+    "coordinates": {
+      "lat": 43.5833,
+      "lon": -88.1833,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/kmn.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:ParnellTower2007.jpg",
+      "author": "self",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "caption": "The Parnell Tower at the northern unit of the en:Kettle Moraine State Forest near en:Dundee, Wisconsin.",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "bigfoot": {
+    "page": "https://en.wikipedia.org/wiki/Big_Foot_Beach_State_Park",
+    "coordinates": {
+      "lat": 42.56888889,
+      "lon": -88.42666667,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/bigfoot.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:BigFootBeachStatePark.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Big Foot Beach State Park, WI, USA",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "pointbeach": {
+    "page": "https://en.wikipedia.org/wiki/Point_Beach_State_Forest",
+    "coordinates": {
+      "lat": 44.20222222,
+      "lon": -87.51861111,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/pointbeach.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:Point_Beach_Ridges.jpg",
+      "author": "Royalbroil",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "The w:Point Beach Ridges, a Natural National Landmark in Manitowoc County, Wisconsin. The ridges are a series of natural ridges and swales left from dropping water level on Lake Michigan. The ridges are forested on the left and right hand side of the",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "highcliff": {
+    "page": "https://en.wikipedia.org/wiki/High_Cliff_State_Park",
+    "coordinates": {
+      "lat": 44.15916667,
+      "lon": -88.28944444,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/highcliff.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:High_Cliff_State_Park_The_Ledge_Outcrop.JPG",
+      "author": "Geography21",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Outcrop ontop of the bluff",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "govdodge": {
+    "page": "https://en.wikipedia.org/wiki/Governor_Dodge_State_Park",
+    "coordinates": {
+      "lat": 43.02472222,
+      "lon": -90.10638889,
+      "primary": "",
+      "globe": "earth"
+    }
+  },
+  "bluemound": {
+    "page": "https://en.wikipedia.org/wiki/Blue_Mound_State_Park",
+    "coordinates": {
+      "lat": 43.02805556,
+      "lon": -89.85277778,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/bluemound.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:BlueMoundStateParkEastTower.JPG",
+      "author": "Mailseth at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "The East Observation Tower at Blue Mound State Park.",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "lakekegonsa": {
+    "page": "https://en.wikipedia.org/wiki/Lake_Kegonsa_State_Park",
+    "coordinates": {
+      "lat": 42.97638889,
+      "lon": -89.23194444,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/lakekegonsa.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:Lake_Kegonsa_State_Park_White_Oak_Trail_Bench.jpg",
+      "author": "Deadsearisen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "A bench on Lake Kegonsa State Park's White Oak Nature Trail.",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "hartmancreek": {
+    "page": "https://en.wikipedia.org/wiki/Hartman_Creek_State_Park",
+    "coordinates": {
+      "lat": 44.32333333,
+      "lon": -89.21722222,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/hartmancreek.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:HartmanCreekStateParkHartmanLake.jpg",
+      "author": "self",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Hartman Lake in en:Hartman Creek State Park near en:Waupaca, Wisconsin, USA.",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "buckhorn": {
+    "page": "https://en.wikipedia.org/wiki/Buckhorn_State_Park",
+    "coordinates": {
+      "lat": 43.93916667,
+      "lon": -90.00388889,
+      "primary": "",
+      "globe": "earth"
+    },
+    "image": {
+      "src": "/images/buckhorn.jpg",
+      "file": "https://commons.wikimedia.org/wiki/File:WisconsinRiverBuckhornStatePark.jpg",
+      "author": "User Royalbroil on en.wikipedia",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "caption": "The Wisconsin River at Buckhorn State Park near w:Necedah, Wisconsin, USA.",
+      "modified": "Resized by Wikimedia; displayed cropped."
+    }
+  },
+  "yellowstone": {
+    "page": "https://en.wikipedia.org/wiki/Yellowstone_Lake_State_Park",
+    "coordinates": {
+      "lat": 42.76333333,
+      "lon": -89.97777778,
+      "primary": "",
+      "globe": "earth"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+---
+import {site} from '../config';
+const {placement='footer',contentId=''}=Astro.props;
+const id=`signup-${placement}`;
+---
+<section class="newsletter" aria-labelledby={id}>
+ <div><p class="eyebrow">A little less planning. A little more outside.</p><h2 id={id}>Your next weekend starts here.</h2><p>Camping ideas, practical comparisons and Wisconsin discoveries from {site.name}.</p></div>
+ <form class="signup" data-placement={placement} data-content-id={contentId}>
+  <label for={`${id}-email`}>Email address</label><input id={`${id}-email`} name="email" type="email" autocomplete="email" required maxlength="254" placeholder="you@example.com" disabled={!site.newsletter}/>
+  <fieldset disabled={!site.newsletter}><legend>What would you like to explore? Optional</legend><label><input type="checkbox" name="interest" value="wisconsin" /> Wisconsin camping</label><label><input type="checkbox" name="interest" value="cabins" /> Cabins</label><label><input type="checkbox" name="interest" value="rv" /> RV travel</label></fieldset>
+  <label><input type="checkbox" name="intent" required disabled={!site.newsletter} /> Send me Campground Weekend emails. I can unsubscribe anytime.</label>
+  <label class="honeypot">Leave empty<input name="website" tabindex="-1" autocomplete="off" /></label>
+  <button disabled={!site.newsletter}>Join the weekend list →</button>
+  <p class="form-status" role="status">{!site.newsletter?'Newsletter signup is not open in this preview. No email is collected.':'By signing up you agree to our privacy policy.'}</p>
+ </form>
+</section>

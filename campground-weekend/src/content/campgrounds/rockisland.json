@@ -1,0 +1,119 @@
+{
+  "name": "Rock Island State Park",
+  "slug": "rockisland",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Door County",
+  "county": "Door",
+  "aliases": [
+    "Rock Island",
+    "Door County",
+    "Door County"
+  ],
+  "description": "Tent campers prepared for a vehicle-free island stay. All supplies have to reach camp without a vehicle.",
+  "bestFor": "Tent campers prepared for a vehicle-free island stay",
+  "tradeoff": "All supplies have to reach camp without a vehicle.",
+  "types": {
+    "tent": true,
+    "rv": false,
+    "cabin": false,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": null,
+    "electric": null,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Tent-only walk-in experience in the reviewed source.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/rockisland/recreation/camping",
+  "coordinates": {
+    "lat": 45.41777778,
+    "lon": -86.81944444,
+    "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+    "source": "https://en.wikipedia.org/wiki/Rock_Island_State_Park_%28Wisconsin%29"
+  },
+  "image": {
+    "src": "/images/rockisland.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:Rock_Island_Boathouse.JPG",
+    "author": "FleetCaptain Charles Kenyon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Icelandic Stone Boathouse on Rock Island, Wisconsin. It is in the w:Thordarson Estate Historic District, a historic district on the National Register of Historic Places.",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 1184,
+    "height": 900
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/rockisland/recreation/camping",
+      "title": "Wisconsin DNR: Rock Island State Park camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    },
+    {
+      "url": "https://dcmm.org/explore/hours-admissions/",
+      "title": "Door County Maritime Museum, Sturgeon Bay official visitor information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Indoor activity identity and location; current hours must be rechecked"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "Primitive walk-in tent sites have tables and fire rings. Water is near the dock and boathouse; vault toilets are available. Vehicles are not allowed on the island."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "Leave room in the packing plan for carrying water and hauling waste out. Families who rely on a vehicle for storage, naps or weather shelter should choose a mainland campground instead."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Check ferry operating dates, baggage rules and weather cancellation policies with the operator before reserving."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official recreation and park maps",
+      "url": "https://dnr.wisconsin.gov/topic/parks/rockisland/recreation",
+      "note": "Use the operator’s current trail and activity information; no travel time is claimed."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/rockisland",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    },
+    {
+      "name": "Door County Maritime Museum, Sturgeon Bay",
+      "url": "https://dcmm.org/explore/hours-admissions/",
+      "note": "A mainland indoor museum option. Check hours, admissions and the actual journey; not an on-island alternative for Rock Island."
+    }
+  ],
+  "related": [
+    "door-county-camping"
+  ]
+}

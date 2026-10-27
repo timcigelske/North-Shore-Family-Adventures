@@ -1,0 +1,4 @@
+---
+import Base from '../layouts/Base.astro';import Card from '../components/Card.astro';import {campgrounds} from '../lib/content';const camps=await campgrounds();
+---
+<Base title="Your saved campgrounds" noindex><div class="container"><div class="page-intro"><p class="eyebrow">Your weekend shortlist</p><h1>A few places worth coming back to.</h1><p>Saved places live in this browser on this device. There is no account or cloud sync. Clearing browser data removes them.</p><div class="button-row"><button class="secondary" id="saved-clear">Clear all saved places</button><a class="button" href="/trip-planner/">Plan your weekend</a></div><p role="status" id="saved-count"></p></div><div class="grid section" id="saved-list">{camps.map(c=><Card camp={c}/>)}</div><p id="saved-empty" class="empty" hidden>No saved places yet. <a href="/campgrounds/">Browse the Wisconsin collection</a> and use a Save button.</p></div></Base>

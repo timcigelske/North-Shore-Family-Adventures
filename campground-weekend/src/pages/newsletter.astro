@@ -1,0 +1,4 @@
+---
+import Base from '../layouts/Base.astro';import {site} from '../config';import Newsletter from '../components/Newsletter.astro';
+---
+<Base title="The Campground Weekend newsletter"><div class="container"><div class="page-intro"><p class="eyebrow">A thoughtful weekend starts here</p><h1>A little inspiration for your next escape.</h1><p class="lede">Practical camping comparisons, Wisconsin places to explore and plans that leave room to enjoy being outside.</p>{!site.newsletter&&<p>Our camping newsletter destination is still being configured. This preview collects no email and makes no subscription changes.</p>}</div><Newsletter placement="newsletter-page"/></div></Base>

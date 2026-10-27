@@ -1,0 +1,833 @@
+[
+  {
+    "id": "potawatomi",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/potawatomi/recreation/camping",
+        "title": "Wisconsin DNR: Potawatomi State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      },
+      {
+        "url": "https://dcmm.org/explore/hours-admissions/",
+        "title": "Door County Maritime Museum, Sturgeon Bay official visitor information",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Indoor activity identity and location; current hours must be rechecked"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 44.86444444,
+      "lon": -87.415,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Potawatomi_State_Park"
+    },
+    "image": {
+      "src": "/images/potawatomi.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:View_of_Sawyer_Harbor_and_the_mouth_of_Sturgeon_Bay_from_the_observation_tower_at_Potawatomi_State_Park_in_Door_County,_Wisconsin,_April_26,_2014.jpg",
+      "author": "TravelingOtter",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "View of Sawyer Harbor and the mouth of Sturgeon Bay from the observation tower at Potawatomi State Park in Door County, Wisconsin, April 26, 2014",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1200,
+      "height": 800
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "long-lake",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/camping",
+        "title": "Wisconsin DNR: Long Lake Campground camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 43.665,
+      "lon": -88.1606,
+      "basis": "DNR published campground directions point; follow the official entrance instructions.",
+      "source": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/camping"
+    },
+    "image": {
+      "src": "/images/kmn.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:ParnellTower2007.jpg",
+      "author": "self",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "caption": "Kettle Moraine State Forest regional landscape; not a photograph of this campground.",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 675,
+      "height": 900
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "yellowstone",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/yellowstone/recreation/camping",
+        "title": "Wisconsin DNR: Yellowstone Lake State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 42.76333333,
+      "lon": -89.97777778,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Yellowstone_Lake_State_Park"
+    },
+    "image": {
+      "src": "/images/yellowstone.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:Yellowstonelakestatepark.jpg",
+      "author": "Archbob",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "Picture of Yellowstone Lake",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1200,
+      "height": 801
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "rockyarbor",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/rockyarbor/recreation/camping",
+        "title": "Wisconsin DNR: Rocky Arbor State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      },
+      {
+        "url": "https://hhbennettstudio.wisconsinhistory.org/explore/",
+        "title": "H.H. Bennett Studio & Museum, Wisconsin Dells official visitor information",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Indoor activity identity and location; current hours must be rechecked"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 43.64194444,
+      "lon": -89.80583333,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Rocky_Arbor_State_Park"
+    },
+    "image": {
+      "src": "/images/rockyarbor.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:RockyArbor2.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "Rocky Arbor State Park, WI, USA",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 800,
+      "height": 300
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "devilslake",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/devilslake/recreation/camping",
+        "title": "Wisconsin DNR: Devil’s Lake State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      },
+      {
+        "url": "https://hhbennettstudio.wisconsinhistory.org/explore/",
+        "title": "H.H. Bennett Studio & Museum, Wisconsin Dells official visitor information",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Indoor activity identity and location; current hours must be rechecked"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 43.41472222,
+      "lon": -89.71305556,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Devil%27s_Lake_State_Park_%28Wisconsin%29"
+    },
+    "image": {
+      "src": "/images/devilslake.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:East_Bluff.jpg",
+      "author": "Joshua Mayer from Madison, WI, USA",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "Devil's Lake East Bluff Wisconsin State Natural Area #98 Sauk County",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1200,
+      "height": 803
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "kohlerandrae",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/kohlerandrae/recreation/camping",
+        "title": "Wisconsin DNR: Kohler-Andrae State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      },
+      {
+        "url": "https://www.abkids.org/visit-us",
+        "title": "Above and Beyond Children’s Museum, Sheboygan official visitor information",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Indoor activity identity and location; current hours must be rechecked"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 43.66277778,
+      "lon": -87.72166667,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Kohler-Andrae_State_Park"
+    },
+    "image": {
+      "src": "/images/kohlerandrae.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:Kohler-Andrae_State_Park_Cordwalk.jpg",
+      "author": "Swissarmysalad",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "A cordwalk on the sand dunes along Lake Michigan in Kohler-Andrae State Park in Sheboygan, Wisconsin.",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1200,
+      "height": 900
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "buckhorn",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/buckhorn/recreation/camping",
+        "title": "Wisconsin DNR: Buckhorn State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 43.93916667,
+      "lon": -90.00388889,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Buckhorn_State_Park"
+    },
+    "image": {
+      "src": "/images/buckhorn.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:WisconsinRiverBuckhornStatePark.jpg",
+      "author": "User Royalbroil on en.wikipedia",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "caption": "The Wisconsin River at Buckhorn State Park near w:Necedah, Wisconsin, USA.",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1200,
+      "height": 868
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "peninsula",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/peninsula/recreation/camping",
+        "title": "Wisconsin DNR: Peninsula State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      },
+      {
+        "url": "https://dcmm.org/explore/hours-admissions/",
+        "title": "Door County Maritime Museum, Sturgeon Bay official visitor information",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Indoor activity identity and location; current hours must be rechecked"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 45.15111111,
+      "lon": -87.2175,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Peninsula_State_Park"
+    },
+    "image": {
+      "src": "/images/peninsula.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:Peninsula_State_Park,_Horseshoe_Island,_and_Fish_Creek,_town_of_Gibraltar,_Door_County,_Wisconsin_2020.png",
+      "author": "Aerial Photography Field Office (APFO) for NAIP, USGS; in contract with the Surdex Corporation",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "caption": "Aerial view of the Peninsula State Park, Horseshoe Island and Fish Creek, Wisconsin. Some of Peninsula state Park is in the village of Ephraim, but aside from that they are all in the town of Gibraltar in w:Door County, Wisconsin, taken June 27, 2020",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 659,
+      "height": 900
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "bluemound",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/bluemound/recreation/camping",
+        "title": "Wisconsin DNR: Blue Mound State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 43.02805556,
+      "lon": -89.85277778,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Blue_Mound_State_Park"
+    },
+    "image": {
+      "src": "/images/bluemound.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:BlueMoundStateParkEastTower.JPG",
+      "author": "Mailseth at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "The East Observation Tower at Blue Mound State Park.",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 675,
+      "height": 900
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "mirrorlake",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/mirrorlake/recreation/camping",
+        "title": "Wisconsin DNR: Mirror Lake State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      },
+      {
+        "url": "https://hhbennettstudio.wisconsinhistory.org/explore/",
+        "title": "H.H. Bennett Studio & Museum, Wisconsin Dells official visitor information",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Indoor activity identity and location; current hours must be rechecked"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 43.565,
+      "lon": -89.82,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Mirror_Lake_State_Park"
+    },
+    "image": {
+      "src": "/images/mirrorlake.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:Landscapereflection.jpg",
+      "author": "Archbob",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "Landscape and clouds reflected in water at Mirror Lake State Park",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1200,
+      "height": 803
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "highcliff",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/highcliff/recreation/camping",
+        "title": "Wisconsin DNR: High Cliff State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 44.15916667,
+      "lon": -88.28944444,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/High_Cliff_State_Park"
+    },
+    "image": {
+      "src": "/images/highcliff.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:High_Cliff_State_Park_The_Ledge_Outcrop.JPG",
+      "author": "Geography21",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Outcrop ontop of the bluff",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1200,
+      "height": 800
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "harringtonbeach",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/harringtonbeach/recreation/camping",
+        "title": "Wisconsin DNR: Harrington Beach State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      },
+      {
+        "url": "https://www.abkids.org/visit-us",
+        "title": "Above and Beyond Children’s Museum, Sheboygan official visitor information",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Indoor activity identity and location; current hours must be rechecked"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 43.49222222,
+      "lon": -87.80083333,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Harrington_Beach_State_Park"
+    },
+    "image": {
+      "src": "/images/harringtonbeach.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:HarringtonBeachStateParkTrail.jpg",
+      "author": "self",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "caption": "A trail at Harrington Beach State Park near Belgium, Wisconsin, USA.",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1200,
+      "height": 900
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "hartmancreek",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/hartmancreek/recreation/camping",
+        "title": "Wisconsin DNR: Hartman Creek State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 44.32333333,
+      "lon": -89.21722222,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Hartman_Creek_State_Park"
+    },
+    "image": {
+      "src": "/images/hartmancreek.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:HartmanCreekStateParkHartmanLake.jpg",
+      "author": "self",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Hartman Lake in en:Hartman Creek State Park near en:Waupaca, Wisconsin, USA.",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1200,
+      "height": 886
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "ottawa-lake",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/camping",
+        "title": "Wisconsin DNR: Ottawa Lake Campground camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 42.9365,
+      "lon": -88.4739,
+      "basis": "DNR published campground directions point; follow the official entrance instructions.",
+      "source": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/camping"
+    },
+    "image": {
+      "src": "/images/ottawa-lake.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:Ottawa_Lake_Recreation_Area.jpg",
+      "author": "Awkwafaba",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Ottawa Lake Recreation Area",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 919,
+      "height": 900
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "mauthe-lake",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/camping",
+        "title": "Wisconsin DNR: Mauthe Lake Campground camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 43.5932,
+      "lon": -88.1741,
+      "basis": "DNR published campground directions point; follow the official entrance instructions.",
+      "source": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/camping"
+    },
+    "image": {
+      "src": "/images/kmn.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:ParnellTower2007.jpg",
+      "author": "self",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "caption": "Kettle Moraine State Forest regional landscape; not a photograph of this campground.",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 675,
+      "height": 900
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "whitewater-lake",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/camping",
+        "title": "Wisconsin DNR: Whitewater Lake Campground camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 42.7816,
+      "lon": -88.691,
+      "basis": "DNR published campground directions point; follow the official entrance instructions.",
+      "source": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/camping"
+    },
+    "image": {
+      "src": "/images/whitewater-lake.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:Kettle_Moraine_Scenic_Drive_Turn_in_Southern_Unit.jpg",
+      "author": "Royalbroil",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Kettle Moraine Southern Unit regional landscape; not a photograph of this campground.",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1200,
+      "height": 800
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "lakekegonsa",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/lakekegonsa/recreation/camping",
+        "title": "Wisconsin DNR: Lake Kegonsa State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 42.97638889,
+      "lon": -89.23194444,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Lake_Kegonsa_State_Park"
+    },
+    "image": {
+      "src": "/images/lakekegonsa.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:Lake_Kegonsa_State_Park_White_Oak_Trail_Bench.jpg",
+      "author": "Deadsearisen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "A bench on Lake Kegonsa State Park's White Oak Nature Trail.",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1199,
+      "height": 900
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "bigfoot",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/bigfoot/recreation/camping",
+        "title": "Wisconsin DNR: Big Foot Beach State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 42.56888889,
+      "lon": -88.42666667,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Big_Foot_Beach_State_Park"
+    },
+    "image": {
+      "src": "/images/bigfoot.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:BigFootBeachStatePark.jpg",
+      "author": "McGhiever",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Big Foot Beach State Park, WI, USA",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 800,
+      "height": 600
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "pointbeach",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/pointbeach/recreation/camping",
+        "title": "Wisconsin DNR: Point Beach State Forest camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 44.20222222,
+      "lon": -87.51861111,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Point_Beach_State_Forest"
+    },
+    "image": {
+      "src": "/images/pointbeach.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:Point_Beach_Ridges.jpg",
+      "author": "Royalbroil",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "The w:Point Beach Ridges, a Natural National Landmark in Manitowoc County, Wisconsin. The ridges are a series of natural ridges and swales left from dropping water level on Lake Michigan. The ridges are forested on the left and right hand side of the",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1200,
+      "height": 799
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "newport",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/newport/recreation/camping",
+        "title": "Wisconsin DNR: Newport State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      },
+      {
+        "url": "https://dcmm.org/explore/hours-admissions/",
+        "title": "Door County Maritime Museum, Sturgeon Bay official visitor information",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Indoor activity identity and location; current hours must be rechecked"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 45.235,
+      "lon": -86.99416667,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Newport_State_Park"
+    },
+    "image": {
+      "src": "/images/newport.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:NewportStateParkSign.jpg",
+      "author": "Royalbroil",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "The sign at w:Newport State Park.",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1200,
+      "height": 900
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "govdodge",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/govdodge/recreation/camping",
+        "title": "Wisconsin DNR: Governor Dodge State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 43.02472222,
+      "lon": -90.10638889,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Governor_Dodge_State_Park"
+    },
+    "image": {
+      "src": "/images/govdodge.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:Deer_Cove_Governor_Dodge_State_Park.jpg",
+      "author": "Wonder al",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Deer Cove Rockshelter, Governor Dodge State Park, Wisconsin",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1024,
+      "height": 768
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "pinewoods",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/camping",
+        "title": "Wisconsin DNR: Pinewoods Campground camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 42.9596,
+      "lon": -88.4407,
+      "basis": "DNR published campground directions point; follow the official entrance instructions.",
+      "source": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/camping"
+    },
+    "image": {
+      "src": "/images/pinewoods.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:Kettle_Moraine_Scenic_Drive_Turn_in_Southern_Unit.jpg",
+      "author": "Royalbroil",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Kettle Moraine Southern Unit regional landscape; not a photograph of this campground.",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1200,
+      "height": 800
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  },
+  {
+    "id": "rockisland",
+    "sources": [
+      {
+        "url": "https://dnr.wisconsin.gov/topic/parks/rockisland/recreation/camping",
+        "title": "Wisconsin DNR: Rock Island State Park camping",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Accommodation types and facilities described in the field notes",
+          "Reservations link",
+          "Seasonal restrictions noted in this profile"
+        ]
+      },
+      {
+        "url": "https://dcmm.org/explore/hours-admissions/",
+        "title": "Door County Maritime Museum, Sturgeon Bay official visitor information",
+        "accessed": "2026-10-27",
+        "claims": [
+          "Indoor activity identity and location; current hours must be rechecked"
+        ]
+      }
+    ],
+    "coordinates": {
+      "lat": 45.41777778,
+      "lon": -86.81944444,
+      "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+      "source": "https://en.wikipedia.org/wiki/Rock_Island_State_Park_%28Wisconsin%29"
+    },
+    "image": {
+      "src": "/images/rockisland.webp",
+      "file": "https://commons.wikimedia.org/wiki/File:Rock_Island_Boathouse.JPG",
+      "author": "FleetCaptain Charles Kenyon",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Icelandic Stone Boathouse on Rock Island, Wisconsin. It is in the w:Thordarson Estate Historic District, a historic district on the National Register of Historic Places.",
+      "modified": "Resized, converted to WebP and cropped for display.",
+      "width": 1184,
+      "height": 900
+    },
+    "basis": "Desk research; landscape photos do not establish individual site conditions"
+  }
+]

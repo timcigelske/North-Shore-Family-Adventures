@@ -1,0 +1,106 @@
+{
+  "name": "Point Beach State Forest",
+  "slug": "pointbeach",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Lake Michigan shore",
+  "county": "Manitowoc",
+  "aliases": [
+    "Point Beach State Forest",
+    "Lake Michigan shore",
+    "Manitowoc County"
+  ],
+  "description": "Wooded camping close to the Lake Michigan shoreline. A site near the lake is not a lake-view site.",
+  "bestFor": "Wooded camping close to the Lake Michigan shoreline",
+  "tradeoff": "A site near the lake is not a lake-view site.",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": true,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Group cabins are rustic; private bathrooms are not verified.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/pointbeach/recreation/camping",
+  "coordinates": {
+    "lat": 44.20222222,
+    "lon": -87.51861111,
+    "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+    "source": "https://en.wikipedia.org/wiki/Point_Beach_State_Forest"
+  },
+  "image": {
+    "src": "/images/pointbeach.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:Point_Beach_Ridges.jpg",
+    "author": "Royalbroil",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "The w:Point Beach Ridges, a Natural National Landmark in Manitowoc County, Wisconsin. The ridges are a series of natural ridges and swales left from dropping water level on Lake Michigan. The ridges are forested on the left and right hand side of the",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 1200,
+    "height": 799
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/pointbeach/recreation/camping",
+      "title": "Wisconsin DNR: Point Beach State Forest camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "Wooded family sites sit behind dunes and do not have lake views. Electric sites and shower buildings are available. Rustic indoor group cabins use a separate reservation."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "Choose this for a woods-and-shore combination, with realistic expectations about the view from camp. A group cabin should be compared by sleeping arrangement and bathroom access, not by the word cabin alone."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Confirm your group accommodation, seasonal facilities and individual pad length."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official recreation and park maps",
+      "url": "https://dnr.wisconsin.gov/topic/parks/pointbeach/recreation",
+      "note": "Use the operator’s current trail and activity information; no travel time is claimed."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/pointbeach",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    }
+  ],
+  "related": [
+    "campgrounds-near-milwaukee"
+  ]
+}

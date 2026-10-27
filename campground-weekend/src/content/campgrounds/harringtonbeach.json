@@ -1,0 +1,119 @@
+{
+  "name": "Harrington Beach State Park",
+  "slug": "harringtonbeach",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Lake Michigan shore",
+  "county": "Ozaukee",
+  "aliases": [
+    "Harrington Beach",
+    "Lake Michigan shore",
+    "Ozaukee County"
+  ],
+  "description": "Southeastern Wisconsin campers comparing drive-in, walk-in and eligible cabin options. Summer bathroom services do not establish late-season availability.",
+  "bestFor": "Southeastern Wisconsin campers comparing drive-in, walk-in and eligible cabin options",
+  "tradeoff": "Summer bathroom services do not establish late-season availability.",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": true,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Accessible cabin has a bathroom; confirm eligibility and its own reservation process.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/harringtonbeach/recreation/camping",
+  "coordinates": {
+    "lat": 43.49222222,
+    "lon": -87.80083333,
+    "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+    "source": "https://en.wikipedia.org/wiki/Harrington_Beach_State_Park"
+  },
+  "image": {
+    "src": "/images/harringtonbeach.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:HarringtonBeachStateParkTrail.jpg",
+    "author": "self",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "caption": "A trail at Harrington Beach State Park near Belgium, Wisconsin, USA.",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 1200,
+    "height": 900
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/harringtonbeach/recreation/camping",
+      "title": "Wisconsin DNR: Harrington Beach State Park camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    },
+    {
+      "url": "https://www.abkids.org/visit-us",
+      "title": "Above and Beyond Children’s Museum, Sheboygan official visitor information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Indoor activity identity and location; current hours must be rechecked"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "The family campground offers electric sites and seasonal showers. There are walk-in options and an accessible cabin for people with disabilities with a roll-in shower."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "Select the accommodation first. A walk-in site changes unloading; the accessible cabin changes both eligibility and indoor facilities. Do not assume a general campground booking gives access to cabin amenities."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Verify the campsite map and seasonal water status; kayak sites have a different arrival requirement."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official recreation and park maps",
+      "url": "https://dnr.wisconsin.gov/topic/parks/harringtonbeach/recreation",
+      "note": "Use the operator’s current trail and activity information; no travel time is claimed."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/harringtonbeach",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    },
+    {
+      "name": "Above and Beyond Children’s Museum, Sheboygan",
+      "url": "https://www.abkids.org/visit-us",
+      "note": "Indoor family option in Sheboygan. Confirm current opening hours and whether it fits your route."
+    }
+  ],
+  "related": [
+    "campgrounds-near-milwaukee"
+  ]
+}

@@ -1,0 +1,7 @@
+---
+import {site} from '../config';
+import {adUnits} from '../lib/registries';
+const {placement}=Astro.props;
+const unit=adUnits.find(a=>a.placement===placement);
+---
+{site.ads && unit && /^ca-pub-\d{16}$/.test(site.adClient) && <aside class="ad" aria-label="Advertisement"><small>Advertisement</small><ins class="adsbygoogle" style="display:block;min-height:250px" data-ad-client={site.adClient} data-ad-slot={unit.slot} data-ad-format="auto" data-full-width-responsive="true"></ins></aside>}

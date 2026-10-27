@@ -1,0 +1,7 @@
+---
+const {camp}=Astro.props;const c=camp.data;
+---
+<article class="camp-card" data-camp-id={c.slug}>
+ <a class="card-image" href={`/campgrounds/${c.slug}/`} tabindex="-1" aria-hidden="true">{c.image?<img src={c.image.src} srcset={`${c.image.src.replace('.webp','-600.webp')} 600w, ${c.image.src} 1200w`} sizes="(max-width:650px) 100vw, 50vw" width={c.image.width} height={c.image.height} loading="lazy" alt="" />:<div class="illustration">△<span>Field notes</span></div>}</a>
+ <div class="card-body"><p class="eyebrow">{c.region}</p><h3><a href={`/campgrounds/${c.slug}/`}>{c.name}</a></h3><p>{c.description}</p><p class="tags">{Object.entries(c.types).filter(([,v])=>v===true).map(([k])=><span>{k==='rv'?'RV':k}</span>)}</p><div class="card-bottom"><a href={`/campgrounds/${c.slug}/`}>Read the field notes ↗</a><button class="save" data-save={c.slug} aria-pressed="false" aria-label={`Save ${c.name}`}>♡ Save</button></div></div>
+</article>

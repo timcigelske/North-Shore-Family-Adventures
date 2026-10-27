@@ -1,0 +1,4 @@
+---
+import {sponsors} from '../lib/registries';const {id}=Astro.props;const today=new Date().toISOString().slice(0,10);const sponsor=sponsors.find(s=>s.id===id&&s.enabled&&s.starts<=today&&s.ends>=today);
+---
+{sponsor&&<aside class="side-note" aria-label="Paid sponsorship"><p class="eyebrow">{sponsor.label}</p><h2>{sponsor.name}</h2><p>{sponsor.text}</p><a href={sponsor.url} rel="sponsored noopener">Learn more from {sponsor.name} ↗</a></aside>}
