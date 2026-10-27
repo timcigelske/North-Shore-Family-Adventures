@@ -1,0 +1,93 @@
+{
+  "name": "Stoney Creek RV Resort",
+  "slug": "stoney-creek",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Chippewa Valley",
+  "county": "Trempealeau",
+  "aliases": [
+    "Stoney Creek RV Resort",
+    "Chippewa Valley",
+    "private campground",
+    "resort"
+  ],
+  "description": "An Osseo resort with tent, RV and cabin choices. The operator currently flags dry camping after seasonal water shutdown; check your exact dates.",
+  "bestFor": "An Osseo resort with tent, RV and cabin choices",
+  "tradeoff": "The operator currently flags dry camping after seasonal water shutdown; check your exact dates.",
+  "operatorType": "private",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": true,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": null,
+    "electric": null,
+    "swimming": true,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": "Cabin sites prohibit pets; confirm the separate rules for RV or tent stays.",
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabin facilities and eligibility vary; verify the exact accommodation before booking.",
+  "bookingUrl": "https://www.stoneycreekrvresort.com/",
+  "officialUrl": "https://www.stoneycreekrvresort.com/",
+  "coordinates": {
+    "lat": 44.5759778,
+    "lon": -91.1986959,
+    "basis": "Approximate business location published by the operator, not an individual campsite.",
+    "source": "https://www.stoneycreekrvresort.com/"
+  },
+  "image": null,
+  "sources": [
+    {
+      "url": "https://www.stoneycreekrvresort.com/",
+      "title": "Official operator: Stoney Creek RV Resort camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    },
+    {
+      "url": "https://www.stoneycreekrvresort.com/cabinrentals",
+      "title": "Stoney Creek cabin facilities and policies",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Rental equipment and cabin pet restrictions"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "Tent and RV sites, cabins and a swimming pond are listed. Cabin bedding, towels and cooking equipment are not all supplied. Review the specific rental and activity schedule."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "The operator currently flags dry camping after seasonal water shutdown; check your exact dates. Compare the exact accommodation and facility map before reserving."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://www.stoneycreekrvresort.com/",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}

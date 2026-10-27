@@ -1,0 +1,92 @@
+{
+  "name": "Nelson Dewey State Park",
+  "slug": "nelsondewey",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Mississippi River country",
+  "county": "Grant",
+  "aliases": [
+    "Nelson Dewey",
+    "Mississippi River country",
+    "state park"
+  ],
+  "description": "A choice between a regular site and a walk-to bluff setting. The bluff-view sites are walk-to; you cannot park an RV on those sites.",
+  "bestFor": "A choice between a regular site and a walk-to bluff setting",
+  "tradeoff": "The bluff-view sites are walk-to; you cannot park an RV on those sites.",
+  "operatorType": "public",
+  "types": {
+    "tent": true,
+    "rv": null,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabins and glamping have not been verified for this record.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/nelsondewey/recreation/camping",
+  "coordinates": {
+    "lat": 42.73083333,
+    "lon": -91.01944444,
+    "basis": "Approximate published park location, not a campsite or verified vehicle entrance.",
+    "source": "https://en.wikipedia.org/wiki/Nelson_Dewey_State_Park"
+  },
+  "image": null,
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/nelsondewey/recreation/camping",
+      "title": "Wisconsin DNR: Nelson Dewey State Park camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nelson_Dewey_State_Park",
+      "title": "Published park coordinates",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Approximate geographic location only; facility facts use the operator source"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "The family campground offers electric options, showers and flush toilets. Four sites require walking in. Check the reservation map for the site type."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "The bluff-view sites are walk-to; you cannot park an RV on those sites. Compare the exact accommodation and facility map before reserving."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://dnr.wisconsin.gov/topic/parks/nelsondewey/recreation/camping",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}

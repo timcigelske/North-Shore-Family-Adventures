@@ -1,0 +1,92 @@
+{
+  "name": "Amnicon Falls State Park",
+  "slug": "amnicon",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Lake Superior country",
+  "county": "Douglas",
+  "aliases": [
+    "Amnicon Falls",
+    "Lake Superior country",
+    "state park"
+  ],
+  "description": "A rustic tent weekend with fewer powered amenities. There are no showers or electric hookups, and generators are prohibited.",
+  "bestFor": "A rustic tent weekend with fewer powered amenities",
+  "tradeoff": "There are no showers or electric hookups, and generators are prohibited.",
+  "operatorType": "public",
+  "types": {
+    "tent": true,
+    "rv": null,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": false,
+    "electric": false,
+    "swimming": null,
+    "playground": true,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabins and glamping have not been verified for this record.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/amnicon/recreation/camping",
+  "coordinates": {
+    "lat": 46.61388889,
+    "lon": -91.89944444,
+    "basis": "Approximate published park location, not a campsite or verified vehicle entrance.",
+    "source": "https://en.wikipedia.org/wiki/Amnicon_Falls_State_Park"
+  },
+  "image": null,
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/amnicon/recreation/camping",
+      "title": "Wisconsin DNR: Amnicon Falls State Park camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Amnicon_Falls_State_Park",
+      "title": "Published park coordinates",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Approximate geographic location only; facility facts use the operator source"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "The campground provides vault toilets and drinking-water taps. Two walk-in sites are available; confirm which site type you are reserving."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "There are no showers or electric hookups, and generators are prohibited. Compare the exact accommodation and facility map before reserving."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://dnr.wisconsin.gov/topic/parks/amnicon/recreation/camping",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}

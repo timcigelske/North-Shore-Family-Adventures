@@ -1,0 +1,92 @@
+{
+  "name": "Interstate Park \u2014 Wisconsin",
+  "slug": "interstate",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "St. Croix Valley",
+  "county": "Polk",
+  "aliases": [
+    "Interstate Park \u2014 Wisconsin",
+    "St. Croix Valley",
+    "state park"
+  ],
+  "description": "Comparing a developed summer stay with a winter hike-in trip. Winter access to the South Campground is hike-in tent camping, not drive-in RV camping.",
+  "bestFor": "Comparing a developed summer stay with a winter hike-in trip",
+  "tradeoff": "Winter access to the South Campground is hike-in tent camping, not drive-in RV camping.",
+  "operatorType": "public",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": null,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabins and glamping have not been verified for this record.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/interstate/recreation/camping",
+  "coordinates": {
+    "lat": 45.39166667,
+    "lon": -92.66527778,
+    "basis": "Approximate published park location, not a campsite or verified vehicle entrance.",
+    "source": "https://en.wikipedia.org/wiki/Interstate_Park"
+  },
+  "image": null,
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/interstate/recreation/camping",
+      "title": "Wisconsin DNR: Interstate Park \u2014 Wisconsin camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Interstate_Park",
+      "title": "Published park coordinates",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Approximate geographic location only; facility facts use the operator source"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "North and South campgrounds have different opening and access arrangements. Registered campers can use shower facilities in the North Campground in season."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "Winter access to the South Campground is hike-in tent camping, not drive-in RV camping. Compare the exact accommodation and facility map before reserving."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://dnr.wisconsin.gov/topic/parks/interstate/recreation/camping",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}

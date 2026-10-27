@@ -1,3 +1,7 @@
+# Collection expansion
+
+The current publication has 50 researched campgrounds (42 public, 8 private), with 48 sourced approximate map locations. See [expanded collection notes](expanded-collection.md). The earlier launch records below describe prior versions.
+
 # Source coverage and editorial limits
 
 23 curated Wisconsin campground profiles cover southeastern Wisconsin/Kettle Moraine, Door County, the Lake Michigan shore, Dells/Baraboo and selected central/southwestern Wisconsin parks. All have real operator sources, a meaningful review date, licensed imagery and documented location coordinates. Some landscape images deliberately represent the region rather than an individual campsite and are captioned accordingly.

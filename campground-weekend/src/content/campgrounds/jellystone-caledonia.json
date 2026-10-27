@@ -1,0 +1,105 @@
+{
+  "name": "Jellystone Park Caledonia",
+  "slug": "jellystone-caledonia",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Southern Wisconsin",
+  "county": "Racine",
+  "aliases": [
+    "Jellystone Park Caledonia",
+    "Southern Wisconsin",
+    "private campground",
+    "resort"
+  ],
+  "description": "Families comparing cabins, RV sites and tent stays. Cabin capacity, minimum stays and arrival rules vary by booking.",
+  "bestFor": "Families comparing cabins, RV sites and tent stays",
+  "tradeoff": "Cabin capacity, minimum stays and arrival rules vary by booking.",
+  "operatorType": "private",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": true,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": null,
+    "electric": null,
+    "swimming": null,
+    "playground": null,
+    "pool": true,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabin facilities and eligibility vary; verify the exact accommodation before booking.",
+  "bookingUrl": "https://jellystone-caledonia.com/how-to-book",
+  "officialUrl": "https://jellystone-caledonia.com/how-to-book",
+  "coordinates": {
+    "lat": 42.836321202943,
+    "lon": -87.914071384891,
+    "basis": "Approximate street-address location calculated by the U.S. Census geocoder from the operator\u2019s published address; not a verified entrance or campsite.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=8425+Highway+38+Caledonia+WI+53108&benchmark=Public_AR_Current&format=json"
+  },
+  "image": null,
+  "sources": [
+    {
+      "url": "https://jellystone-caledonia.com/how-to-book",
+      "title": "Official operator: Jellystone Park Caledonia camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    },
+    {
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=8425+Highway+38+Caledonia+WI+53108&benchmark=Public_AR_Current&format=json",
+      "title": "U.S. Census address-range geocode",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Approximate geographic location from the operator\u2019s public street address"
+      ]
+    },
+    {
+      "url": "https://www.campjellystone.com/wisconsin/jellystone-park-caledonia/attractions",
+      "title": "Official property attractions and water facilities",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Pool and water attractions; playground or swimming beach only where explicitly listed"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "The operator lists cabins, RV sites and tent camping. Check the exact unit and current booking rules rather than assuming every accommodation includes the same facilities."
+    },
+    {
+      "heading": "Activities and facilities",
+      "text": "The property advertises a pool and water attractions. Confirm seasonal operating dates, access rules and any activity charges for your particular stay."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "Cabin capacity, minimum stays and arrival rules vary by booking. Compare the exact accommodation and facility map before reserving."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://jellystone-caledonia.com/how-to-book",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}

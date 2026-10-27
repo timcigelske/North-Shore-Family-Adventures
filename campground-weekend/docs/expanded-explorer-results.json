@@ -1,0 +1,122 @@
+{
+  "origin": "http://127.0.0.1:4322",
+  "checks": [
+    {
+      "name": "home",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "mapTop": 589.6875,
+      "explorerBeforeEditorial": true,
+      "accessibility": []
+    },
+    {
+      "name": "directory",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "mapTop": 478.28125,
+      "explorerBeforeEditorial": false,
+      "accessibility": []
+    },
+    {
+      "name": "private-profile",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "explorerBeforeEditorial": false,
+      "accessibility": []
+    },
+    {
+      "name": "tent-profile",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "explorerBeforeEditorial": false,
+      "accessibility": []
+    },
+    {
+      "name": "unmapped-profile",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "explorerBeforeEditorial": false,
+      "accessibility": []
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "mapTop": 703.625,
+      "explorerBeforeEditorial": true,
+      "accessibility": []
+    },
+    {
+      "name": "directory",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "mapTop": 651.5625,
+      "explorerBeforeEditorial": false,
+      "accessibility": []
+    },
+    {
+      "name": "private-profile",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "explorerBeforeEditorial": false,
+      "accessibility": []
+    },
+    {
+      "name": "tent-profile",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "explorerBeforeEditorial": false,
+      "accessibility": []
+    },
+    {
+      "name": "unmapped-profile",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "explorerBeforeEditorial": false,
+      "accessibility": []
+    },
+    {
+      "path": "/",
+      "total": 50,
+      "pins": 48,
+      "private": 8,
+      "privatePins": 6,
+      "pool": 6,
+      "unmappedGlampingRetained": 2,
+      "enterDoesNotNavigate": true,
+      "popupWorks": true
+    },
+    {
+      "path": "/campgrounds/",
+      "total": 50,
+      "pins": 48,
+      "private": 8,
+      "privatePins": 6,
+      "pool": 6,
+      "unmappedGlampingRetained": 2,
+      "enterDoesNotNavigate": true,
+      "popupWorks": true
+    },
+    {
+      "homeFiltersPreservedInDirectoryLink": true
+    },
+    {
+      "sharedFilterInitializesMap": true
+    },
+    {
+      "tileFailureRetains50Records": true
+    }
+  ],
+  "errors": [],
+  "tracking": []
+}

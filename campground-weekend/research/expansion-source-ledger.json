@@ -1,0 +1,141 @@
+{
+  "reviewed": "2026-10-27",
+  "newRecords": [
+    {
+      "slug": "amnicon",
+      "official": "https://dnr.wisconsin.gov/topic/parks/amnicon/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Amnicon_Falls_State_Park"
+    },
+    {
+      "slug": "copperfalls",
+      "official": "https://dnr.wisconsin.gov/topic/parks/copperfalls/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Copper_Falls_State_Park"
+    },
+    {
+      "slug": "pattison",
+      "official": "https://dnr.wisconsin.gov/topic/parks/pattison/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Pattison_State_Park"
+    },
+    {
+      "slug": "bigbay",
+      "official": "https://dnr.wisconsin.gov/topic/parks/bigbay/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Big_Bay_State_Park"
+    },
+    {
+      "slug": "brunetisland",
+      "official": "https://dnr.wisconsin.gov/topic/parks/brunetisland/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Brunet_Island_State_Park"
+    },
+    {
+      "slug": "councilgrounds",
+      "official": "https://dnr.wisconsin.gov/topic/parks/councilgrounds/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Council_Grounds_State_Park"
+    },
+    {
+      "slug": "lakewissota",
+      "official": "https://dnr.wisconsin.gov/topic/parks/lakewissota/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Lake_Wissota_State_Park"
+    },
+    {
+      "slug": "perrot",
+      "official": "https://dnr.wisconsin.gov/topic/parks/perrot/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Perrot_State_Park"
+    },
+    {
+      "slug": "wyalusing",
+      "official": "https://dnr.wisconsin.gov/topic/parks/wyalusing/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Wyalusing_State_Park"
+    },
+    {
+      "slug": "nelsondewey",
+      "official": "https://dnr.wisconsin.gov/topic/parks/nelsondewey/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Nelson_Dewey_State_Park"
+    },
+    {
+      "slug": "merrick",
+      "official": "https://dnr.wisconsin.gov/topic/parks/merrick/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Merrick_State_Park"
+    },
+    {
+      "slug": "willowriver",
+      "official": "https://dnr.wisconsin.gov/topic/parks/willowriver/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Willow_River_State_Park"
+    },
+    {
+      "slug": "interstate",
+      "official": "https://dnr.wisconsin.gov/topic/parks/interstate/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Interstate_Park"
+    },
+    {
+      "slug": "wildcat",
+      "official": "https://dnr.wisconsin.gov/topic/parks/wildcat/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Wildcat_Mountain_State_Park"
+    },
+    {
+      "slug": "millbluff",
+      "official": "https://dnr.wisconsin.gov/topic/parks/millbluff/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Mill_Bluff_State_Park"
+    },
+    {
+      "slug": "rocheacri",
+      "official": "https://dnr.wisconsin.gov/topic/parks/rocheacri/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Roche-a-Cri_State_Park"
+    },
+    {
+      "slug": "towerhill",
+      "official": "https://dnr.wisconsin.gov/topic/parks/towerhill/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Tower_Hill_State_Park"
+    },
+    {
+      "slug": "straightlake",
+      "official": "https://dnr.wisconsin.gov/topic/parks/straightlake/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Straight_Lake_State_Park"
+    },
+    {
+      "slug": "richardbong",
+      "official": "https://dnr.wisconsin.gov/topic/parks/richardbong/recreation/camping",
+      "coordinates": "https://en.wikipedia.org/wiki/Richard_Bong_State_Recreation_Area"
+    },
+    {
+      "slug": "jellystone-caledonia",
+      "official": "https://jellystone-caledonia.com/how-to-book",
+      "coordinates": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=8425+Highway+38+Caledonia+WI+53108&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "slug": "jellystone-warrens",
+      "official": "https://www.campjellystone.com/wisconsin/jellystone-park-warrens/ways-to-stay",
+      "coordinates": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1500+Jellystone+Park+Drive+Warrens+WI+54666&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "slug": "jellystone-dells",
+      "official": "https://www.campjellystone.com/wisconsin/jellystone-park-wisconsin-dells/ways-to-stay",
+      "coordinates": null
+    },
+    {
+      "slug": "fox-hill",
+      "official": "https://foxhillrvresort.com/rv-park-in-baraboo-wi/",
+      "coordinates": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=E11371+North+Reedsburg+Road+Baraboo+WI+53913&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "slug": "stoney-creek",
+      "official": "https://www.stoneycreekrvresort.com/",
+      "coordinates": "https://www.stoneycreekrvresort.com/"
+    },
+    {
+      "slug": "oneil-creek",
+      "official": "https://oneilcreek.com/our-campground/map-policies/",
+      "coordinates": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=14912+105th+Avenue+Chippewa+Falls+WI+54729&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "slug": "door-county-koa",
+      "official": "https://koa.com/campgrounds/door-county/",
+      "coordinates": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9245+Lovers+Lane+Brussels+WI+54204&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "slug": "dells-koa",
+      "official": "https://koa.com/campgrounds/wisconsin-dells/",
+      "coordinates": null
+    }
+  ],
+  "coordinateLimit": "Jellystone Wisconsin Dells and Wisconsin Dells KOA remain unpinned until exact property coordinates are verified. They remain searchable in the list."
+}

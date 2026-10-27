@@ -1,0 +1,92 @@
+{
+  "name": "Merrick State Park",
+  "slug": "merrick",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Mississippi River country",
+  "county": "Buffalo",
+  "aliases": [
+    "Merrick",
+    "Mississippi River country",
+    "state park"
+  ],
+  "description": "Comparing electric, waterfront and walk-in options. Flooding can close the South Campground; current conditions matter.",
+  "bestFor": "Comparing electric, waterfront and walk-in options",
+  "tradeoff": "Flooding can close the South Campground; current conditions matter.",
+  "operatorType": "public",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabins and glamping have not been verified for this record.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/merrick/recreation/camping",
+  "coordinates": {
+    "lat": 44.15444444,
+    "lon": -91.75472222,
+    "basis": "Approximate published park location, not a campsite or verified vehicle entrance.",
+    "source": "https://en.wikipedia.org/wiki/Merrick_State_Park"
+  },
+  "image": null,
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/merrick/recreation/camping",
+      "title": "Wisconsin DNR: Merrick State Park camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Merrick_State_Park",
+      "title": "Published park coordinates",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Approximate geographic location only; facility facts use the operator source"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "Electric sites and showers are in the North Campground. The island area has walk-in tent sites; South has waterfront options."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "Flooding can close the South Campground; current conditions matter. Compare the exact accommodation and facility map before reserving."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://dnr.wisconsin.gov/topic/parks/merrick/recreation/camping",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}

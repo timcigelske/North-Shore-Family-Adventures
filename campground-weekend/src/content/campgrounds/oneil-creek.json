@@ -1,0 +1,93 @@
+{
+  "name": "O\u2019Neil Creek Campground",
+  "slug": "oneil-creek",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Chippewa Valley",
+  "county": "Chippewa",
+  "aliases": [
+    "O\u2019Neil Creek Campground",
+    "Chippewa Valley",
+    "private campground",
+    "resort"
+  ],
+  "description": "A private campground in the Chippewa Falls area. Confirm the exact overnight site and current activity schedule before choosing a stay.",
+  "bestFor": "A private campground in the Chippewa Falls area",
+  "tradeoff": "Confirm the exact overnight site and current activity schedule before choosing a stay.",
+  "operatorType": "private",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": null,
+    "electric": null,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": "RV and tent campers may bring pets under the operator\u2019s campground policy; verify restrictions.",
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabins and glamping have not been verified for this record.",
+  "bookingUrl": "https://oneilcreek.com/our-campground/map-policies/",
+  "officialUrl": "https://oneilcreek.com/our-campground/map-policies/",
+  "coordinates": {
+    "lat": 44.995346592815,
+    "lon": -91.370624181297,
+    "basis": "Approximate street-address location calculated by the U.S. Census geocoder from the operator\u2019s published address; not a verified entrance or campsite.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=14912+105th+Avenue+Chippewa+Falls+WI+54729&benchmark=Public_AR_Current&format=json"
+  },
+  "image": null,
+  "sources": [
+    {
+      "url": "https://oneilcreek.com/our-campground/map-policies/",
+      "title": "Official operator: O\u2019Neil Creek Campground camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    },
+    {
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=14912+105th+Avenue+Chippewa+Falls+WI+54729&benchmark=Public_AR_Current&format=json",
+      "title": "U.S. Census address-range geocode",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Approximate geographic location from the operator\u2019s public street address"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "The operator describes a creek-side campground near Chippewa Falls. Its published policy allows pets for RV and tent campers; rental accommodation rules need a separate check."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "Confirm the exact overnight site and current activity schedule before choosing a stay. Compare the exact accommodation and facility map before reserving."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://oneilcreek.com/our-campground/map-policies/",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Richard Bong State Recreation Area",
+  "slug": "richardbong",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Southern Wisconsin",
+  "county": "Kenosha",
+  "aliases": [
+    "Richard Bong State Recreation Area",
+    "Southern Wisconsin",
+    "state park"
+  ],
+  "description": "A developed southeast Wisconsin base for tents or campers. The accessible cabin is reserved for eligible visitors with disabilities.",
+  "bestFor": "A developed southeast Wisconsin base for tents or campers",
+  "tradeoff": "The accessible cabin is reserved for eligible visitors with disabilities.",
+  "operatorType": "public",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": true,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": true,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabin facilities and eligibility vary; verify the exact accommodation before booking.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/richardbong/recreation/camping",
+  "coordinates": {
+    "lat": 42.63388889,
+    "lon": -88.14333333,
+    "basis": "Approximate published park location, not a campsite or verified vehicle entrance.",
+    "source": "https://en.wikipedia.org/wiki/Richard_Bong_State_Recreation_Area"
+  },
+  "image": null,
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/richardbong/recreation/camping",
+      "title": "Wisconsin DNR: Richard Bong State Recreation Area camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Richard_Bong_State_Recreation_Area",
+      "title": "Published park coordinates",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Approximate geographic location only; facility facts use the operator source"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "Sunrise and Sunset campgrounds include electric sites, shower buildings and playground areas. Verify site size and cabin eligibility separately."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "The accessible cabin is reserved for eligible visitors with disabilities. Compare the exact accommodation and facility map before reserving."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://dnr.wisconsin.gov/topic/parks/richardbong/recreation/camping",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}

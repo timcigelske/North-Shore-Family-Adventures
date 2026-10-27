@@ -1,3 +1,7 @@
+# Collection expansion
+
+The current publication has 50 researched campgrounds (42 public, 8 private), with 48 sourced approximate map locations. See [expanded collection notes](docs/expanded-collection.md). The earlier launch records below describe prior versions.
+
 # Photography update
 
 The live banners now use real Unsplash camping photographs with photographer credits. See [photo update](docs/unsplash-photo-update.md).

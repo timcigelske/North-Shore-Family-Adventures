@@ -1,0 +1,92 @@
+{
+  "name": "Brunet Island State Park",
+  "slug": "brunetisland",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Chippewa Valley",
+  "county": "Chippewa",
+  "aliases": [
+    "Brunet Island",
+    "Chippewa Valley",
+    "state park"
+  ],
+  "description": "Deciding between an electric base and a shoreline-oriented loop. The North Campground has no electricity; South is the electric option.",
+  "bestFor": "Deciding between an electric base and a shoreline-oriented loop",
+  "tradeoff": "The North Campground has no electricity; South is the electric option.",
+  "operatorType": "public",
+  "types": {
+    "tent": true,
+    "rv": null,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabins and glamping have not been verified for this record.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/brunetisland/recreation/camping",
+  "coordinates": {
+    "lat": 45.17916667,
+    "lon": -91.16638889,
+    "basis": "Approximate published park location, not a campsite or verified vehicle entrance.",
+    "source": "https://en.wikipedia.org/wiki/Brunet_Island_State_Park"
+  },
+  "image": null,
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/brunetisland/recreation/camping",
+      "title": "Wisconsin DNR: Brunet Island State Park camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Brunet_Island_State_Park",
+      "title": "Published park coordinates",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Approximate geographic location only; facility facts use the operator source"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "The South Campground has a shower building. Many North Campground sites adjoin the river or bays, but a specific waterfront site is not guaranteed."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "The North Campground has no electricity; South is the electric option. Compare the exact accommodation and facility map before reserving."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://dnr.wisconsin.gov/topic/parks/brunetisland/recreation/camping",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}
