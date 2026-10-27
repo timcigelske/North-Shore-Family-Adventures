@@ -1,3 +1,7 @@
+# Current release
+
+Production launch authorized October 27, 2026. See [launch-update.md](docs/launch-update.md) for REI affiliate links, original banners, interactive Leaflet maps and connected Git deployment settings. The earlier preview-only notes below document the initial build. Newsletter, analytics and ads remain disabled.
+
 # Campground Weekend
 
 An independent campground publication from North Shore Family Adventures. Wisconsin is the editorial starting point; the content model supports additional states and countries. Working brand only; no trademark clearance or domain purchase is implied.

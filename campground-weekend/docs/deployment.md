@@ -1,3 +1,9 @@
+# Git-connected launch update
+
+Production publication is now explicitly authorized, superseding the initial preview-only boundary below. GitHub repo timcigelske/North-Shore-Family-Adventures is connected to Netlify campground-weekend, production branch codex/campground-weekend, base campground-weekend, publish campground-weekend/dist, functions campground-weekend/netlify/functions. PUBLIC_LAUNCH_ENABLED=true and PUBLIC_SITE_ORIGIN=https://campground-weekend.netlify.app apply only in production. Deploy Previews remain nonindexed and their launch switch is false; preview PRs must target codex/campground-weekend. .netlify is ignored. Newsletter, analytics and ads remain disabled. This update is released by a Git push, not a separate manual production upload.
+
+The first connection build correctly failed at the production guard while launch was disabled; it did not publish. The initial upload preview record below is historical. Final production deployment status must be verified in Netlify and from the public URL.
+
 # Verified Netlify preview
 
 - Preview: https://6ae10182fc23c0a937750aab--campground-weekend.netlify.app

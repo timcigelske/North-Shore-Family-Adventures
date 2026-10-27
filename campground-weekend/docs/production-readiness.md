@@ -1,3 +1,9 @@
+# Authorized launch scope
+
+On October 27 the owner explicitly requested “make it live.” Production is authorized on campground-weekend.netlify.app. No domain purchase or DNS changes. The owner-approved REI affiliate program is active through generated Impact links and near-link disclosure. Other monetization, analytics and newsletter integrations remain independently disabled; completing their account setup is not a prerequisite to this limited launch. Local production/browser checks pass, and Git CD is connected. See launch-update.md for current evidence and remaining operational limits.
+
+The original checklist below is retained for later integration activation. It no longer represents a requirement to enable every optional service before publishing.
+
 # Production release checklist
 
 Production launch requires a separate explicit instruction.

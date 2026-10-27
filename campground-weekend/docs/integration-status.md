@@ -1,3 +1,9 @@
+# Current integration status — October 27 launch update
+
+The owner has now authorized production publication. REI is approved in the signed-in NSFA Impact account, and three generated category tracking links are enabled on the home page and planner with disclosures. Netlify is linked to the NSFA GitHub repository, production branch codex/campground-weekend, base campground-weekend. Automatic previews are enabled for PRs targeting that production branch. PUBLIC_LAUNCH_ENABLED is true only in production; false in preview, branch, agent and local contexts. PUBLIC_SITE_ORIGIN is set in production only. Beehiiv, analytics and ads remain disabled. No purchases, DNS changes or new affiliate agreements.
+
+See [launch-update.md](launch-update.md) for link provenance, map behavior, artwork prompts and current checks. The matrix below is the historical initial-preview record; its production/Git/affiliate rows are superseded by this update.
+
 # Integration status
 
 October 27, 2026. Source implementation is separate from account configuration and external verification.

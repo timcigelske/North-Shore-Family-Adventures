@@ -1,3 +1,7 @@
+# Launch validation update
+
+The owner requested production release after reviewing the preview. Updated local production build, 12 unit tests, 1,649 link/asset checks, 12 desktop/mobile page checks and interactive map checks pass. The map caption contrast finding was corrected to zero detected WCAG A/AA violations. See [launch-update.md](launch-update.md), browser-results.json and map-results.json. REI links now have account approval evidence; Git CD is connected. Newsletter, analytics and ads remain off. The previous preview report below is retained as history.
+
 # Validation report
 
 Build date: October 27, 2026. Tests below concern the source and local static build. A real nonproduction deploy-preview has now been verified; see deployment.md, deployed-results.json and deployed-browser-results.json. Provider-side subscription/analytics/ad outcomes remain unconfigured.

@@ -11,6 +11,6 @@ const id=`signup-${placement}`;
   <label><input type="checkbox" name="intent" required disabled={!site.newsletter} /> Send me Campground Weekend emails. I can unsubscribe anytime.</label>
   <label class="honeypot">Leave empty<input name="website" tabindex="-1" autocomplete="off" /></label>
   <button disabled={!site.newsletter}>Join the weekend list →</button>
-  <p class="form-status" role="status">{!site.newsletter?'Newsletter signup is not open in this preview. No email is collected.':'By signing up you agree to our privacy policy.'}</p>
+  <p class="form-status" role="status">{!site.newsletter?'Newsletter signup is not yet open. No email is collected.':'By signing up you agree to our privacy policy.'}</p>
  </form>
 </section>
