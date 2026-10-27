@@ -1,5 +1,5 @@
 {
-  "origin": "http://127.0.0.1:4322",
+  "origin": "https://campground-weekend.netlify.app",
   "checks": [
     {
       "path": "/",

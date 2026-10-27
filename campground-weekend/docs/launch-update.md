@@ -24,8 +24,20 @@ Leaflet with OpenStreetMap tiles, explicit load action, keyboard-accessible mark
 
 ## Git continuous deployment
 
-Existing repository timcigelske/North-Shore-Family-Adventures linked to Netlify campground-weekend. Production branch codex/campground-weekend; base campground-weekend, publish campground-weekend/dist, functions campground-weekend/netlify/functions. Deploy Previews enabled for PRs targeting production or enabled branch-deploy branches. The existing draft PR #1 targets the repository's original default branch; future preview PRs should target codex/campground-weekend. No default-branch merge or change to Squarespace. .netlify remains ignored.
+Existing repository timcigelske/North-Shore-Family-Adventures linked to Netlify campground-weekend. Production branch codex/campground-weekend; base campground-weekend, publish campground-weekend/dist, functions campground-weekend/netlify/functions. Deploy Previews enabled for PRs targeting production or enabled branch-deploy branches. The existing draft PR #1 also generated a real Git-triggered Deploy Preview on the release push; both contexts were observed ready for the same source commit. Future feature PRs can target codex/campground-weekend. No default-branch merge or change to Squarespace. .netlify remains ignored.
 
 ## Local validation
 
 Astro check: zero errors, warnings or hints. All 12 existing unit tests pass. Production build: 51 HTML pages, 47 indexable sitemap URLs, private planning pages excluded, 1,649 internal links/assets resolved. Desktop/mobile browser checks: 12 page/viewport combinations, zero detected WCAG A/AA violations, overflow, JavaScript errors or newsletter/analytics/ad requests. Map checks: 23 accessible pins, popup links, filter counts 4/0/23, fit control and hide/reopen pass; OpenStreetMap tiles loaded. Three approved REI links use rel=sponsored and follow the disclosure.
+
+## Verified production release
+
+Live: https://campground-weekend.netlify.app/
+
+Git-triggered production deployment 6ae106241b75668a3954482f: ready, published October 27, 2026 at 20:14:59 UTC, source commit 663cc0d42fd8ae7788661b173f2c5633753591a1. Git readback verified all 170 source files byte-for-byte. Secret scan found zero matches.
+
+Automatic PR #1 preview deployment 6ae106263f2b1d30bbe8c691: ready, deploy-preview, published_at null. URL https://deploy-preview-1--campground-weekend.netlify.app/. Production serves indexable editorial pages and 47 sitemap URLs; planner/saved pages remain noindex. Preview serves X-Robots-Tag noindex/nofollow, noindex HTML and an empty sitemap. Both return genuine 404s for unknown pages, 405 for newsletter GET and 503 disabled for a valid synthetic newsletter POST. No subscription was made.
+
+Production browser and map checks passed with zero detected accessibility violations, overflow, runtime errors or newsletter/analytics/ad requests. See production-browser-results.json, production-http-results.json and map-results.json. The three affiliate shortlinks redirect to www.rei.com; automated HEAD requests receive REI's 403 access restriction, so those responses do not independently establish landing-page availability. Category contents were independently verified on REI's public site and tracking URLs generated in the approved Impact account.
+
+Final supporting-page copy removes leftover preview-only wording. Optional newsletter, analytics and advertising activation remain separate work. Contact notifications and accepted-submission review remain unverified as documented.
