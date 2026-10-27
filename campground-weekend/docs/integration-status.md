@@ -1,3 +1,13 @@
+## Google setup — October 27, 2026
+
+Dedicated GA4 property 561110258, web stream 16216732304, measurement ID G-PT5FC3PG2V created under the existing Analytics account 344939787, signed in as timcigelske@gmail.com. Enhanced measurement is disabled. Analytics runs only in production and only after analytics consent; rejection makes no Google requests.
+
+Search Console URL-prefix property https://campground-weekend.netlify.app/ created under timcigelske@gmail.com. Production ownership meta token is configured; verification and sitemap submission are completed in Google after publication.
+
+AdSense site added to existing NSFA publisher ca-pub-9118383093634601, signed in as info@northshorefamilyadventures.com. The Gmail AdSense application is blocked as a duplicate and has not been changed. Production meta verification and the exact Google-provided ads.txt seller line are configured. Site review is requested after ownership verification. Ad serving remains off pending Google's review and consent setup. No new publisher account, payment profile, DNS change or purchase.
+
+Production-only Google configuration is in netlify.toml. Previews omit Google IDs, seller lines and tracking. Newsletter remains off. The historical status below predates this setup.
+
 # Current collection and explorer
 
 The publication now has 50 sourced campground records (42 public, 8 private) and 48 sourced approximate map locations. The home page and directory lead with the automatically opened Leaflet explorer and local search/filter controls. See [expanded collection](expanded-collection.md) and expanded-explorer-results.json. The prior launch matrices below are historical. Newsletter, analytics and ads remain disabled.

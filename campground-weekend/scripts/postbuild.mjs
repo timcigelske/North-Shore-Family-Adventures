@@ -9,6 +9,6 @@ for(const path of pages){const html=await readFile(path,'utf8');if(!/name="robot
 await writeFile(base+'/sitemap.xml','<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+urls.join('')+'</urlset>');
 // Preview URLs stay crawlable so crawlers can see noindex. Do not confuse noindex with privacy.
 await writeFile(base+'/robots.txt',`User-agent: *\nAllow: /\n${production?'Sitemap: '+origin+'/sitemap.xml\n':'# Preview: all HTML and response headers carry noindex.\n'}`);
-await writeFile(base+'/ads.txt',process.env.ADS_TXT_ENTRIES?process.env.ADS_TXT_ENTRIES.trim()+'\n':'# No authorized advertising sellers configured.\n');
+await writeFile(base+'/ads.txt',production&&process.env.ADS_TXT_ENTRIES?process.env.ADS_TXT_ENTRIES.trim()+'\n':'# No authorized advertising sellers configured.\n');
 await writeFile(base+'/_headers',`${!production?'/*\n  X-Robots-Tag: noindex, nofollow\n':''}/ads.txt\n  Content-Type: text/plain; charset=utf-8\n/sitemap.xml\n  Content-Type: application/xml; charset=utf-8\n/robots.txt\n  Content-Type: text/plain; charset=utf-8\n`);
 console.log(`Built ${pages.length} HTML files; ${urls.length} indexable sitemap URLs; live integrations ${production?'subject to individual switches':'disabled'}.`);
