@@ -2,11 +2,11 @@
 
 Dedicated GA4 property 561110258, web stream 16216732304, measurement ID G-PT5FC3PG2V created under the existing Analytics account 344939787, signed in as timcigelske@gmail.com. Enhanced measurement is disabled. Analytics runs only in production and only after analytics consent; rejection makes no Google requests.
 
-Search Console URL-prefix property https://campground-weekend.netlify.app/ created under timcigelske@gmail.com. Production ownership meta token is configured; verification and sitemap submission are completed in Google after publication.
+Search Console URL-prefix property https://campground-weekend.netlify.app/ created under timcigelske@gmail.com. Production ownership meta token is configured; ownership verified by HTML tag; sitemap.xml submitted successfully and Google reported Success with 74 discovered pages.
 
-AdSense site added to existing NSFA publisher ca-pub-9118383093634601, signed in as info@northshorefamilyadventures.com. The Gmail AdSense application is blocked as a duplicate and has not been changed. Production meta verification and the exact Google-provided ads.txt seller line are configured. Site review is requested after ownership verification. Ad serving remains off pending Google's review and consent setup. No new publisher account, payment profile, DNS change or purchase.
+AdSense site added to existing NSFA publisher ca-pub-9118383093634601, signed in as info@northshorefamilyadventures.com. The Gmail AdSense application is blocked as a duplicate and has not been changed. Production meta verification and the exact Google-provided ads.txt seller line are configured. Ownership verified by meta tag and review requested; Google reports Getting ready. A published Google European regulations consent message for campground-weekend.netlify.app was present in the existing publisher dashboard. Ad serving remains off pending Google's review and deployment of its certified consent runtime. No new publisher account, payment profile, DNS change or purchase.
 
-Production-only Google configuration is in netlify.toml. Previews omit Google IDs, seller lines and tracking. Newsletter remains off. The historical status below predates this setup.
+Production-only Google configuration is in netlify.toml. Previews omit Google IDs, seller lines and tracking. Search Console is linked to the dedicated GA4 web stream (Google confirmed LINK CREATED). Newsletter remains off. Live browser QA confirmed zero Google requests before consent and after rejection, a 204 GA4 collection response after acceptance, the exact ads.txt seller entry, and no Google IDs or requests in the automatic PR preview. See google-integration-results.json. The historical status below predates this setup.
 
 # Current collection and explorer
 
