@@ -14,3 +14,7 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Frame-Options = "DENY"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# Preview builds use the normal build command. Production needs a separate release.
+[context.production]
+  command = "node scripts/production-guard.mjs && pnpm build"
