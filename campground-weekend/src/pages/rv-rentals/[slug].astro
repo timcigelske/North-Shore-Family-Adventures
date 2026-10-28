@@ -3,4 +3,25 @@ import {render} from 'astro:content';import Base from '../../layouts/Base.astro'
 export async function getStaticPaths(){return (await guides()).filter(g=>g.data.kind==='rv').map(g=>({params:{slug:g.id},props:{g}}));}
 const {g}=Astro.props;const {Content}=await render(g);
 ---
-<Base title={g.data.title} description={g.data.description} article published={g.data.published} modified={g.data.modified}><div class="container"><div class="page-intro"><p class="eyebrow">Rent thoughtfully</p><h1>{g.data.title}</h1><p class="lede">{g.data.description}</p><p class="byline">By <a href="/authors/editorial-desk/">Campground Weekend editorial desk</a> · Facts reviewed {g.data.reviewed}</p></div><article class="prose section"><Content/><h2>Sources</h2><ul class="source-list">{g.data.sources.map(s=><li><a href={s.url}>{s.title}</a> · Accessed {s.accessed}</li>)}</ul><p>Research-based guide. No current inventory, quote, personal rental experience or approved affiliate relationship is claimed.</p></article></div></Base>
+<Base title={g.data.title} description={g.data.description} article published={g.data.published} modified={g.data.modified}><div class="container"><div class="page-intro"><p class="eyebrow">Rent thoughtfully</p><h1>{g.data.title}</h1><p class="lede">{g.data.description}</p><p class="byline">By <a href="/authors/editorial-desk/">Campground Weekend editorial desk</a> · Facts reviewed {g.data.reviewed}</p></div><article class="prose section"><aside class="rvshare-offer" data-rvshare-offer hidden aria-label="RVshare affiliate offer">
+<p class="eyebrow">RVshare fall offer · Affiliate link</p>
+<h2>Save 15% on RVshare bookings over $900</h2>
+<p>Use code <strong>FALLRVING15</strong>. Offer runs October 21–November 8, 2026. Check RVshare’s offer terms and confirm the discount at checkout before booking.</p>
+<p><a class="button" href="https://www.jdoqocy.com/click-101733013-17369305" rel="sponsored noopener" data-affiliate="RVshare" data-placement="rv-guide-offer" data-destination="rvshare-fall-2026">Explore the RVshare fall offer ↗</a></p>
+<p class="fine">We may earn a commission if you book through this link, at no extra cost to you. <a href="/affiliate-disclosure/">About our affiliate links</a>.</p>
+</aside><Content/><h2>Sources</h2><ul class="source-list">{g.data.sources.map(s=><li><a href={s.url}>{s.title}</a> · Accessed {s.accessed}</li>)}</ul><p>Research-based guide. No current inventory, quote or personal rental experience is claimed.</p></article></div></Base>
+
+<style>
+.rvshare-offer {padding:1.5rem;border:1px solid var(--ink,#254238);background:#f3f4eb;margin-bottom:2rem;}
+.rvshare-offer[hidden] {display:none;}
+.rvshare-offer h2 {margin-top:0;}
+</style>
+<script>
+const offer=document.querySelector<HTMLElement>('[data-rvshare-offer]');
+const start=Date.parse('2026-10-21T00:00:00-05:00');
+const end=Date.parse('2026-11-09T00:00:00-06:00');
+function updateOffer(){if(offer)offer.hidden=Date.now()<start||Date.now()>=end;}
+updateOffer();
+setInterval(updateOffer,60000);
+document.addEventListener('visibilitychange',updateOffer);
+</script>
