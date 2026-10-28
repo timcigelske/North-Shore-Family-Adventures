@@ -13,7 +13,7 @@ reviewed: "2026-10-27"
 
 An RV rental can be useful when the party wants a roof and a more contained sleeping setup without buying a vehicle. It also adds a second reservation, another set of conditions and costs beyond the advertised nightly rate.
 
-This guide explains the questions to settle for a Wisconsin camping trip. We have not rented or inspected vehicles for this publication, verified current inventory, or obtained an approved affiliate tracking link. Provider links here are ordinary links.
+This guide explains the questions to settle for a Wisconsin camping trip. We have not rented or inspected vehicles for this publication or verified current inventory. Provider links in the guide text are ordinary links; the separately labeled RVshare fall offer uses an affiliate link.
 
 ## Reserve a compatible site
 
