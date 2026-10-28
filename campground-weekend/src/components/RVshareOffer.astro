@@ -1,0 +1,24 @@
+---
+const {placement='rv-guide-offer'}=Astro.props;
+---
+<aside class="rvshare-offer" data-rvshare-offer hidden aria-label="RVshare affiliate offer">
+<p class="eyebrow">RVshare fall offer · Affiliate link</p>
+<h2>Save 15% on RVshare bookings over $900</h2>
+<p>Use code <strong>FALLRVING15</strong>. Offer runs October 21–November 8, 2026. Check RVshare’s offer terms and confirm the discount at checkout before booking.</p>
+<p><a class="button" href="https://www.jdoqocy.com/click-101733013-17369305" rel="sponsored noopener" data-affiliate="RVshare" data-placement={placement} data-destination="rvshare-fall-2026">Explore the RVshare fall offer ↗</a></p>
+<p class="fine">We may earn a commission if you book through this link, at no extra cost to you. <a href="/affiliate-disclosure/">About our affiliate links</a>.</p>
+</aside>
+<style>
+.rvshare-offer {padding:1.5rem;border:1px solid var(--ink,#254238);background:#f3f4eb;margin-bottom:2rem;}
+.rvshare-offer[hidden] {display:none;}
+.rvshare-offer h2 {margin-top:0;}
+</style>
+<script>
+const offers=document.querySelectorAll<HTMLElement>('[data-rvshare-offer]');
+const start=Date.parse('2026-10-21T00:00:00-05:00');
+const end=Date.parse('2026-11-09T00:00:00-06:00');
+function updateOffer(){offers.forEach(offer=>offer.hidden=Date.now()<start||Date.now()>=end);}
+updateOffer();
+setInterval(updateOffer,60000);
+document.addEventListener('visibilitychange',updateOffer);
+</script>

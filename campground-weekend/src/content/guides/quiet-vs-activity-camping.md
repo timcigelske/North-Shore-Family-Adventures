@@ -1,5 +1,5 @@
 ---
-title: "Quiet camping or an activity-led weekend? Choose the right tradeoffs"
+title: "Quiet camping or an activity-led weekend? Find your kind of stay"
 description: "How to interpret quiet-zone rules, carry-in camping and beach access without making unsupported noise claims."
 status: "published"
 kind: "guide"
