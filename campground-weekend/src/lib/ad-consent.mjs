@@ -26,6 +26,7 @@ export function initializeAdConsent({window:w,document:d,production,cmpUrl,adCli
  function listen(){if(typeof w.__tcfapi!=='function'){say('Advertising consent is unavailable. Ads remain off.');return;}
   w.__tcfapi('addEventListener',2,(data,success)=>{
    if(!success){stop();return;}
+   if(button)button.hidden=!(data.gdprApplies===true&&typeof w.googlefc.showRevocationMessage==='function');
    const next=(!reopening||data.eventStatus==='useractioncomplete')&&mayRequestAds(data);const revoked=allowed&&!next;allowed=next;
    if(next){say(adClient?'Advertising preferences saved.':'Advertising preferences saved. Ads are not yet enabled.');start();}
    else{stop();say('Ads remain off until advertising consent is available.');}
@@ -34,13 +35,13 @@ export function initializeAdConsent({window:w,document:d,production,cmpUrl,adCli
   });
  }
  w.googlefc.callbackQueue.push({CONSENT_API_READY:()=>{
-  if(button)button.hidden=false;
+  
   listen();
  }});
  button?.addEventListener('click',()=>{
   stop();
   if(loaded){w.sessionStorage.setItem('cw:reopen-ad-consent','1');w.location.reload();return;}
-  w.googlefc.callbackQueue.push(()=>w.googlefc.showRevocationMessage());
+  w.googlefc.callbackQueue.push(()=>{if(typeof w.googlefc.showRevocationMessage==='function')w.googlefc.showRevocationMessage();});
  });
  w.googlefc.callbackQueue.push({CONSENT_API_READY:()=>{
   if(w.sessionStorage.getItem('cw:reopen-ad-consent')==='1'){
