@@ -1,3 +1,4 @@
+import {initializeAdConsent} from './ad-consent.mjs';
 import { estimate, type Costs } from './planner';
 type Camp={slug:string;name:string;description:string;region:string;county:string|null;aliases:string[];petPolicy:string|null;types:Record<string,boolean|null>;amenities:Record<string,boolean|null>;coordinates:{lat:number;lon:number}|null;officialUrl:string;operatorType:'public'|'private'};
 const $=<T extends HTMLElement=HTMLElement>(s:string)=>document.querySelector<T>(s);
@@ -26,10 +27,7 @@ $$('[data-consent-open]').forEach(b=>b.addEventListener('click',()=>dialog?.show
 $$('[data-consent]').forEach(b=>b.addEventListener('click',()=>{analyticsConsent=b.dataset.consent!;storage.set('analytics-consent',analyticsConsent);if(ga)win['ga-disable-'+ga]=analyticsConsent!=='granted';if(analyticsConsent==='granted'){if(gaLoaded)win.gtag?.('consent','update',{analytics_storage:'granted'});startAnalytics();}else{win.gtag?.('consent','update',{analytics_storage:'denied'});try{for(const item of document.cookie.split(';')){const name=item.split('=')[0].trim();if(/^_ga/.test(name)){document.cookie=`${name}=; Max-Age=0; Path=/`;document.cookie=`${name}=; Max-Age=0; Path=/; Domain=${location.hostname}`;}}}catch{}}dialog?.close();}));
 if(ga&&analyticsConsent==='unset')dialog?.showModal();startAnalytics();
 $$<HTMLAnchorElement>('a[data-affiliate]').forEach(a=>a.addEventListener('click',()=>event('affiliate_click',{provider:a.dataset.affiliate||'',content_id:location.pathname,placement:a.dataset.placement||'',destination_id:a.dataset.destination||''})));
-// Certified CMP hook is separate from the basic analytics dialog. No ad request before an affirmative TCF signal.
-const cmp=document.body.dataset.cmp,adClient=document.body.dataset.adsClient;
-function startAds(){if(adLoaded||!adClient||!/^ca-pub-\d{16}$/.test(adClient))return;adLoaded=true;const s=document.createElement('script');s.async=true;s.crossOrigin='anonymous';s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client='+adClient;s.onload=()=>{$$('.adsbygoogle').forEach(()=>{const w=window as any;w.adsbygoogle=w.adsbygoogle||[];w.adsbygoogle.push({});});};document.head.append(s);}
-if(cmp&&adClient&&document.body.dataset.production==='true'){try{const u=new URL(cmp);if(u.protocol==='https:'){const s=document.createElement('script');s.src=u.href;s.async=true;s.onload=()=>win.__tcfapi?.('addEventListener',2,(data,success)=>{if(!success)return;const purpose=data.purpose?.consents||{},vendors=data.vendor?.consents||{};if(data.gdprApplies===true&&data.eventStatus==='useractioncomplete'&&[1,3,4].every(k=>purpose[k]===true)&&vendors[755]===true)startAds();});document.head.append(s);}}catch{}}
+initializeAdConsent({window,document,production:document.body.dataset.production==='true',cmpUrl:document.body.dataset.cmp||'',adClient:document.body.dataset.adsClient||''});
 // Directory state: fragment keys are allowlisted; arbitrary searches never enter analytics or the sitemap.
 let camps:Camp[]=[];try{camps=JSON.parse($('#camp-data')?.textContent||'[]');}catch{}
 const filters=$<HTMLFormElement>('#filters');

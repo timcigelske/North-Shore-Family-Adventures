@@ -13,5 +13,5 @@ export const site = {
  ga4: env.PUBLIC_GA4_MEASUREMENT_ID || '', ads: production && env.PUBLIC_ADS_ENABLED === 'true',
  adClient: env.PUBLIC_ADSENSE_CLIENT || '', verification: production ? env.PUBLIC_SEARCH_CONSOLE_TOKEN || '' : '',
  adVerification: production && env.PUBLIC_ADSENSE_VERIFICATION === 'true',
- cmpUrl: env.PUBLIC_CMP_SCRIPT_URL || '',
+ cmpUrl: production ? env.PUBLIC_CMP_SCRIPT_URL || '' : '',
 };
