@@ -33,18 +33,18 @@ export function initializeAdConsent({window:w,document:d,production,cmpUrl,adCli
    if(revoked&&loaded)w.location.reload();
   });
  }
- fc.callbackQueue.push({CONSENT_API_READY:()=>{
+ w.googlefc.callbackQueue.push({CONSENT_API_READY:()=>{
   if(button)button.hidden=false;
   listen();
  }});
  button?.addEventListener('click',()=>{
   stop();
   if(loaded){w.sessionStorage.setItem('cw:reopen-ad-consent','1');w.location.reload();return;}
-  fc.callbackQueue.push(()=>fc.showRevocationMessage());
+  w.googlefc.callbackQueue.push(()=>w.googlefc.showRevocationMessage());
  });
- fc.callbackQueue.push({CONSENT_API_READY:()=>{
+ w.googlefc.callbackQueue.push({CONSENT_API_READY:()=>{
   if(w.sessionStorage.getItem('cw:reopen-ad-consent')==='1'){
-   w.sessionStorage.removeItem('cw:reopen-ad-consent');fc.callbackQueue.push(()=>fc.showRevocationMessage());
+   w.sessionStorage.removeItem('cw:reopen-ad-consent');w.googlefc.callbackQueue.push(()=>w.googlefc.showRevocationMessage());
   }
  }});
  const script=d.createElement('script');script.async=true;script.src=cmpUrl;
