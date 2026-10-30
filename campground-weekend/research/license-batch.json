@@ -1,0 +1,2017 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "normalized": [
+      {
+        "from": "File:East_Bluff.jpg",
+        "to": "File:East Bluff.jpg"
+      },
+      {
+        "from": "File:High_Cliff_State_Park_The_Ledge_Outcrop.JPG",
+        "to": "File:High Cliff State Park The Ledge Outcrop.JPG"
+      },
+      {
+        "from": "File:Kohler-Andrae_State_Park_Cordwalk.jpg",
+        "to": "File:Kohler-Andrae State Park Cordwalk.jpg"
+      },
+      {
+        "from": "File:Lake_Kegonsa_State_Park_White_Oak_Trail_Bench.jpg",
+        "to": "File:Lake Kegonsa State Park White Oak Trail Bench.jpg"
+      },
+      {
+        "from": "File:Peninsula_State_Park,_Horseshoe_Island,_and_Fish_Creek,_town_of_Gibraltar,_Door_County,_Wisconsin_2020.png",
+        "to": "File:Peninsula State Park, Horseshoe Island, and Fish Creek, town of Gibraltar, Door County, Wisconsin 2020.png"
+      },
+      {
+        "from": "File:Point_Beach_Ridges.jpg",
+        "to": "File:Point Beach Ridges.jpg"
+      },
+      {
+        "from": "File:View_of_Sawyer_Harbor_and_the_mouth_of_Sturgeon_Bay_from_the_observation_tower_at_Potawatomi_State_Park_in_Door_County,_Wisconsin,_April_26,_2014.jpg",
+        "to": "File:View of Sawyer Harbor and the mouth of Sturgeon Bay from the observation tower at Potawatomi State Park in Door County, Wisconsin, April 26, 2014.jpg"
+      },
+      {
+        "from": "File:Rock_Island_Boathouse.JPG",
+        "to": "File:Rock Island Boathouse.JPG"
+      }
+    ],
+    "pages": {
+      "4259394": {
+        "pageid": 4259394,
+        "ns": 6,
+        "title": "File:BigFootBeachStatePark.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/BigFootBeachStatePark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/BigFootBeachStatePark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/BigFootBeachStatePark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:BigFootBeachStatePark.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4259394",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-06-22 15:03:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "BigFootBeachStatePark",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Lakes of Wisconsin|GFDL|Taken with Olympus C-4100Z / C-4000Z|License migration redundant|Big Foot Beach State Park|Self-published work|Lake beaches of Wisconsin",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Big_Foot_Beach_State_Park\" class=\"extiw\" title=\"w:Big Foot Beach State Park\">Big Foot Beach State Park</a>, WI, USA",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-05-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "McGhiever",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "9480478": {
+        "pageid": 9480478,
+        "ns": 6,
+        "title": "File:BlueMoundStateParkEastTower.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/BlueMoundStateParkEastTower.JPG/1280px-BlueMoundStateParkEastTower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 1600,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/e/ed/BlueMoundStateParkEastTower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/BlueMoundStateParkEastTower.JPG/1280px-BlueMoundStateParkEastTower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 1600,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/e/ed/BlueMoundStateParkEastTower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/BlueMoundStateParkEastTower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:BlueMoundStateParkEastTower.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=9480478",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-02-15 00:28:58",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "BlueMoundStateParkEastTower",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Wooden towers|License migration completed|Blue Mound State Park|Self-published work|GFDL-en",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The East Observation Tower at <a href=\"https://en.wikipedia.org/wiki/Blue_Mound_State_Park\" class=\"extiw\" title=\"en:Blue Mound State Park\">Blue Mound State Park</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "30 May 2006 (original upload date)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a></span> to Commons by <a href=\"//commons.wikimedia.org/wiki/User:Vux\" title=\"User:Vux\">Vux</a> using <a href=\"https://iw.toolforge.org/commonshelper/\" class=\"extiw\" title=\"toollabs:commonshelper/\">CommonsHelper</a>.</bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/User:Mailseth\" class=\"extiw\" title=\"wikipedia:User:Mailseth\">Mailseth</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/User:Mailseth\" class=\"extiw\" title=\"en:User:Mailseth\">Mailseth</a> at the <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"w:\">English-language Wikipedia</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "69469100": {
+        "pageid": 69469100,
+        "ns": 6,
+        "title": "File:East Bluff.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/East_Bluff.jpg/1280px-East_Bluff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 803,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/East_Bluff.jpg/3840px-East_Bluff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/East_Bluff.jpg/1280px-East_Bluff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 803,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/East_Bluff.jpg/3840px-East_Bluff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/East_Bluff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:East_Bluff.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69469100",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-05-26 20:00:29",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "East Bluff",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Wisconsin State Natural Areas|Flickr images reviewed by FlickreviewR 2|Photographs by Joshua Mayer|Devil's Lake (Wisconsin)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Devil's Lake East Bluff\nWisconsin State Natural Area #98\n</p>\nSauk County",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2009-08-22 14:53",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/wackybadger/4342072815/\">View from the East Bluff</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8584048@N05\">Joshua Mayer</a> from Madison, WI, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "33639332": {
+        "pageid": 33639332,
+        "ns": 6,
+        "title": "File:Gfp-wisconsin-governor-dodge-state-park-another-picture-of-falls.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Gfp-wisconsin-governor-dodge-state-park-another-picture-of-falls.jpg/1280px-Gfp-wisconsin-governor-dodge-state-park-another-picture-of-falls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/19/Gfp-wisconsin-governor-dodge-state-park-another-picture-of-falls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Gfp-wisconsin-governor-dodge-state-park-another-picture-of-falls.jpg/1280px-Gfp-wisconsin-governor-dodge-state-park-another-picture-of-falls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/19/Gfp-wisconsin-governor-dodge-state-park-another-picture-of-falls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Gfp-wisconsin-governor-dodge-state-park-another-picture-of-falls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gfp-wisconsin-governor-dodge-state-park-another-picture-of-falls.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=33639332",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-06-29 00:21:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Gfp-wisconsin-governor-dodge-state-park-another-picture-of-falls",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Rivers of Wisconsin|Governor Dodge State Park|Images from goodfreephotos.com|Import by User:Slick-o-bot/Images from goodfreephotos.com/Wisconsin",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Scenic landscapes from Governor Dodge State Park\nAnother Picture of the waterfalls at Cox Hollow Dam",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.goodfreephotos.com\">www.goodfreephotos.com</a> (<a rel=\"nofollow\" class=\"external text\" href=\"http://www.goodfreephotos.com/places/wisconsin/governor-dodge-state-park/page/2/\">gallery</a>, <a rel=\"nofollow\" class=\"external text\" href=\"http://www.goodfreephotos.com/places/wisconsin/governor-dodge-state-park/wisconsin-governor-dodge-state-park-another-picture-of-falls.jpg.php\">image</a>)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.goodfreephotos.com\">Yinan Chen</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; background-color:var(--background-color-neutral-subtle, #f8f9fa); border:var(--border-subtle, 2px solid #c8ccd1); padding: 0; border-spacing: 8px; color:var(--color-base, #202122);\" dir=\"ltr\" class=\"layouttemplate licensetpl\" lang=\"\">\n<tbody><tr>\n<td style=\"width:90px;\"><span class=\"skin-invert-image\" typeof=\"mw:File\"><span title=\"Creative Commons\"><img alt=\"Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/40px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/60px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span>\u00a0<span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/40px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/60px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td><i>This file has been released explicitly into the public domain by its author, using the <a href=\"https://en.wikipedia.org/wiki/Creative_Commons\" class=\"extiw\" title=\"w:Creative Commons\">Creative\u00a0Commons</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/\">Public Domain Dedication</a> formerly <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/publicdomain/\">here</a></i>\n<p><i>This file may be used <b>for any purpose</b> including unrestricted redistribution, commercial use, and modification.</i>\n</p>\n<hr>\n<div style=\"font-size:10px\"> <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Ambox_warning_pn.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Ambox_warning_pn.svg/20px-Ambox_warning_pn.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"17\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Ambox_warning_pn.svg/40px-Ambox_warning_pn.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"445\"></a></span> Note: Creative Commons has retired this legal tool and does not recommend that it be applied to works. It is recommended you use <a href=\"//commons.wikimedia.org/wiki/Template:Cc-zero\" title=\"Template:Cc-zero\"><span style=\"font-family:monospace,monospace;\">{{Cc-zero}}</span></a> instead.<br><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:PDmaybe-icon.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/PDmaybe-icon.svg/20px-PDmaybe-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/PDmaybe-icon.svg/40px-PDmaybe-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"200\" data-file-height=\"200\"></a></span> This legal tool may not be effective or applicable in non-US jurisdictions.</div><span class=\"licensetpl_long\" style=\"display: none\">Creative Commons Public Domain Dedication</span><span class=\"licensetpl_short\" style=\"display: none\">Public Domain</span><span class=\"licensetpl_link\" style=\"display: none\">https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/</span><span class=\"licensetpl_attr_req licensetpl_link_req\" style=\"display: none\">false</span>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public Domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "33641099": {
+        "pageid": 33641099,
+        "ns": 6,
+        "title": "File:Gfp-yellowstone-lake-shoreline.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Gfp-yellowstone-lake-shoreline.jpg/1280px-Gfp-yellowstone-lake-shoreline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 801,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/11/Gfp-yellowstone-lake-shoreline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Gfp-yellowstone-lake-shoreline.jpg/1280px-Gfp-yellowstone-lake-shoreline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 801,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/11/Gfp-yellowstone-lake-shoreline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Gfp-yellowstone-lake-shoreline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gfp-yellowstone-lake-shoreline.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=33641099",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-06-29 02:28:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Gfp-yellowstone-lake-shoreline",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 550D|Yellowstone Lake|Yellowstone Lake State Park|Images from goodfreephotos.com|Import by User:Slick-o-bot/Images from goodfreephotos.com/Wisconsin|Media needing category review as of 29 June 2014|Lake shores of Wyoming",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Pictures and scenes from Yellowstone Lake State Park in Wisconsin\nPart of the shoreline of Yellowstone Lake in the early spring",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.goodfreephotos.com\">www.goodfreephotos.com</a> (<a rel=\"nofollow\" class=\"external text\" href=\"http://www.goodfreephotos.com/places/wisconsin/yellowstone-lake-state-park/\">gallery</a>, <a rel=\"nofollow\" class=\"external text\" href=\"http://www.goodfreephotos.com/places/wisconsin/yellowstone-lake-state-park/yellowstone-lake-shoreline.jpg.php\">image</a>)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.goodfreephotos.com\">Yinan Chen</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; background-color:var(--background-color-neutral-subtle, #f8f9fa); border:var(--border-subtle, 2px solid #c8ccd1); padding: 0; border-spacing: 8px; color:var(--color-base, #202122);\" dir=\"ltr\" class=\"layouttemplate licensetpl\" lang=\"\">\n<tbody><tr>\n<td style=\"width:90px;\"><span class=\"skin-invert-image\" typeof=\"mw:File\"><span title=\"Creative Commons\"><img alt=\"Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/40px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/60px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span>\u00a0<span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/40px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/60px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td><i>This file has been released explicitly into the public domain by its author, using the <a href=\"https://en.wikipedia.org/wiki/Creative_Commons\" class=\"extiw\" title=\"w:Creative Commons\">Creative\u00a0Commons</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/\">Public Domain Dedication</a> formerly <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/publicdomain/\">here</a></i>\n<p><i>This file may be used <b>for any purpose</b> including unrestricted redistribution, commercial use, and modification.</i>\n</p>\n<hr>\n<div style=\"font-size:10px\"> <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Ambox_warning_pn.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Ambox_warning_pn.svg/20px-Ambox_warning_pn.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"17\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Ambox_warning_pn.svg/40px-Ambox_warning_pn.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"445\"></a></span> Note: Creative Commons has retired this legal tool and does not recommend that it be applied to works. It is recommended you use <a href=\"//commons.wikimedia.org/wiki/Template:Cc-zero\" title=\"Template:Cc-zero\"><span style=\"font-family:monospace,monospace;\">{{Cc-zero}}</span></a> instead.<br><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:PDmaybe-icon.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/PDmaybe-icon.svg/20px-PDmaybe-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/PDmaybe-icon.svg/40px-PDmaybe-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"200\" data-file-height=\"200\"></a></span> This legal tool may not be effective or applicable in non-US jurisdictions.</div><span class=\"licensetpl_long\" style=\"display: none\">Creative Commons Public Domain Dedication</span><span class=\"licensetpl_short\" style=\"display: none\">Public Domain</span><span class=\"licensetpl_link\" style=\"display: none\">https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/</span><span class=\"licensetpl_attr_req licensetpl_link_req\" style=\"display: none\">false</span>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public Domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "1408674": {
+        "pageid": 1408674,
+        "ns": 6,
+        "title": "File:HarringtonBeachStateParkTrail.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/HarringtonBeachStateParkTrail.jpg/1280px-HarringtonBeachStateParkTrail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/2/2e/HarringtonBeachStateParkTrail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/HarringtonBeachStateParkTrail.jpg/1280px-HarringtonBeachStateParkTrail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/2/2e/HarringtonBeachStateParkTrail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/HarringtonBeachStateParkTrail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HarringtonBeachStateParkTrail.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1408674",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2006-11-27 04:54:04",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HarringtonBeachStateParkTrail",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Harrington Beach State Park|Files by User:Royalbroil from en.wikipedia|Trails in Wisconsin",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A trail at Harrington Beach State Park near Belgium, Wisconsin, USA.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-06-14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "self",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Attribution/Sharealike",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.5",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.5",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.5",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.5",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "4383424": {
+        "pageid": 4383424,
+        "ns": 6,
+        "title": "File:HartmanCreekStateParkHartmanLake.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/HartmanCreekStateParkHartmanLake.jpg/1280px-HartmanCreekStateParkHartmanLake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 886,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/d1/HartmanCreekStateParkHartmanLake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/HartmanCreekStateParkHartmanLake.jpg/1280px-HartmanCreekStateParkHartmanLake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 886,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/d1/HartmanCreekStateParkHartmanLake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/HartmanCreekStateParkHartmanLake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HartmanCreekStateParkHartmanLake.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4383424",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-01-15 20:36:14",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HartmanCreekStateParkHartmanLake",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Hartman Creek State Park|Files by User:Royalbroil from en.wikipedia",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Hartman Lake in <a href=\"https://en.wikipedia.org/wiki/Hartman_Creek_State_Park\" class=\"extiw\" title=\"en:Hartman Creek State Park\">en:Hartman Creek State Park</a> near <a href=\"https://en.wikipedia.org/wiki/Waupaca,_Wisconsin\" class=\"extiw\" title=\"en:Waupaca, Wisconsin\">en:Waupaca, Wisconsin</a>, USA.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-06-21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "self",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Attribution/Sharealike",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "19402639": {
+        "pageid": 19402639,
+        "ns": 6,
+        "title": "File:High Cliff State Park The Ledge Outcrop.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/High_Cliff_State_Park_The_Ledge_Outcrop.JPG/1280px-High_Cliff_State_Park_The_Ledge_Outcrop.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 800,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/3/3d/High_Cliff_State_Park_The_Ledge_Outcrop.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/High_Cliff_State_Park_The_Ledge_Outcrop.JPG/1280px-High_Cliff_State_Park_The_Ledge_Outcrop.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 800,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/3d/High_Cliff_State_Park_The_Ledge_Outcrop.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/High_Cliff_State_Park_The_Ledge_Outcrop.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:High_Cliff_State_Park_The_Ledge_Outcrop.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=19402639",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-05-11 05:06:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "High Cliff State Park The Ledge Outcrop",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "High Cliff State Park|Self-published work|Outcrops in Wisconsin",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Outcrop ontop of the bluff",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-04-22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Geography21&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Geography21 (page does not exist)\">Geography21</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "155009965": {
+        "pageid": 155009965,
+        "ns": 6,
+        "title": "File:Kohler-Andrae State Park Cordwalk.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Kohler-Andrae_State_Park_Cordwalk.jpg/1280px-Kohler-Andrae_State_Park_Cordwalk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Kohler-Andrae_State_Park_Cordwalk.jpg/3840px-Kohler-Andrae_State_Park_Cordwalk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Kohler-Andrae_State_Park_Cordwalk.jpg/1280px-Kohler-Andrae_State_Park_Cordwalk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Kohler-Andrae_State_Park_Cordwalk.jpg/3840px-Kohler-Andrae_State_Park_Cordwalk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Kohler-Andrae_State_Park_Cordwalk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kohler-Andrae_State_Park_Cordwalk.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155009965",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-08 09:58:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Kohler-Andrae State Park Cordwalk",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Kohler-Andrae State Park|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A cordwalk on the sand dunes along Lake Michigan in Kohler-Andrae State Park in Sheboygan, Wisconsin.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-10-05 14:38:06",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Swissarmysalad&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Swissarmysalad (page does not exist)\">Swissarmysalad</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "173009987": {
+        "pageid": 173009987,
+        "ns": 6,
+        "title": "File:Lake Kegonsa State Park White Oak Trail Bench.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Lake_Kegonsa_State_Park_White_Oak_Trail_Bench.jpg/1280px-Lake_Kegonsa_State_Park_White_Oak_Trail_Bench.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 901,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Lake_Kegonsa_State_Park_White_Oak_Trail_Bench.jpg/3840px-Lake_Kegonsa_State_Park_White_Oak_Trail_Bench.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Lake_Kegonsa_State_Park_White_Oak_Trail_Bench.jpg/1280px-Lake_Kegonsa_State_Park_White_Oak_Trail_Bench.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 901,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Lake_Kegonsa_State_Park_White_Oak_Trail_Bench.jpg/3840px-Lake_Kegonsa_State_Park_White_Oak_Trail_Bench.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Lake_Kegonsa_State_Park_White_Oak_Trail_Bench.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Kegonsa_State_Park_White_Oak_Trail_Bench.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173009987",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-08-19 02:26:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Lake Kegonsa State Park White Oak Trail Bench",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Lake Kegonsa State Park|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A bench on Lake Kegonsa State Park's White Oak Nature Trail.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-04-29 11:37:19",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Deadsearisen&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Deadsearisen (page does not exist)\">Deadsearisen</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "22565615": {
+        "pageid": 22565615,
+        "ns": 6,
+        "title": "File:Landscapereflection.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Landscapereflection.jpg/1280px-Landscapereflection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 803,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/3/31/Landscapereflection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Landscapereflection.jpg/1280px-Landscapereflection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 803,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/31/Landscapereflection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Landscapereflection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Landscapereflection.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22565615",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-11-06 05:53:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Landscapereflection",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Beaches of Wisconsin|CC-Zero|Mirror Lake State Park|Self-published work|Mirror Lake (Wisconsin)|Reflections in lakes|Water reflections of trees in Wisconsin",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Landscape and clouds reflected in water at Mirror Lake State Park",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.goodfreephotos.com\">http://www.goodfreephotos.com</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Archbob&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Archbob (page does not exist)\">Archbob</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "4278910": {
+        "pageid": 4278910,
+        "ns": 6,
+        "title": "File:NewportStateParkSign.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/NewportStateParkSign.jpg/1280px-NewportStateParkSign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 900,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/0b/NewportStateParkSign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/NewportStateParkSign.jpg/1280px-NewportStateParkSign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 900,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/0b/NewportStateParkSign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/NewportStateParkSign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:NewportStateParkSign.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4278910",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-06-26 12:39:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "NewportStateParkSign",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Kodak EasyShare C330|Newport State Park|Self-published work|Files by User:Royalbroil from en.wikipedia|State park signs in Wisconsin",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The sign at <a href=\"https://en.wikipedia.org/wiki/Newport_State_Park\" class=\"extiw\" title=\"w:Newport State Park\">w:Newport State Park</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-08-26",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Royalbroil\" title=\"User:Royalbroil\">Royalbroil</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "2178361": {
+        "pageid": 2178361,
+        "ns": 6,
+        "title": "File:ParnellTower2007.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/ParnellTower2007.jpg/1280px-ParnellTower2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 1600,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/55/ParnellTower2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/ParnellTower2007.jpg/1280px-ParnellTower2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 1600,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/55/ParnellTower2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/ParnellTower2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:ParnellTower2007.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2178361",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2007-05-30 15:11:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "ParnellTower2007",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Fond du Lac County, Wisconsin|Kettle Moraine State Forest|Files by User:Royalbroil from en.wikipedia|Observation towers in Wisconsin",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Parnell Tower at the northern unit of the <a href=\"https://en.wikipedia.org/wiki/Kettle_Moraine_State_Forest\" class=\"extiw\" title=\"en:Kettle Moraine State Forest\">en:Kettle Moraine State Forest</a> near <a href=\"https://en.wikipedia.org/wiki/Dundee,_Wisconsin\" class=\"extiw\" title=\"en:Dundee, Wisconsin\">en:Dundee, Wisconsin</a>.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-05-03",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "self",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Attribution/Sharealike",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.5",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.5",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.5",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.5",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "113341531": {
+        "pageid": 113341531,
+        "ns": 6,
+        "title": "File:Peninsula State Park, Horseshoe Island, and Fish Creek, town of Gibraltar, Door County, Wisconsin 2020.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Peninsula_State_Park%2C_Horseshoe_Island%2C_and_Fish_Creek%2C_town_of_Gibraltar%2C_Door_County%2C_Wisconsin_2020.png/1280px-Peninsula_State_Park%2C_Horseshoe_Island%2C_and_Fish_Creek%2C_town_of_Gibraltar%2C_Door_County%2C_Wisconsin_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 1640,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Peninsula_State_Park%2C_Horseshoe_Island%2C_and_Fish_Creek%2C_town_of_Gibraltar%2C_Door_County%2C_Wisconsin_2020.png/3840px-Peninsula_State_Park%2C_Horseshoe_Island%2C_and_Fish_Creek%2C_town_of_Gibraltar%2C_Door_County%2C_Wisconsin_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Peninsula_State_Park%2C_Horseshoe_Island%2C_and_Fish_Creek%2C_town_of_Gibraltar%2C_Door_County%2C_Wisconsin_2020.png/1280px-Peninsula_State_Park%2C_Horseshoe_Island%2C_and_Fish_Creek%2C_town_of_Gibraltar%2C_Door_County%2C_Wisconsin_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 1640,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Peninsula_State_Park%2C_Horseshoe_Island%2C_and_Fish_Creek%2C_town_of_Gibraltar%2C_Door_County%2C_Wisconsin_2020.png/3840px-Peninsula_State_Park%2C_Horseshoe_Island%2C_and_Fish_Creek%2C_town_of_Gibraltar%2C_Door_County%2C_Wisconsin_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Peninsula_State_Park%2C_Horseshoe_Island%2C_and_Fish_Creek%2C_town_of_Gibraltar%2C_Door_County%2C_Wisconsin_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Peninsula_State_Park,_Horseshoe_Island,_and_Fish_Creek,_town_of_Gibraltar,_Door_County,_Wisconsin_2020.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=113341531",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-12-13 22:11:41",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Peninsula State Park, Horseshoe Island, and Fish Creek, town of Gibraltar, Door County, Wisconsin 2020",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Fish Creek, Wisconsin|Gibraltar, Wisconsin|Large images|PD US FSA/OWI|Horseshoe Island (Wisconsin)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Aerial view of the <a href=\"https://en.wikipedia.org/wiki/Peninsula_State_Park\" class=\"extiw\" title=\"w:Peninsula State Park\">Peninsula State Park</a>, <a href=\"https://en.wikipedia.org/wiki/Horseshoe_Island_(Wisconsin)\" class=\"extiw\" title=\"w:Horseshoe Island (Wisconsin)\">Horseshoe Island</a> and <a href=\"https://en.wikipedia.org/wiki/Fish_Creek,_Wisconsin\" class=\"extiw\" title=\"w:Fish Creek, Wisconsin\">Fish Creek, Wisconsin</a>. Some of Peninsula state Park is in the village of Ephraim, but aside from that they are all in the town of <a href=\"https://en.wikipedia.org/wiki/Gibraltar,_Wisconsin\" class=\"extiw\" title=\"w:Gibraltar, Wisconsin\">Gibraltar</a> in <a href=\"https://en.wikipedia.org/wiki/Door_County,_Wisconsin\" class=\"extiw\" title=\"w:Door County, Wisconsin\">w:Door County, Wisconsin</a>, taken June 27, 2020.\n<p>Coordinates:\n</p>\n<ul><li>Center Latitude\t45\u00b009'23.41\"N</li>\n<li>Center Longitude\t87\u00b013'06.66\"W</li>\n<li>NW Corner Lat\t45\u00b011'26.47\"N</li>\n<li>NW Corner Long\t87\u00b015'14.79\"W</li>\n<li>NE Corner Lat\t45\u00b011'26.96\"N</li>\n<li>NE Corner Long\t87\u00b010'59.48\"W</li>\n<li>SE Corner Lat\t45\u00b007'20.30\"N</li>\n<li>SE Corner Long\t87\u00b010'58.69\"W</li>\n<li>SW Corner Lat\t45\u00b007'19.81\"N</li>\n<li>SW Corner Long\t87\u00b015'13.69\"W</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-06-27",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "converted to .png by <a href=\"//commons.wikimedia.org/w/index.php?title=User:Epiphyllumlover&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Epiphyllumlover (page does not exist)\">Epiphyllumlover</a> from the original .tif available as item M_4508755_SW_16_060_20200627 on <a rel=\"nofollow\" class=\"external text\" href=\"https://earthexplorer.usgs.gov/\">EarthExplorer</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Aerial Photography Field Office (APFO) for NAIP, USGS; in contract with the Surdex Corporation",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td><i>This image is a work of an employee of the United States <a href=\"https://en.wikipedia.org/wiki/Farm_Security_Administration\" class=\"extiw\" title=\"w:Farm Security Administration\">Farm Security Administration</a> or <a href=\"https://en.wikipedia.org/wiki/United_States_Office_of_War_Information\" class=\"extiw\" title=\"w:United States Office of War Information\">Office of War Information</a> domestic photographic units, taken as part of that person's official duties. As a <a href=\"https://en.wikipedia.org/wiki/Work_of_the_United_States_Government\" class=\"extiw\" title=\"w:Work of the United States Government\">work</a> of the <a href=\"https://en.wikipedia.org/wiki/Federal_Government_of_the_United_States\" class=\"extiw\" title=\"w:Federal Government of the United States\">U.S. federal government</a>, the image is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> in the United States.  See <a href=\"https://en.wikipedia.org/wiki/Copyright\" class=\"extiw\" title=\"en:Copyright\">Copyright</a>.</i>\n</td>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/US-FarmSecurityAdministration-Logo.svg/120px-US-FarmSecurityAdministration-Logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"53\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/US-FarmSecurityAdministration-Logo.svg/250px-US-FarmSecurityAdministration-Logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"720\" data-file-height=\"592\"></span></span>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "26861523": {
+        "pageid": 26861523,
+        "ns": 6,
+        "title": "File:Point Beach Ridges.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Point_Beach_Ridges.jpg/1280px-Point_Beach_Ridges.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 798,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Point_Beach_Ridges.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Point_Beach_Ridges.jpg/1280px-Point_Beach_Ridges.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 798,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Point_Beach_Ridges.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Point_Beach_Ridges.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Point_Beach_Ridges.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=26861523",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-06-25 00:37:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Point Beach Ridges",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 1000D|State forests in Wisconsin|National Natural Landmarks of Wisconsin|Files by User:Royalbroil from en.wikipedia|Nature of Manitowoc County, Wisconsin",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The <a href=\"https://en.wikipedia.org/wiki/Point_Beach_Ridges\" class=\"extiw\" title=\"w:Point Beach Ridges\">w:Point Beach Ridges</a>, a Natural National Landmark in Manitowoc County, Wisconsin. The ridges are a series of natural ridges and swales left from dropping water level on Lake Michigan. The ridges are forested on the left and right hand side of the photo with a swale in the center. They are located in the Point Beach State Forest.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-06-22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Royalbroil\" title=\"User:Royalbroil\">Royalbroil</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "4067786": {
+        "pageid": 4067786,
+        "ns": 6,
+        "title": "File:Rock Island Boathouse.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Rock_Island_Boathouse.JPG/1280px-Rock_Island_Boathouse.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 912,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Rock_Island_Boathouse.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Rock_Island_Boathouse.JPG/1280px-Rock_Island_Boathouse.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 912,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Rock_Island_Boathouse.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Rock_Island_Boathouse.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rock_Island_Boathouse.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4067786",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-05-18 03:17:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Rock Island Boathouse",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with HP PhotoSmart M527|National Register of Historic Places in Door County, Wisconsin|License migration redundant|Self-published work|National Register of Historic Places with known IDs|Files with coordinates missing SDC location of creation|National Register of Historic Places missing SDC location of creation|National Register of Historic Places missing SDC depicts|Rock Island Boathouse",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "45.410833",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-86.828611",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Icelandic Stone Boathouse on Rock Island, Wisconsin. It is in the <a href=\"https://en.wikipedia.org/wiki/Thordarson_Estate_Historic_District\" class=\"extiw\" title=\"w:Thordarson Estate Historic District\">w:Thordarson Estate Historic District</a>, a historic district on the National Register of Historic Places.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-08-31",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:FleetCaptain&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:FleetCaptain (page does not exist)\">FleetCaptain Charles Kenyon</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "2532025": {
+        "pageid": 2532025,
+        "ns": 6,
+        "title": "File:RockyArbor2.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/27/RockyArbor2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1200,
+            "thumbheight": 450,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/RockyArbor2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 450
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/RockyArbor2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:RockyArbor2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2532025",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2007-08-08 04:46:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "RockyArbor2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Sandstone formations in the United States|GFDL|CC-BY-SA-2.5,2.0,1.0|License migration redundant|Rocky Arbor State Park|Self-published work|Outcrops in Wisconsin",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Rocky_Arbor_State_Park\" class=\"extiw\" title=\"w:Rocky Arbor State Park\">Rocky Arbor State Park</a>, WI, USA",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-05-15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "McGhiever",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "I, <a href=\"//commons.wikimedia.org/wiki/User:McGhiever\" title=\"User:McGhiever\">McGhiever</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "115643295": {
+        "pageid": 115643295,
+        "ns": 6,
+        "title": "File:View of Sawyer Harbor and the mouth of Sturgeon Bay from the observation tower at Potawatomi State Park in Door County, Wisconsin, April 26, 2014.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/View_of_Sawyer_Harbor_and_the_mouth_of_Sturgeon_Bay_from_the_observation_tower_at_Potawatomi_State_Park_in_Door_County%2C_Wisconsin%2C_April_26%2C_2014.jpg/1280px-View_of_Sawyer_Harbor_and_the_mouth_of_Sturgeon_Bay_from_the_observation_tower_at_Potawatomi_State_Park_in_Door_County%2C_Wisconsin%2C_April_26%2C_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 800,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/View_of_Sawyer_Harbor_and_the_mouth_of_Sturgeon_Bay_from_the_observation_tower_at_Potawatomi_State_Park_in_Door_County%2C_Wisconsin%2C_April_26%2C_2014.jpg/3840px-View_of_Sawyer_Harbor_and_the_mouth_of_Sturgeon_Bay_from_the_observation_tower_at_Potawatomi_State_Park_in_Door_County%2C_Wisconsin%2C_April_26%2C_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/View_of_Sawyer_Harbor_and_the_mouth_of_Sturgeon_Bay_from_the_observation_tower_at_Potawatomi_State_Park_in_Door_County%2C_Wisconsin%2C_April_26%2C_2014.jpg/1280px-View_of_Sawyer_Harbor_and_the_mouth_of_Sturgeon_Bay_from_the_observation_tower_at_Potawatomi_State_Park_in_Door_County%2C_Wisconsin%2C_April_26%2C_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 800,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/View_of_Sawyer_Harbor_and_the_mouth_of_Sturgeon_Bay_from_the_observation_tower_at_Potawatomi_State_Park_in_Door_County%2C_Wisconsin%2C_April_26%2C_2014.jpg/3840px-View_of_Sawyer_Harbor_and_the_mouth_of_Sturgeon_Bay_from_the_observation_tower_at_Potawatomi_State_Park_in_Door_County%2C_Wisconsin%2C_April_26%2C_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/View_of_Sawyer_Harbor_and_the_mouth_of_Sturgeon_Bay_from_the_observation_tower_at_Potawatomi_State_Park_in_Door_County%2C_Wisconsin%2C_April_26%2C_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:View_of_Sawyer_Harbor_and_the_mouth_of_Sturgeon_Bay_from_the_observation_tower_at_Potawatomi_State_Park_in_Door_County,_Wisconsin,_April_26,_2014.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=115643295",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-02-28 17:20:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "View of Sawyer Harbor and the mouth of Sturgeon Bay from the observation tower at Potawatomi State Park in Door County, Wisconsin, April 26, 2014",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Sturgeon Bay, Wisconsin|Green Bay (Lake Michigan)|Potawatomi State Park|Flickr images reviewed by FlickreviewR 2|Islands in Door County, Wisconsin",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "View of Sawyer Harbor and the mouth of Sturgeon Bay from the observation tower at Potawatomi State Park in Door County, Wisconsin, April 26, 2014",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-26 16:19:17",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/travelingotter/17359953106/\">https://www.flickr.com/photos/travelingotter/17359953106/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "TravelingOtter",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "4012517": {
+        "pageid": 4012517,
+        "ns": 6,
+        "title": "File:WisconsinRiverBuckhornStatePark.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/WisconsinRiverBuckhornStatePark.jpg/1280px-WisconsinRiverBuckhornStatePark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1200,
+            "thumbheight": 868,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/9/92/WisconsinRiverBuckhornStatePark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/WisconsinRiverBuckhornStatePark.jpg/1280px-WisconsinRiverBuckhornStatePark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1200,
+              "height": 868,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/92/WisconsinRiverBuckhornStatePark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/WisconsinRiverBuckhornStatePark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:WisconsinRiverBuckhornStatePark.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4012517",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-01-15 20:24:46",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "WisconsinRiverBuckhornStatePark",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "2008 in Wisconsin|Wisconsin River|Buckhorn State Park|Files by User:Royalbroil from en.wikipedia",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The <a href=\"//commons.wikimedia.org/wiki/Wisconsin_River\" title=\"Wisconsin River\">Wisconsin River</a> at Buckhorn State Park near <a href=\"https://en.wikipedia.org/wiki/Necedah,_Wisconsin\" class=\"extiw\" title=\"w:Necedah, Wisconsin\">w:Necedah, Wisconsin</a>, USA.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-05-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\">Self-photographed</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "User <a href=\"https://en.wikipedia.org/wiki/User:Royalbroil\" class=\"extiw\" title=\"en:User:Royalbroil\">Royalbroil</a> on <a class=\"external text\" data-mw-original-href=\"http://en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/2.5/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/2.5/deed.en\">Attribution-Share Alike 2.5 Generic</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> \u2013 to copy, distribute and transmit the work</li>\n<li><b>to remix</b> \u2013 to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> \u2013 You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> \u2013 If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/2.5</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 2.5 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 2.5 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.5",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.5",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.5",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.5",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

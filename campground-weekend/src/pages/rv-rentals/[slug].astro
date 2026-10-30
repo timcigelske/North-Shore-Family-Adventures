@@ -1,0 +1,9 @@
+---
+import NSFAGuides from '../../components/NSFAGuides.astro';
+import RVshareOffer from '../../components/RVshareOffer.astro';
+import {render} from 'astro:content';import Base from '../../layouts/Base.astro';import {guides} from '../../lib/content';
+export async function getStaticPaths(){return (await guides()).filter(g=>g.data.kind==='rv').map(g=>({params:{slug:g.id},props:{g}}));}
+const {g}=Astro.props;const {Content}=await render(g);
+---
+<Base title={g.data.title} description={g.data.description} article published={g.data.published} modified={g.data.modified}><div class="container"><div class="page-intro"><p class="eyebrow">Rent thoughtfully</p><h1>{g.data.title}</h1><p class="lede">{g.data.description}</p><p class="byline">By <a href="/authors/editorial-desk/">Campground Weekend editorial desk</a> · Facts reviewed {g.data.reviewed}</p></div><article class="prose section"><RVshareOffer/><Content/><h2>Sources</h2><ul class="source-list">{g.data.sources.map(s=><li><a href={s.url}>{s.title}</a> · Accessed {s.accessed}</li>)}</ul><p>Research-based guide. No current inventory, quote or personal rental experience is claimed.</p></article><NSFAGuides/></div></Base>
+

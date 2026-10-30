@@ -1,0 +1,181 @@
+{
+  "origin": "https://campground-weekend.netlify.app",
+  "checks": [
+    {
+      "name": "home",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "lazyImagesPending": 0,
+      "labNavigationMs": 306,
+      "accessibility": []
+    },
+    {
+      "name": "directory",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "lazyImagesPending": 14,
+      "labNavigationMs": 991,
+      "accessibility": []
+    },
+    {
+      "name": "profile",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "lazyImagesPending": 0,
+      "labNavigationMs": 193,
+      "accessibility": []
+    },
+    {
+      "name": "guide",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "lazyImagesPending": 3,
+      "labNavigationMs": 544,
+      "accessibility": []
+    },
+    {
+      "name": "newsletter",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "lazyImagesPending": 0,
+      "labNavigationMs": 180,
+      "accessibility": []
+    },
+    {
+      "name": "planner",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "lazyImagesPending": 0,
+      "labNavigationMs": 669,
+      "accessibility": []
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "lazyImagesPending": 3,
+      "labNavigationMs": 393,
+      "accessibility": []
+    },
+    {
+      "name": "directory",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "lazyImagesPending": 18,
+      "labNavigationMs": 582,
+      "accessibility": []
+    },
+    {
+      "name": "profile",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "lazyImagesPending": 0,
+      "labNavigationMs": 80,
+      "accessibility": []
+    },
+    {
+      "name": "guide",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "lazyImagesPending": 2,
+      "labNavigationMs": 62,
+      "accessibility": []
+    },
+    {
+      "name": "newsletter",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "lazyImagesPending": 0,
+      "labNavigationMs": 52,
+      "accessibility": []
+    },
+    {
+      "name": "planner",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "brokenImages": [],
+      "lazyImagesPending": 0,
+      "labNavigationMs": 71,
+      "accessibility": []
+    },
+    {
+      "search": "Door County",
+      "visible": 4
+    },
+    {
+      "search": "Door County + RV",
+      "visible": 2
+    },
+    {
+      "empty": true
+    },
+    {
+      "reset": 23
+    },
+    {
+      "saved": 1
+    },
+    {
+      "savedAfterReload": 1
+    },
+    {
+      "savedClear": true
+    },
+    {
+      "tentBudget": "$255.00\n\nPer party · $63.75 per person for the trip\n\nSite/cabin $70.00 · Rental $0.00 · Food $120.00\nSubtotal $255.00 · Illustrative tax $0.00"
+    },
+    {
+      "checkPersists": true,
+      "customItem": 1
+    },
+    {
+      "checkReset": true
+    },
+    {
+      "printHeaderHidden": true
+    },
+    {
+      "mapFallback": "Map tiles are unavailable. The campground list and operator links still work.",
+      "mapListAvailable": 23
+    },
+    {
+      "consentPersists": "\"granted\""
+    },
+    {
+      "consentChanged": "\"denied\"",
+      "previewTrackingRequests": 0
+    },
+    {
+      "storageFailureMessage": "Browser storage is unavailable. Changes last only on this page; reading and planning still work.",
+      "readingSurvives": "A place for your kind of weekend."
+    },
+    {
+      "firstKeyboardFocus": "Skip to content"
+    }
+  ],
+  "errors": [],
+  "network": []
+}

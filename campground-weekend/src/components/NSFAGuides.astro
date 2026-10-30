@@ -1,0 +1,26 @@
+---
+const {doorCounty=false}=Astro.props;
+const origin='https://www.northshorefamilyadventures.com';
+const general=[
+['Wisconsin state parks by region','/outdoor-activities-guide/best-state-parks','Find more parks for your next day trip or camping weekend.'],
+['Free admission to Wisconsin state parks','/road-trips/free-admissions-wisconsin-state-park','Read about admission opportunities and eligibility before you visit.'],
+['Camping across Wisconsin','/road-trips/camping-guide','Explore more campgrounds around the state.']];
+const door=[
+['Door County family travel guide','/road-trips/door-county-guide','Plan activities, meals and stops around your campground stay.'],
+['Door County camping guide','/road-trips/door-county-camping','Explore campground options across the peninsula.'],
+['Door County hiking guide','/road-trips/door-county-hiking-guide','Find trails and scenic outings for your weekend.']];
+const links=doorCounty?door:general;
+---
+<section class="section nsfa-guides" aria-label="Related North Shore Family Adventures guides">
+<p class="eyebrow">More from our publisher</p>
+<h2>Keep exploring with North Shore Family Adventures</h2>
+<p>More family trip ideas from <a href={origin}>North Shore Family Adventures</a>.</p>
+<div class="nsfa-guide-grid">{links.map(([title,path,description])=><article><h3><a href={origin+path}>{title} ↗</a></h3><p>{description}</p></article>)}</div>
+{doorCounty?<p><a href={origin+'/road-trips/free-admissions-wisconsin-state-park'}>Explore Wisconsin state park admission options ↗</a></p>:<p><a href={origin+'/road-trips/door-county-guide'}>Planning a Door County trip? Read the family travel guide ↗</a></p>}
+</section>
+<style>
+.nsfa-guides {border-top:1px solid #d6d9ce;}
+.nsfa-guide-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5rem;}
+.nsfa-guide-grid h3 {font-size:1.3rem;}
+@media(max-width:650px){.nsfa-guide-grid{grid-template-columns:1fr;gap:.5rem;}}
+</style>

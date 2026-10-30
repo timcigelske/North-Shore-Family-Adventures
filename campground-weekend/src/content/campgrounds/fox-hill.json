@@ -1,0 +1,101 @@
+{
+  "name": "Fox Hill RV Resort",
+  "slug": "fox-hill",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Dells & Baraboo",
+  "county": "Sauk",
+  "aliases": [
+    "Fox Hill RV Resort",
+    "Dells & Baraboo",
+    "private campground",
+    "resort"
+  ],
+  "description": "A Baraboo base with cabins and full-hookup RV choices. Choose the cabin category carefully; basic and deluxe units differ.",
+  "bestFor": "A Baraboo base with cabins and full-hookup RV choices",
+  "tradeoff": "Choose the cabin category carefully; basic and deluxe units differ.",
+  "operatorType": "private",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": true,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": true,
+    "playground": true,
+    "pool": true,
+    "wifi": true
+  },
+  "petPolicy": "RV and campsite stays are advertised as pet-friendly; confirm cabin-specific rules.",
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabin facilities and eligibility vary; verify the exact accommodation before booking.",
+  "bookingUrl": "https://foxhillrvresort.com/rv-park-in-baraboo-wi/",
+  "officialUrl": "https://foxhillrvresort.com/rv-park-in-baraboo-wi/",
+  "coordinates": {
+    "lat": 43.532337697702,
+    "lon": -89.755241412944,
+    "basis": "Approximate street-address location calculated by the U.S. Census geocoder from the operator\u2019s published address; not a verified entrance or campsite.",
+    "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=E11371+North+Reedsburg+Road+Baraboo+WI+53913&benchmark=Public_AR_Current&format=json"
+  },
+  "image": null,
+  "sources": [
+    {
+      "url": "https://foxhillrvresort.com/rv-park-in-baraboo-wi/",
+      "title": "Official operator: Fox Hill RV Resort camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    },
+    {
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=E11371+North+Reedsburg+Road+Baraboo+WI+53913&benchmark=Public_AR_Current&format=json",
+      "title": "U.S. Census address-range geocode",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Approximate geographic location from the operator\u2019s public street address"
+      ]
+    },
+    {
+      "url": "https://foxhillrvresort.com/contact/",
+      "title": "Fox Hill published street address",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Public street address used for the approximate geocode"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "The operator lists tents, RV sites and cabins. RV options include electric, water and sewer service; showers, a pool, swimming pond and playground are also advertised."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "Choose the cabin category carefully; basic and deluxe units differ. Compare the exact accommodation and facility map before reserving."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://foxhillrvresort.com/rv-park-in-baraboo-wi/",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}

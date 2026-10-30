@@ -1,0 +1,6 @@
+---
+import type { CollectionEntry } from 'astro:content';
+interface Props { camps: CollectionEntry<'campgrounds'>[];autoLoad?:boolean }
+const {camps,autoLoad=false}=Astro.props;
+---
+<div class="map-explorer" id="map-panel" data-auto-map={autoLoad?'true':undefined}><div class="map-toolbar"><div><h3>Explore the map.</h3></div><div class="map-controls" hidden><button id="map-fit" class="secondary">Fit results</button></div><button id="map-toggle" aria-expanded="false" aria-controls="map">Open map ↗</button></div><div id="map" class="map" hidden aria-label="Interactive map of researched Wisconsin campgrounds"></div><p id="map-status" role="status" class="map-note"></p><p class="map-note">Numbered groups zoom in when selected. Pins are approximate property or address locations, not verified entrances. OpenStreetMap tiles load when the map appears. Unpinned places remain in the list.</p></div><script id="camp-data" type="application/json" set:html={JSON.stringify(camps.map(c=>c.data)).replace(/</g,'\u003c')}/>

@@ -1,0 +1,119 @@
+{
+  "name": "Peninsula State Park",
+  "slug": "peninsula",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Door County",
+  "county": "Door",
+  "aliases": [
+    "Peninsula",
+    "Door County",
+    "Door County"
+  ],
+  "description": "Families who want a beach-and-bikes base. Choose the campground, not just the park: bay access and beach access differ.",
+  "bestFor": "Families who want a beach-and-bikes base",
+  "tradeoff": "Choose the campground, not just the park: bay access and beach access differ.",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": true,
+    "playground": true,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Cabins and glamping are not verified.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/peninsula/recreation/camping",
+  "coordinates": {
+    "lat": 45.15111111,
+    "lon": -87.2175,
+    "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+    "source": "https://en.wikipedia.org/wiki/Peninsula_State_Park"
+  },
+  "image": {
+    "src": "/images/peninsula.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:Peninsula_State_Park,_Horseshoe_Island,_and_Fish_Creek,_town_of_Gibraltar,_Door_County,_Wisconsin_2020.png",
+    "author": "Aerial Photography Field Office (APFO) for NAIP, USGS; in contract with the Surdex Corporation",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+    "caption": "Aerial view of the Peninsula State Park, Horseshoe Island and Fish Creek, Wisconsin. Some of Peninsula state Park is in the village of Ephraim, but aside from that they are all in the town of Gibraltar in w:Door County, Wisconsin, taken June 27, 2020",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 659,
+    "height": 900
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/peninsula/recreation/camping",
+      "title": "Wisconsin DNR: Peninsula State Park camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    },
+    {
+      "url": "https://dcmm.org/explore/hours-admissions/",
+      "title": "Door County Maritime Museum, Sturgeon Bay official visitor information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Indoor activity identity and location; current hours must be rechecked"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "Nicolet Bay has the swimming beach; Tennison Bay has a paddle launch but no swimming. Electric and non-electric loops are available."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "Compare the Nicolet Bay loops if swimming is central to the trip. Choose a different loop only after looking at its route to the beach. Published facilities do not establish site privacy or overnight noise."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Verify the chosen loop, site length and seasonal facilities in the reservation listing."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official recreation and park maps",
+      "url": "https://dnr.wisconsin.gov/topic/parks/peninsula/recreation",
+      "note": "Use the operator’s current trail and activity information; no travel time is claimed."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/peninsula",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    },
+    {
+      "name": "Door County Maritime Museum, Sturgeon Bay",
+      "url": "https://dcmm.org/explore/hours-admissions/",
+      "note": "A mainland indoor museum option. Check hours, admissions and the actual journey; not an on-island alternative for Rock Island."
+    }
+  ],
+  "related": [
+    "door-county-camping"
+  ]
+}

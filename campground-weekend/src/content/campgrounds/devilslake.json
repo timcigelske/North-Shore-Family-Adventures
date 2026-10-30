@@ -1,0 +1,119 @@
+{
+  "name": "Devil’s Lake State Park",
+  "slug": "devilslake",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Dells & Baraboo",
+  "county": "Sauk",
+  "aliases": [
+    "Devil’s Lake",
+    "Dells & Baraboo",
+    "Sauk County"
+  ],
+  "description": "Families choosing a hiking-centered Baraboo weekend. Campsites do not overlook the lake.",
+  "bestFor": "Families choosing a hiking-centered Baraboo weekend",
+  "tradeoff": "Campsites do not overlook the lake.",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": true,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Cabins and glamping are not verified.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/devilslake/recreation/camping",
+  "coordinates": {
+    "lat": 43.41472222,
+    "lon": -89.71305556,
+    "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+    "source": "https://en.wikipedia.org/wiki/Devil%27s_Lake_State_Park_%28Wisconsin%29"
+  },
+  "image": {
+    "src": "/images/devilslake.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:East_Bluff.jpg",
+    "author": "Joshua Mayer from Madison, WI, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Devil's Lake East Bluff Wisconsin State Natural Area #98 Sauk County",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 1200,
+    "height": 803
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/devilslake/recreation/camping",
+      "title": "Wisconsin DNR: Devil’s Lake State Park camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    },
+    {
+      "url": "https://hhbennettstudio.wisconsinhistory.org/explore/",
+      "title": "H.H. Bennett Studio & Museum, Wisconsin Dells official visitor information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Indoor activity identity and location; current hours must be rechecked"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "Quartzite is more open; Northern Lights mixes wooded and open sites. Both have electric options. The reviewed DNR page explicitly says the campsites are not within sight of the lake."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "Shade preference is a reason to compare loops, not a promise about an individual site. Read the reservation photographs before selecting a spot. Build a hiking day around the least confident walker, rather than trying to finish every trail."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Confirm loop opening dates and water service. Reserve before setting up."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official recreation and park maps",
+      "url": "https://dnr.wisconsin.gov/topic/parks/devilslake/recreation",
+      "note": "Use the operator’s current trail and activity information; no travel time is claimed."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/devilslake",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    },
+    {
+      "name": "H.H. Bennett Studio & Museum, Wisconsin Dells",
+      "url": "https://hhbennettstudio.wisconsinhistory.org/explore/",
+      "note": "Indoor history and photography option. Check seasonal opening dates before treating it as a rain backup."
+    }
+  ],
+  "related": [
+    "devils-lake-vs-mirror-lake"
+  ]
+}

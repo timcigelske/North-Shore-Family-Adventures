@@ -1,0 +1,106 @@
+{
+  "name": "Governor Dodge State Park",
+  "slug": "govdodge",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Southwestern Wisconsin",
+  "county": "Iowa",
+  "aliases": [
+    "Governor Dodge",
+    "Southwestern Wisconsin",
+    "Iowa County"
+  ],
+  "description": "Campers choosing between family, backpack and equestrian setups. The kind of site changes the whole packing plan.",
+  "bestFor": "Campers choosing between family, backpack and equestrian setups",
+  "tradeoff": "The kind of site changes the whole packing plan.",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": true,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Cabins and glamping are not verified.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/govdodge/recreation/camping",
+  "coordinates": {
+    "lat": 43.02472222,
+    "lon": -90.10638889,
+    "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+    "source": "https://en.wikipedia.org/wiki/Governor_Dodge_State_Park"
+  },
+  "image": {
+    "src": "/images/govdodge.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:Deer_Cove_Governor_Dodge_State_Park.jpg",
+    "author": "Wonder al",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Deer Cove Rockshelter, Governor Dodge State Park, Wisconsin",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 1024,
+    "height": 768
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/govdodge/recreation/camping",
+      "title": "Wisconsin DNR: Governor Dodge State Park camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "Twin Valley and Cox Hollow offer electric choices, showers and playgrounds. Backpack and equestrian camps are separate. Seasonal water operations depend on weather."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "Choose a family site if the car is part of the storage and sleeping plan. A remote site is a different trip rather than a quieter version of the same booking."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Verify the campsite category, water schedule and any horse-related requirements."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official recreation and park maps",
+      "url": "https://dnr.wisconsin.gov/topic/parks/govdodge/recreation",
+      "note": "Use the operator’s current trail and activity information; no travel time is claimed."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/govdodge",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    }
+  ],
+  "related": [
+    "first-camping-weekend"
+  ]
+}

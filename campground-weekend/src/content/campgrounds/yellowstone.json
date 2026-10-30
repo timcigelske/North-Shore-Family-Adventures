@@ -1,0 +1,106 @@
+{
+  "name": "Yellowstone Lake State Park",
+  "slug": "yellowstone",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Southwestern Wisconsin",
+  "county": "Lafayette",
+  "aliases": [
+    "Yellowstone Lake",
+    "Southwestern Wisconsin",
+    "Lafayette County"
+  ],
+  "description": "Campers comparing family and tent-only group options. A group reservation is not automatically suitable for a trailer.",
+  "bestFor": "Campers comparing family and tent-only group options",
+  "tradeoff": "A group reservation is not automatically suitable for a trailer.",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Cabins and glamping are not verified.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/yellowstone/recreation/camping",
+  "coordinates": {
+    "lat": 42.76333333,
+    "lon": -89.97777778,
+    "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+    "source": "https://en.wikipedia.org/wiki/Yellowstone_Lake_State_Park"
+  },
+  "image": {
+    "src": "/images/yellowstone.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:Yellowstonelakestatepark.jpg",
+    "author": "Archbob",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Picture of Yellowstone Lake",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 1200,
+    "height": 801
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/yellowstone/recreation/camping",
+      "title": "Wisconsin DNR: Yellowstone Lake State Park camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "Family sites include electric options. Showers and the dump station are seasonal; vault toilets and drinking water are listed year-round. Group sites are tent-only."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "Match the booking category to the equipment that is actually coming. For a mixed group, settle sleeping arrangements before reserving rather than assuming everyone can use the same type of site."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Verify the site category and seasonal services before travel."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official recreation and park maps",
+      "url": "https://dnr.wisconsin.gov/topic/parks/yellowstone/recreation",
+      "note": "Use the operator’s current trail and activity information; no travel time is claimed."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/yellowstone",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    }
+  ],
+  "related": [
+    "first-camping-weekend"
+  ]
+}

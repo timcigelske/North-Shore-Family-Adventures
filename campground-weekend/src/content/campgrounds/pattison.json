@@ -1,0 +1,92 @@
+{
+  "name": "Pattison State Park",
+  "slug": "pattison",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Lake Superior country",
+  "county": "Douglas",
+  "aliases": [
+    "Pattison",
+    "Lake Superior country",
+    "state park"
+  ],
+  "description": "Choosing between a family campsite and a backpack stay. Electric campsites do not provide individual sewer or water hookups.",
+  "bestFor": "Choosing between a family campsite and a backpack stay",
+  "tradeoff": "Electric campsites do not provide individual sewer or water hookups.",
+  "operatorType": "public",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabins and glamping have not been verified for this record.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/pattison/recreation/camping",
+  "coordinates": {
+    "lat": 46.52666667,
+    "lon": -92.12222222,
+    "basis": "Approximate published park location, not a campsite or verified vehicle entrance.",
+    "source": "https://en.wikipedia.org/wiki/Pattison_State_Park"
+  },
+  "image": null,
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/pattison/recreation/camping",
+      "title": "Wisconsin DNR: Pattison State Park camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pattison_State_Park",
+      "title": "Published park coordinates",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Approximate geographic location only; facility facts use the operator source"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "Family camping includes electric options and summer showers. Backpack sites require carrying water and packing out garbage."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "Electric campsites do not provide individual sewer or water hookups. Compare the exact accommodation and facility map before reserving."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://dnr.wisconsin.gov/topic/parks/pattison/recreation/camping",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}

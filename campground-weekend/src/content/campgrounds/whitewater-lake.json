@@ -1,0 +1,106 @@
+{
+  "name": "Whitewater Lake Campground",
+  "slug": "whitewater-lake",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Kettle Moraine",
+  "county": "Walworth",
+  "aliases": [
+    "Whitewater Lake Campground",
+    "Kettle Moraine",
+    "Walworth County"
+  ],
+  "description": "Campers comfortable with a more primitive setup. There are no showers at this campground.",
+  "bestFor": "Campers comfortable with a more primitive setup",
+  "tradeoff": "There are no showers at this campground.",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": false,
+    "electric": null,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Verify any electric-site needs individually; general amenities are limited.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/camping",
+  "coordinates": {
+    "lat": 42.7816,
+    "lon": -88.691,
+    "basis": "DNR published campground directions point; follow the official entrance instructions.",
+    "source": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/camping"
+  },
+  "image": {
+    "src": "/images/whitewater-lake.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:Kettle_Moraine_Scenic_Drive_Turn_in_Southern_Unit.jpg",
+    "author": "Royalbroil",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Kettle Moraine Southern Unit regional landscape; not a photograph of this campground.",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 1200,
+    "height": 800
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/camping",
+      "title": "Wisconsin DNR: Whitewater Lake Campground camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "The primitive campground has vault toilets. Seasonal opening dates and off-site shower alternatives are listed by DNR."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "Bring a washing plan that works without a shower building. A shorter stay may be a useful first test of whether this style suits your family."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Verify the season, exact site and bathroom arrangements."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official campground entrance directions",
+      "url": "https://maps.google.com/?daddr=42.7816,-88.6910",
+      "note": "Published by Wisconsin DNR; use the destination entrance instructions rather than a straight-line distance."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/kms",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    }
+  ],
+  "related": [
+    "campgrounds-near-milwaukee"
+  ]
+}

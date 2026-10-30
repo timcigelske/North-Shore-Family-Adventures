@@ -1,0 +1,32 @@
+[build]
+  command = "pnpm build"
+  publish = "dist"
+  functions = "netlify/functions"
+[build.environment]
+  NODE_VERSION = "24.19.0"
+  PNPM_VERSION = "11.25.0"
+[functions]
+  node_bundler = "esbuild"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "DENY"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# Preview builds use the normal build command. Production needs a separate release.
+[context.production]
+  command = "node scripts/production-guard.mjs && pnpm build"
+
+# Public Google identifiers are scoped to the production build only.
+[context.production.environment]
+  PUBLIC_ANALYTICS_ENABLED = "true"
+  PUBLIC_GA4_MEASUREMENT_ID = "G-PT5FC3PG2V"
+  PUBLIC_SEARCH_CONSOLE_TOKEN = "nGtlKBs-g9DkOVuHoqKGPpPvAZ964v_NkQIk-0MySYg"
+  PUBLIC_ADSENSE_CLIENT = "ca-pub-9118383093634601"
+  PUBLIC_ADSENSE_VERIFICATION = "true"
+  PUBLIC_ADS_ENABLED = "false"
+  ADS_TXT_ENTRIES = "google.com, pub-9118383093634601, DIRECT, f08c47fec0942fa0"
+
+  PUBLIC_CMP_SCRIPT_URL = "https://fundingchoicesmessages.google.com/i/pub-9118383093634601?ers=2"

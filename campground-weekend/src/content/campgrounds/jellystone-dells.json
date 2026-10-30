@@ -1,0 +1,92 @@
+{
+  "name": "Jellystone Park Wisconsin Dells",
+  "slug": "jellystone-dells",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Dells & Baraboo",
+  "county": "Sauk",
+  "aliases": [
+    "Jellystone Park Wisconsin Dells",
+    "Dells & Baraboo",
+    "private campground",
+    "resort"
+  ],
+  "description": "Comparing rustic cabins, yurts and conventional campsites. Some rustic cabins use nearby shared bathrooms; bedding can be an extra booking choice.",
+  "bestFor": "Comparing rustic cabins, yurts and conventional campsites",
+  "tradeoff": "Some rustic cabins use nearby shared bathrooms; bedding can be an extra booking choice.",
+  "operatorType": "private",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": true,
+    "glamping": true
+  },
+  "amenities": {
+    "showers": true,
+    "electric": null,
+    "swimming": null,
+    "playground": true,
+    "pool": true,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabin facilities and eligibility vary; verify the exact accommodation before booking.",
+  "bookingUrl": "https://www.campjellystone.com/wisconsin/jellystone-park-wisconsin-dells/ways-to-stay",
+  "officialUrl": "https://www.campjellystone.com/wisconsin/jellystone-park-wisconsin-dells/ways-to-stay",
+  "coordinates": null,
+  "image": null,
+  "sources": [
+    {
+      "url": "https://www.campjellystone.com/wisconsin/jellystone-park-wisconsin-dells/ways-to-stay",
+      "title": "Official operator: Jellystone Park Wisconsin Dells camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    },
+    {
+      "url": "https://www.campjellystone.com/wisconsin/jellystone-park-wisconsin-dells/attractions",
+      "title": "Official property attractions and water facilities",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Pool and water attractions; playground or swimming beach only where explicitly listed"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "The operator lists RV and tent sites plus cabins, chalets and yurts. Read the individual unit description for bathrooms, cooking facilities and bedding."
+    },
+    {
+      "heading": "Activities and facilities",
+      "text": "The property advertises a pool and water attractions. Confirm seasonal operating dates, access rules and any activity charges for your particular stay."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "Some rustic cabins use nearby shared bathrooms; bedding can be an extra booking choice. Compare the exact accommodation and facility map before reserving."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://www.campjellystone.com/wisconsin/jellystone-park-wisconsin-dells/ways-to-stay",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}

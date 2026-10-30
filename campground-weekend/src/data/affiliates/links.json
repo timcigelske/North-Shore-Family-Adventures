@@ -1,0 +1,44 @@
+[
+  {
+    "id": "rei-tents",
+    "provider": "REI",
+    "officialUrl": "https://www.rei.com/c/tents",
+    "trackingUrl": "https://rei.pxf.io/k4EWBz",
+    "enabled": true,
+    "suppliedAt": "2026-10-27",
+    "verifiedAt": "2026-10-27",
+    "placements": [
+      "home-gear",
+      "planner-gear",
+      "gear-guide"
+    ]
+  },
+  {
+    "id": "rei-sleep",
+    "provider": "REI",
+    "officialUrl": "https://www.rei.com/c/sleeping-gear",
+    "trackingUrl": "https://rei.pxf.io/GbJgzV",
+    "enabled": true,
+    "suppliedAt": "2026-10-27",
+    "verifiedAt": "2026-10-27",
+    "placements": [
+      "home-gear",
+      "planner-gear",
+      "gear-guide"
+    ]
+  },
+  {
+    "id": "rei-kitchen",
+    "provider": "REI",
+    "officialUrl": "https://www.rei.com/c/camp-kitchen",
+    "trackingUrl": "https://rei.pxf.io/VO9NqA",
+    "enabled": true,
+    "suppliedAt": "2026-10-27",
+    "verifiedAt": "2026-10-27",
+    "placements": [
+      "home-gear",
+      "planner-gear",
+      "gear-guide"
+    ]
+  }
+]

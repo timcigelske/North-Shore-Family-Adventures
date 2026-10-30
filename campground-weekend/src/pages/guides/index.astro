@@ -1,0 +1,5 @@
+---
+import RVshareOffer from '../../components/RVshareOffer.astro';
+import Base from '../../layouts/Base.astro';import {guides} from '../../lib/content';const articles=await guides();
+---
+<Base title="Field guides for better camping weekends"><div class="container"><div class="page-intro"><p class="eyebrow">A little reading. A better weekend.</p><h1>Field guides for the way you camp.</h1><p class="lede">Useful comparisons, beginner plans and questions that belong before the booking button.</p></div><RVshareOffer placement="guides-rv-offer"/><div class="guide-list section">{articles.map((g,i)=><a class="guide-card" href={`/${g.data.kind==='rv'?'rv-rentals':'guides'}/${g.id}/`}><span class="number">0{i+1}</span><div><h2>{g.data.title}</h2><p>{g.data.description}</p></div></a>)}</div></div></Base>

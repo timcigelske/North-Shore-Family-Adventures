@@ -1,0 +1,106 @@
+{
+  "name": "Buckhorn State Park",
+  "slug": "buckhorn",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Central Wisconsin",
+  "county": "Juneau",
+  "aliases": [
+    "Buckhorn",
+    "Central Wisconsin",
+    "Juneau County"
+  ],
+  "description": "Families comparing drive-in camping with cart-in sites. Cart-in and drive-in bookings require different loading plans.",
+  "bestFor": "Families comparing drive-in camping with cart-in sites",
+  "tradeoff": "Cart-in and drive-in bookings require different loading plans.",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": true,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Accessible cabin: confirm eligibility and the park’s application process.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/buckhorn/recreation/camping",
+  "coordinates": {
+    "lat": 43.93916667,
+    "lon": -90.00388889,
+    "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+    "source": "https://en.wikipedia.org/wiki/Buckhorn_State_Park"
+  },
+  "image": {
+    "src": "/images/buckhorn.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:WisconsinRiverBuckhornStatePark.jpg",
+    "author": "User Royalbroil on en.wikipedia",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "caption": "The Wisconsin River at Buckhorn State Park near w:Necedah, Wisconsin, USA.",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 1200,
+    "height": 868
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/buckhorn/recreation/camping",
+      "title": "Wisconsin DNR: Buckhorn State Park camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "Family sites accept tents or trailers and include electric choices. Cart-in camps are separate, and an accessible cabin is intended for people with disabilities."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "A cart can change how much you can move, but shared equipment should not be the only plan for getting supplies to camp. Confirm the site’s route and facilities before packing bulky gear."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Check cart availability, seasonal facilities and the cabin reservation route."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official recreation and park maps",
+      "url": "https://dnr.wisconsin.gov/topic/parks/buckhorn/recreation",
+      "note": "Use the operator’s current trail and activity information; no travel time is claimed."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/buckhorn",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    }
+  ],
+  "related": [
+    "first-camping-weekend"
+  ]
+}

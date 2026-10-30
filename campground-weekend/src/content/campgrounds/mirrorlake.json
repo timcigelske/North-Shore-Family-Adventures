@@ -1,0 +1,119 @@
+{
+  "name": "Mirror Lake State Park",
+  "slug": "mirrorlake",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Dells & Baraboo",
+  "county": "Sauk",
+  "aliases": [
+    "Mirror Lake",
+    "Dells & Baraboo",
+    "Sauk County"
+  ],
+  "description": "Families comparing wooded camping near Wisconsin Dells. The campground and cabin options have different rules and seasons.",
+  "bestFor": "Families comparing wooded camping near Wisconsin Dells",
+  "tradeoff": "The campground and cabin options have different rules and seasons.",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": true,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": true,
+    "playground": true,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Accessible cabin is not an unrestricted cabin rental; check the separate cottage offering with the operator.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/mirrorlake/recreation/camping",
+  "coordinates": {
+    "lat": 43.565,
+    "lon": -89.82,
+    "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+    "source": "https://en.wikipedia.org/wiki/Mirror_Lake_State_Park"
+  },
+  "image": {
+    "src": "/images/mirrorlake.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:Landscapereflection.jpg",
+    "author": "Archbob",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Landscape and clouds reflected in water at Mirror Lake State Park",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 1200,
+    "height": 803
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/mirrorlake/recreation/camping",
+      "title": "Wisconsin DNR: Mirror Lake State Park camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    },
+    {
+      "url": "https://hhbennettstudio.wisconsinhistory.org/explore/",
+      "title": "H.H. Bennett Studio & Museum, Wisconsin Dells official visitor information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Indoor activity identity and location; current hours must be rechecked"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "Forested family campgrounds offer electric and non-electric choices. Sandstone Ridge, Cliffwood and Bluewater Bay differ in facilities and seasons. An accessible cabin is intended for people with disabilities."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "Choose the campsite around the activities you actually want to do. A plan that alternates short park outings with rest at camp is different from a weekend spent at off-site attractions. Compare the loop map before deciding which fits."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Verify seasonal showers, loop dates and cabin eligibility. Do not assume every building stays open in cold weather."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official recreation and park maps",
+      "url": "https://dnr.wisconsin.gov/topic/parks/mirrorlake/recreation",
+      "note": "Use the operator’s current trail and activity information; no travel time is claimed."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/mirrorlake",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    },
+    {
+      "name": "H.H. Bennett Studio & Museum, Wisconsin Dells",
+      "url": "https://hhbennettstudio.wisconsinhistory.org/explore/",
+      "note": "Indoor history and photography option. Check seasonal opening dates before treating it as a rain backup."
+    }
+  ],
+  "related": [
+    "devils-lake-vs-mirror-lake"
+  ]
+}

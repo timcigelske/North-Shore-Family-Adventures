@@ -1,0 +1,26 @@
+{
+  "origin": "https://campground-weekend.netlify.app",
+  "checks": [
+    {
+      "path": "/",
+      "pins": 23,
+      "interactiveMapAccessibility": [],
+      "loadedTiles": 23
+    },
+    {
+      "path": "/campgrounds/",
+      "pins": 23,
+      "interactiveMapAccessibility": [],
+      "loadedTiles": 20
+    },
+    {
+      "filtersUpdatePins": true,
+      "emptyPins": 0,
+      "resetPins": 23
+    },
+    {
+      "approvedREILinks": 3,
+      "disclosureBeforeLinks": true
+    }
+  ]
+}

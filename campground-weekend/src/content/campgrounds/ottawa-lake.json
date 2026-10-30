@@ -1,0 +1,106 @@
+{
+  "name": "Ottawa Lake Campground",
+  "slug": "ottawa-lake",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Kettle Moraine",
+  "county": "Waukesha",
+  "aliases": [
+    "Ottawa Lake Campground",
+    "Kettle Moraine",
+    "Waukesha County"
+  ],
+  "description": "Beginners comparing electricity and seasonal bathroom facilities. Winter camping does not mean summer services remain open.",
+  "bestFor": "Beginners comparing electricity and seasonal bathroom facilities",
+  "tradeoff": "Winter camping does not mean summer services remain open.",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": true,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Accessible cabin; confirm eligibility.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/camping",
+  "coordinates": {
+    "lat": 42.9365,
+    "lon": -88.4739,
+    "basis": "DNR published campground directions point; follow the official entrance instructions.",
+    "source": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/camping"
+  },
+  "image": {
+    "src": "/images/ottawa-lake.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:Ottawa_Lake_Recreation_Area.jpg",
+    "author": "Awkwafaba",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Ottawa Lake Recreation Area",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 919,
+    "height": 900
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/kms/recreation/camping",
+      "title": "Wisconsin DNR: Ottawa Lake Campground camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "Family camping includes electric sites, showers and an accessible cabin for people with disabilities. Ottawa Lake is the Southern Unit’s year-round campground."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "Start with a short stay and a simple meal plan. Test shelter and sleeping equipment at home so the campground visit is about the place rather than troubleshooting gear."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Check current water and toilet operations for your dates."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official campground entrance directions",
+      "url": "https://maps.google.com/?daddr=42.9365,-88.4739",
+      "note": "Published by Wisconsin DNR; use the destination entrance instructions rather than a straight-line distance."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/kms",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    }
+  ],
+  "related": [
+    "campgrounds-near-milwaukee"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "production": "https://campground-weekend.netlify.app/",
+  "measurementId": "G-PT5FC3PG2V",
+  "beforeConsentGoogleRequests": 0,
+  "rejectedGoogleRequests": 0,
+  "acceptedCollectStatus": 204,
+  "adRequests": 0,
+  "adsTxtVerified": true,
+  "previewGoogleRequests": 0,
+  "previewGoogleIdsAbsent": true,
+  "collectResponses": [
+    {
+      "status": 204
+    }
+  ]
+}

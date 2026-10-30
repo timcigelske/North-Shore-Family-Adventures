@@ -1,0 +1,92 @@
+{
+  "name": "Council Grounds State Park",
+  "slug": "councilgrounds",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Northwoods",
+  "county": "Lincoln",
+  "aliases": [
+    "Council Grounds",
+    "Northwoods",
+    "state park"
+  ],
+  "description": "A wooded family campground with some electric sites. The campground and water-based facilities have different seasonal schedules.",
+  "bestFor": "A wooded family campground with some electric sites",
+  "tradeoff": "The campground and water-based facilities have different seasonal schedules.",
+  "operatorType": "public",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabins and glamping have not been verified for this record.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/councilgrounds/recreation/camping",
+  "coordinates": {
+    "lat": 45.18527778,
+    "lon": -89.74305556,
+    "basis": "Approximate published park location, not a campsite or verified vehicle entrance.",
+    "source": "https://en.wikipedia.org/wiki/Council_Grounds_State_Park"
+  },
+  "image": null,
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/councilgrounds/recreation/camping",
+      "title": "Wisconsin DNR: Council Grounds State Park camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Council_Grounds_State_Park",
+      "title": "Published park coordinates",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Approximate geographic location only; facility facts use the operator source"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "The family campground has showers and flush toilets, with electricity on selected sites. Group areas have different layouts and facilities."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "The campground and water-based facilities have different seasonal schedules. Compare the exact accommodation and facility map before reserving."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://dnr.wisconsin.gov/topic/parks/councilgrounds/recreation/camping",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}

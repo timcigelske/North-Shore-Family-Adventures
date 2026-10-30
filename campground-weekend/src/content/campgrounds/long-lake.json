@@ -1,0 +1,106 @@
+{
+  "name": "Long Lake Campground",
+  "slug": "long-lake",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Kettle Moraine",
+  "county": "Fond du Lac",
+  "aliases": [
+    "Long Lake Campground",
+    "Kettle Moraine",
+    "Fond du Lac County"
+  ],
+  "description": "Campers comparing a seasonal Northern Unit base. Do not infer electrical hookups from the presence of showers.",
+  "bestFor": "Campers comparing a seasonal Northern Unit base",
+  "tradeoff": "Do not infer electrical hookups from the presence of showers.",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": null,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Electrical service is not confirmed in the reviewed general description.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/camping",
+  "coordinates": {
+    "lat": 43.665,
+    "lon": -88.1606,
+    "basis": "DNR published campground directions point; follow the official entrance instructions.",
+    "source": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/camping"
+  },
+  "image": {
+    "src": "/images/kmn.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:ParnellTower2007.jpg",
+    "author": "self",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "caption": "Kettle Moraine State Forest regional landscape; not a photograph of this campground.",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 675,
+    "height": 900
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/kmn/recreation/camping",
+      "title": "Wisconsin DNR: Long Lake Campground camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "The seasonal campground has showers, flush toilets and a dump station. DNR flags construction affecting future availability beginning in fall 2027."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "If power is essential, verify the exact listing before building a trip around a rental or powered device. Keep the decision tied to the site, not the campground name."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Check the current construction notice and seasonal dates."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official campground entrance directions",
+      "url": "https://maps.google.com/?daddr=43.6650,-88.1606",
+      "note": "Published by Wisconsin DNR; use the destination entrance instructions rather than a straight-line distance."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/kmn",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    }
+  ],
+  "related": [
+    "campgrounds-near-milwaukee"
+  ]
+}

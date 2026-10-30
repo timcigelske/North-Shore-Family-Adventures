@@ -1,0 +1,84 @@
+{
+  "name": "Wisconsin Dells KOA Holiday",
+  "slug": "dells-koa",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Dells & Baraboo",
+  "county": "Sauk",
+  "aliases": [
+    "Wisconsin Dells KOA Holiday",
+    "Dells & Baraboo",
+    "private campground",
+    "resort"
+  ],
+  "description": "Comparing RV, tent and cabin stays near Wisconsin Dells. The operator notes a nearby railway; consider the setting if you are sensitive to train noise.",
+  "bestFor": "Comparing RV, tent and cabin stays near Wisconsin Dells",
+  "tradeoff": "The operator notes a nearby railway; consider the setting if you are sensitive to train noise.",
+  "operatorType": "private",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": true,
+    "glamping": true
+  },
+  "amenities": {
+    "showers": null,
+    "electric": true,
+    "swimming": null,
+    "playground": true,
+    "pool": true,
+    "wifi": true
+  },
+  "petPolicy": null,
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabin facilities and eligibility vary; verify the exact accommodation before booking.",
+  "bookingUrl": "https://koa.com/campgrounds/wisconsin-dells/",
+  "officialUrl": "https://koa.com/campgrounds/wisconsin-dells/",
+  "coordinates": null,
+  "image": null,
+  "sources": [
+    {
+      "url": "https://koa.com/campgrounds/wisconsin-dells/",
+      "title": "Official operator: Wisconsin Dells KOA Holiday camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "The operator lists RV and tent sites, deluxe cabins and glamping tents. Review unit facilities, seasonal opening dates and the precise route to the campground."
+    },
+    {
+      "heading": "Activities and facilities",
+      "text": "The operator advertises a seasonal pool, playground, Wi-Fi and electric RV options. Listed Wi-Fi does not establish speed or reliability."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "The operator notes a nearby railway; consider the setting if you are sensitive to train noise. We have not measured noise levels or checked individual sites."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://koa.com/campgrounds/wisconsin-dells/",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}

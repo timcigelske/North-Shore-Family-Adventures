@@ -1,0 +1,92 @@
+{
+  "name": "Straight Lake State Park",
+  "slug": "straightlake",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "St. Croix Valley",
+  "county": "Polk",
+  "aliases": [
+    "Straight Lake",
+    "St. Croix Valley",
+    "state park"
+  ],
+  "description": "A deliberately small hike-in tent trip. Bring your own water and carry equipment in; vehicles do not stay at the campsite.",
+  "bestFor": "A deliberately small hike-in tent trip",
+  "tradeoff": "Bring your own water and carry equipment in; vehicles do not stay at the campsite.",
+  "operatorType": "public",
+  "types": {
+    "tent": true,
+    "rv": false,
+    "cabin": null,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": null,
+    "electric": null,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Confirm your dates, seasonal water and activity schedules directly with the operator.",
+  "accommodationNote": "Cabins and glamping have not been verified for this record.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/straightlake/recreation/camping",
+  "coordinates": {
+    "lat": 45.60472222,
+    "lon": -92.41305556,
+    "basis": "Approximate published park location, not a campsite or verified vehicle entrance.",
+    "source": "https://en.wikipedia.org/wiki/Straight_Lake_State_Park"
+  },
+  "image": null,
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/straightlake/recreation/camping",
+      "title": "Wisconsin DNR: Straight Lake State Park camping information",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Stay types and facilities explicitly described in this profile",
+        "Accommodation restrictions and the official reservation route"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Straight_Lake_State_Park",
+      "title": "Published park coordinates",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Approximate geographic location only; facility facts use the operator source"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the operator confirms",
+      "text": "Ten hike-in sites are listed. Seasonal carts can help transport gear. Glass containers are prohibited, and winter parking access differs."
+    },
+    {
+      "heading": "The choice that changes your trip",
+      "text": "Bring your own water and carry equipment in; vehicles do not stay at the campsite. Compare the exact accommodation and facility map before reserving."
+    },
+    {
+      "heading": "Plan before you pay",
+      "text": "Check site fit, access, seasonal facilities, cancellation terms and the complete quoted cost. This is desk research, not a firsthand stay or a live availability check."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Operator maps and visitor information",
+      "url": "https://dnr.wisconsin.gov/topic/parks/straightlake/recreation/camping",
+      "note": "Check current access, facility hours and activity restrictions directly; no driving time or availability is implied."
+    }
+  ],
+  "related": [
+    "first-camping-weekend",
+    "quiet-vs-activity-camping"
+  ]
+}

@@ -1,0 +1,6 @@
+---
+import { affiliates } from '../lib/registries';
+const {id,href,placement='article'}=Astro.props;
+const partner=affiliates.find(p=>p.id===id&&p.enabled&&p.placements.includes(placement));
+---
+<a href={partner?.trackingUrl||href} rel={partner?'sponsored noopener':undefined} data-affiliate={partner?.provider} data-placement={placement} data-destination={id}><slot /></a>

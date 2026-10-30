@@ -1,0 +1,106 @@
+{
+  "name": "Blue Mound State Park",
+  "slug": "bluemound",
+  "status": "published",
+  "state": "Wisconsin",
+  "country": "US",
+  "region": "Southwestern Wisconsin",
+  "county": "Dane",
+  "aliases": [
+    "Blue Mound",
+    "Southwestern Wisconsin",
+    "Dane County"
+  ],
+  "description": "Campers comparing wooded sites, bike-in camping and a rustic eligible cabin. The rustic cabin does not have its own bathroom.",
+  "bestFor": "Campers comparing wooded sites, bike-in camping and a rustic eligible cabin",
+  "tradeoff": "The rustic cabin does not have its own bathroom.",
+  "types": {
+    "tent": true,
+    "rv": true,
+    "cabin": true,
+    "glamping": null
+  },
+  "amenities": {
+    "showers": true,
+    "electric": true,
+    "swimming": null,
+    "playground": null,
+    "pool": null,
+    "wifi": null
+  },
+  "petPolicy": null,
+  "season": "Check operator dates and seasonal water before travel.",
+  "accommodationNote": "Rustic accessible cabin; cooking and space heaters are not allowed inside.",
+  "bookingUrl": "https://wisconsin.goingtocamp.com/",
+  "officialUrl": "https://dnr.wisconsin.gov/topic/parks/bluemound/recreation/camping",
+  "coordinates": {
+    "lat": 43.02805556,
+    "lon": -89.85277778,
+    "basis": "Approximate park location, not an individual campsite or navigable entrance.",
+    "source": "https://en.wikipedia.org/wiki/Blue_Mound_State_Park"
+  },
+  "image": {
+    "src": "/images/bluemound.webp",
+    "file": "https://commons.wikimedia.org/wiki/File:BlueMoundStateParkEastTower.JPG",
+    "author": "Mailseth at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "The East Observation Tower at Blue Mound State Park.",
+    "modified": "Resized, converted to WebP and cropped for display.",
+    "width": 675,
+    "height": 900
+  },
+  "sources": [
+    {
+      "url": "https://dnr.wisconsin.gov/topic/parks/bluemound/recreation/camping",
+      "title": "Wisconsin DNR: Blue Mound State Park camping",
+      "accessed": "2026-10-27",
+      "claims": [
+        "Accommodation types and facilities described in the field notes",
+        "Reservations link",
+        "Seasonal restrictions noted in this profile"
+      ]
+    }
+  ],
+  "created": "2026-10-27",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "reviewed": "2026-10-27",
+  "sections": [
+    {
+      "heading": "What the official information establishes",
+      "text": "Family and hike/bike-in sites are available. The accessible rustic cabin for people with disabilities uses a nearby toilet/shower building. Winter camping can require walking in."
+    },
+    {
+      "heading": "How we would choose",
+      "text": "A roof is useful, but it is not equivalent to a house rental. Decide whether shared facilities and the walk between them fit the people in your party before applying."
+    },
+    {
+      "heading": "Before reserving",
+      "text": "Check cabin eligibility, seasonal booking rules and winter vehicle access."
+    },
+    {
+      "heading": "A workable weekend",
+      "text": "Friday: arrive with enough daylight to find the pad, unpack and prepare a simple meal. Saturday: choose one main outing, then leave a flexible afternoon for rest or an activity that suits the weather. Sunday: dry and pack equipment, collect every piece of waste and leave time for the departure routine. This is an editorial planning framework, not a timed route or a report of a personal stay."
+    },
+    {
+      "heading": "Equipment and rental considerations",
+      "text": "Borrow or rent the equipment you need before buying a complete setup. For a tent stay, prioritize a weather-appropriate shelter, sleeping insulation and headlamps. For a rented RV, confirm the exact pad length, hookups, access and written delivery permission with the park and the rental owner. We have not tested products or verified rental inventory for this profile."
+    }
+  ],
+  "nearby": [
+    {
+      "name": "Official recreation and park maps",
+      "url": "https://dnr.wisconsin.gov/topic/parks/bluemound/recreation",
+      "note": "Use the operator’s current trail and activity information; no travel time is claimed."
+    },
+    {
+      "name": "Rainy-day plan",
+      "url": "https://dnr.wisconsin.gov/topic/parks/bluemound",
+      "note": "Check current visitor-facility hours. Bring indoor games and identify a suitable indoor stop before leaving; a picnic shelter is not a storm shelter."
+    }
+  ],
+  "related": [
+    "first-camping-weekend"
+  ]
+}

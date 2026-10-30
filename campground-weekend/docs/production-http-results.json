@@ -1,0 +1,144 @@
+[
+  {
+    "url": "https://campground-weekend.netlify.app/",
+    "status": 200,
+    "xRobots": null,
+    "noindex": false
+  },
+  {
+    "url": "https://campground-weekend.netlify.app/campgrounds/",
+    "status": 200,
+    "xRobots": null,
+    "noindex": false
+  },
+  {
+    "url": "https://campground-weekend.netlify.app/campgrounds/peninsula/",
+    "status": 200,
+    "xRobots": null,
+    "noindex": false
+  },
+  {
+    "url": "https://campground-weekend.netlify.app/guides/first-camping-weekend/",
+    "status": 200,
+    "xRobots": null,
+    "noindex": false
+  },
+  {
+    "url": "https://campground-weekend.netlify.app/trip-planner/",
+    "status": 200,
+    "xRobots": null,
+    "noindex": true
+  },
+  {
+    "url": "https://campground-weekend.netlify.app/saved/",
+    "status": 200,
+    "xRobots": null,
+    "noindex": true
+  },
+  {
+    "url": "https://campground-weekend.netlify.app/ads.txt",
+    "status": 200,
+    "xRobots": null
+  },
+  {
+    "url": "https://campground-weekend.netlify.app/sitemap.xml",
+    "status": 200,
+    "xRobots": null,
+    "urls": 47
+  },
+  {
+    "url": "https://campground-weekend.netlify.app/robots.txt",
+    "status": 200,
+    "xRobots": null
+  },
+  {
+    "url": "https://campground-weekend.netlify.app/no-such-campground/",
+    "status": 404,
+    "xRobots": null
+  },
+  {
+    "url": "https://campground-weekend.netlify.app/api/subscribe",
+    "method": "GET",
+    "status": 405
+  },
+  {
+    "url": "https://campground-weekend.netlify.app/api/subscribe",
+    "method": "POST",
+    "status": 503,
+    "body": {
+      "state": "disabled",
+      "message": "Newsletter signup is not open yet. No subscription was made."
+    }
+  },
+  {
+    "url": "https://deploy-preview-1--campground-weekend.netlify.app/",
+    "status": 200,
+    "xRobots": "noindex, nofollow",
+    "noindex": true
+  },
+  {
+    "url": "https://deploy-preview-1--campground-weekend.netlify.app/campgrounds/",
+    "status": 200,
+    "xRobots": "noindex, nofollow",
+    "noindex": true
+  },
+  {
+    "url": "https://deploy-preview-1--campground-weekend.netlify.app/campgrounds/peninsula/",
+    "status": 200,
+    "xRobots": "noindex, nofollow",
+    "noindex": true
+  },
+  {
+    "url": "https://deploy-preview-1--campground-weekend.netlify.app/guides/first-camping-weekend/",
+    "status": 200,
+    "xRobots": "noindex, nofollow",
+    "noindex": true
+  },
+  {
+    "url": "https://deploy-preview-1--campground-weekend.netlify.app/trip-planner/",
+    "status": 200,
+    "xRobots": "noindex, nofollow",
+    "noindex": true
+  },
+  {
+    "url": "https://deploy-preview-1--campground-weekend.netlify.app/saved/",
+    "status": 200,
+    "xRobots": "noindex, nofollow",
+    "noindex": true
+  },
+  {
+    "url": "https://deploy-preview-1--campground-weekend.netlify.app/ads.txt",
+    "status": 200,
+    "xRobots": "noindex, nofollow"
+  },
+  {
+    "url": "https://deploy-preview-1--campground-weekend.netlify.app/sitemap.xml",
+    "status": 200,
+    "xRobots": "noindex, nofollow",
+    "urls": 0
+  },
+  {
+    "url": "https://deploy-preview-1--campground-weekend.netlify.app/robots.txt",
+    "status": 200,
+    "xRobots": "noindex, nofollow"
+  },
+  {
+    "url": "https://deploy-preview-1--campground-weekend.netlify.app/no-such-campground/",
+    "status": 404,
+    "xRobots": "noindex, nofollow"
+  },
+  {
+    "url": "https://deploy-preview-1--campground-weekend.netlify.app/api/subscribe",
+    "method": "GET",
+    "status": 405
+  },
+  {
+    "url": "https://deploy-preview-1--campground-weekend.netlify.app/api/subscribe",
+    "method": "POST",
+    "status": 503,
+    "body": {
+      "state": "disabled",
+      "message": "Newsletter signup is not open yet. No subscription was made."
+    }
+  }
+]
