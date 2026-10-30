@@ -29,4 +29,4 @@
   PUBLIC_ADS_ENABLED = "false"
   ADS_TXT_ENTRIES = "google.com, pub-9118383093634601, DIRECT, f08c47fec0942fa0"
 
-  PUBLIC_CMP_SCRIPT_URL = "https://fundingchoicesmessages.google.com/i/pub-9118383093634601?ers=1"
+  PUBLIC_CMP_SCRIPT_URL = "https://fundingchoicesmessages.google.com/i/pub-9118383093634601?ers=2"
